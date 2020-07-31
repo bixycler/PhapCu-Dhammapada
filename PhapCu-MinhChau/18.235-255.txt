@@ -40,7 +40,7 @@ Xan tham nhớp kẻ thí,
  
 243. "Trong hàng cấu uế ấy,
 Vô minh, nhơ tối thượng,
-Đoạn nhơ ấy, tỷ kheo,
+Đoạn nhơ ấy, tỷ-kheo,
 Thành bậc không uế nhiễm."
  
 244. "Dễ thay, sống không hổ
@@ -98,11 +98,11 @@ Người ấy lậu hoặc tăng,
 Rất xa lậu hoặc diệt."
  
 254. "Hư không, không dấu chân,
-Ngoài đây, không sa môn,
+Ngoài đây, không sa-môn,
 Chúng sanh thích hý luận,
 Như lai, hý luận trừ."
  
 255. "Hư không, không dấu chân,
-Ngoài đây, không sa môn.
+Ngoài đây, không sa-môn.
 Các hành không thường trú,
 Chư Phật không giao động."

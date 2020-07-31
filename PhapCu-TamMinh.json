@@ -11,12 +11,84 @@
 			"title": "1. Phẩm Song Song",
 			"verses": [
 {
-	"id": 1,
-	"text": "..."
+	"id": "1",
+	"text": "Việc làm của bản thân ta\nDo tâm, do ý tạo ra, dẫn đầu\nNói năng, hành động trước sau\nÝ mà ô nhiễm: khổ đau theo kề\nTựa như là cái bánh xe\nTheo chân con vật kéo lê trên đường."
 },
 {
-	"id": 20,
-	"text": "..."
+	"id": "2",
+	"text": "Việc làm của bản thân ta\nDo tâm, do ý tạo ra, dẫn đầu\nNói năng, hành động trước sau\nÝ mà thanh tịnh: dạt dào niềm vui\nVà bao hạnh phúc trên đời\nTheo ta như bóng khắp nơi theo hình."
+},
+{
+	"id": "3",
+	"text": "“Người kia chửi bới, đánh tôi\nLại còn lấn lướt, cướp hoài. Giận thay!”\nAi mà nghĩ mãi điều này\nLàm sao dứt bỏ được ngay hận thù."
+},
+{
+	"id": "4",
+	"text": "“Người kia chửi bới, đánh tôi\nLại còn lấn lướt, cướp hoài. Giận thay!”\nAi không còn nghĩ điều này\nSẽ mau dứt bỏ được ngay hận thù."
+},
+{
+	"id": "5",
+	"text": "Khắp nơi trong cõi dương gian\nHận thù đâu thể xua tan hận thù\nChỉ tình thương với tâm từ\nLàm tiêu oán hận, giải trừ hờn căm\nÐó là định luật ngàn năm."
+},
+{
+	"id": "6",
+	"text": "Người ham cãi cọ nào hay\nChúng ta đều chết một ngày gần đây\nKhi ai hiểu rõ điều này\nChẳng ham tranh cãi thêm gây muộn phiền."
+},
+{
+	"id": "7",
+	"text": "Ham theo lạc thú nổi trôi\nGiác quan buông thả sống đời mê say\nUống ăn vô độ hàng ngày\nLại thêm biếng nhác, chẳng hay chuyên cần\nCon người bị cuốn đến gần\nMa vương dục vọng ngàn lần hại ta\nNhư cơn gió lốc thổi qua\nCây cành nghiêng ngả, lá hoa tơi bời."
+},
+{
+	"id": "8",
+	"text": "Nhận ra ô uế thân người\nGiác quan kiềm chế, sống đời tịnh yên\nUống ăn điều độ giữ gìn\nLại thêm bền vững đức tin, chuyên cần\nNgười đâu dễ bị cuốn gần\nMa vương dục vọng ngàn lần thua ta\nKhác gì cơn gió thổi qua\nNúi cao, vách đá khó mà lung lay."
+},
+{
+	"id": "9",
+	"text": "Nếu mà mặc áo cà sa\nLòng còn ô uế, tâm tà quẩn quanh\nChưa tự chế, thiếu chân tình\nXứng đâu mà khoác vào mình áo kia."
+},
+{
+	"id": "10",
+	"text": "Người mà ô nhiễm chẳng vương\nGiữ gìn giới luật vững vàng, nghiêm minh\nLuôn tự chế, rất chân tình\nÁo cà sa khoác vào mình xứng thay."
+},
+{
+	"id": "11",
+	"text": "Những gì không thật, hão huyền\nLại cho là thật và tin vô bờ,\nNhững gì chân thật lại ngờ\nLại cho không thật, chỉ là giả thôi,\nNghĩ suy lầm lạc mất rồi\nThấy sao chân thật rạng nơi pháp mầu."
+},
+{
+	"id": "12",
+	"text": "Biết đây là thật để tin\nBiết kia không thật, hão huyền mà thôi\nNghĩ suy theo đúng đường rồi\nThấy ngay chân thật rạng nơi pháp mầu."
+},
+{
+	"id": "13",
+	"text": "Căn nhà lợp chẳng kỹ càng\nMưa tuôn thấm dột dễ dàng lắm thay\nTâm mà tu vụng có ngày\nBị nhiều tham dục lọt ngay khác gì."
+},
+{
+	"id": "14",
+	"text": "Căn nhà lợp thật kỹ càng\nMưa tuôn đâu dột dễ dàng mấy khi\nTâm mà tu khéo sợ gì\nBao nhiêu tham dục dễ chi lọt vào."
+},
+{
+	"id": "15",
+	"text": "Ðau buồn ngay ở kiếp này\nKiếp sau cũng lại tràn đầy buồn đau:\nNgười làm điều ác hay đâu\nBuồn kia theo mãi dài lâu bên mình\nQuay nhìn việc ác tạo thành\nChết mòn thân xác, héo nhanh tâm hồn."
+},
+{
+	"id": "16",
+	"text": "Vui mừng ngay ở kiếp này\nKiếp sau cũng lại tràn đầy mừng vui:\nNgười làm điều thiện ở đời\nThấy chân hạnh phúc khắp nơi theo mình\nQuay nhìn việc thiện tạo thành\nSướng vui dào dạt, an lành chứa chan."
+},
+{
+	"id": "17",
+	"text": "Kiếp này tràn ngập khổ đau\nKhổ đau cũng lại kiếp sau ngập tràn\nNgười gây nghiệp ác thở than:\n“Bao điều gian ác mình làm trước đây!”\nBây giờ đường ác đọa đầy\nTrầm luân cõi khổ biết ngày nào xong."
+},
+{
+	"id": "18",
+	"text": "Ðầy tràn vui sướng kiếp này\nSướng vui cũng lại tràn đầy kiếp sau:\nNgười làm nghiệp thiện vui sao\nNhủ lòng: “Mình tạo biết bao phước lành!”\nKiếp sau sẽ được tái sinh\nVào nơi hạnh phúc an bình chứa chan."
+},
+{
+	"id": "19",
+	"text": "Dù cho có tụng nhiều kinh\nKhông theo giáo pháp thực hành sớm hôm\nTu hành lợi ích đâu còn\nKhác chi một kẻ luôn luôn chăn bò\nChăn thuê nên chỉ âu lo\nÐếm bò cho chủ, sữa bò hưởng đâu?"
+},
+{
+	"id": "20",
+	"text": "Dù cho chỉ tụng ít kinh\nNhưng theo giáo pháp thực hành sớm khuya\nHết tham, hết cả sân, si\nLòng luôn tỉnh giác, tâm thì hiền lương\nTrước sau giải thoát mọi đường\nTu hành lợi ích ngát hương muôn đời."
 }
 			]
 		},
@@ -24,150 +96,1710 @@
 			"id": 2,
 			"title": "2. Phẩm Không Buông Lung",
 			"verses": [
+{
+	"id": "21",
+	"text": "Người chuyên niệm, chẳng buông lung\nCoi như sống mãi, thoát vòng tử vong\nKẻ phóng dật, kẻ buông lung\nCoi như đã bị mệnh chung lâu ngày\nSống mà như chết nào hay,"
+},
+{
+	"id": "22",
+	"text": "Người hiền trí biết điều này từ lâu\nCho nên gìn giữ trước sau\nDám đâu phóng dật, há nào buông lung\nLuôn luôn cảnh giác vô cùng\nNhập vào cõi thánh vui mừng, bình an."
+},
+{
+	"id": "23",
+	"text": "Nhờ tu thiền định thâm sâu\nTháng năm kiên nhẫn, trước sau chuyên cần\nNgười hiền trí được bình an\nThân tâm giải thoát, Niết-bàn hưởng vui."
+},
+{
+	"id": "24",
+	"text": "Luôn cố gắng, chẳng buông lung\nNghĩ suy chín chắn, tấm lòng hăng say\nBản thân tự chế hàng ngày\nSống theo chánh pháp, tốt thay cuộc đời\nTiếng lành tăng trưởng mãi thôi."
+},
+{
+	"id": "25",
+	"text": "Luôn luôn cố gắng nhiều bề\nLại thêm hăng hái, không hề buông lung\nTự mình khắc chế mọi đường\nNhững người hiền trí vô cùng tinh anh\nTạo ra hòn đảo cho mình\nVượt trên sóng nước vây quanh thét gào\nNão phiền theo ngọn sóng trào\nDễ gì quấy nhiễu dâng cao ngập tràn."
+},
+{
+	"id": "26",
+	"text": "Kẻ ngu si bị đắm chìm\nTrong đời phóng dật, trong miền buông lung\nNhưng người hiền trí tìm đường\nChăm lo gìn giữ tâm đừng buông lung\nTựa người bạc bể tiền rừng\nChăm lo báu vật, trông chừng quý kim."
+},
+{
+	"id": "27",
+	"text": "Chớ nên chìm đắm xuôi theo\nBuông lung, phóng dật là điều chẳng hay,\nChớ nên dục lạc mê say\nHãy nên tỉnh giác tâm này cho mau\nTu thiền định thật chuyên sâu\nMới mong phước báu, mới cầu bình an."
+},
+{
+	"id": "28",
+	"text": "Nhờ trừ được hết buông lung\nNhững người hiền trí sẽ không lo gì:\n- Tựa như bậc thánh hiền kia\nLên đài trí tuệ nhìn về dưới chân\nThấy bao nhiêu kẻ ngu đần\nTrăm bề đau khổ, bội phần lo âu,\n- Tựa người leo tới núi cao\nCúi nhìn muôn vật lao xao dưới ghềnh\nÐắm chìm trong chốn vô minh."
+},
+{
+	"id": "29",
+	"text": "Giữ cho tinh tấn trong lòng\nGiữa bao nhiêu kẻ buông lung tràn trề\nGiữ cho tỉnh táo mọi bề\nGiữa bao nhiêu kẻ ngủ mê li bì\nKìa trông kẻ trí khác gì\nNhư con tuấn mã phóng đi hào hùng\nPhía sau bỏ lại trên đường\nNgựa gầy hèn yếu não nùng lết theo."
+},
+{
+	"id": "30",
+	"text": "Nhờ tinh tấn, chẳng buông lung\nKhiến cho Ðế Thích thành ông thánh hiền\nÐược làm chủ cõi chư thiên\nMuôn người cùng cất tiếng khen ngợi hoài,\nKẻ phóng dật bị chê bai\nMọi người khinh miệt, chẳng ai nể vì."
+},
+{
+	"id": "31",
+	"text": "Tỳ-kheo sợ tính buông lung\nChuyên tâm chú niệm, dốc lòng chuyên tu\nTiến mau biết mấy cho vừa\nÐốt tiêu phiền não tựa như lửa hồng,\nÐốt dây to nhỏ chập chùng\nTừ lâu trói buộc người trong luân hồi."
+},
+{
+	"id": "32",
+	"text": "Tỳ-kheo sợ tính buông lung\nChuyên tâm chú niệm, dốc lòng tu thân\nNiết-bàn đã tiến đến gần\nHố sâu đọa lạc trăm phần thoát qua."
+}
 			]
 		},
 		{
 			"id": 3,
 			"title": "3. Phẩm Tâm",
 			"verses": [
+{
+	"id": "33",
+	"text": "Thường thường tâm kẻ phàm phu\nChập chờn, dao động, lu mờ, khó canh\nKhó mà chế phục được nhanh,\nChỉ riêng kẻ trí tâm mình giữ yên\nGiữ cho ngay thẳng lâu bền\nNhư tay thợ khéo uốn tên lành nghề\nTên luôn ngay ngắn mọi bề."
+},
+{
+	"id": "34",
+	"text": "Tựa như cá ở hồ ao\nBị đưa khỏi nước quăng vào bờ kia\nVẫy vùng, sợ sệt kể chi,\nTâm người nên vậy khác gì cá đâu\nPhải vùng vẫy, phải lo âu\nCố mà phấn đấu thoát mau tâm mình\nKhỏi tay Ma giới dục tình."
+},
+{
+	"id": "35",
+	"text": "Tâm phàm phu cứ xoay vần\nChạy theo dục vọng muôn phần đảo chao\nKhó mà nắm giữ được nào,\nChỉ riêng những kẻ thanh cao tính tình\nÐã điều phục được tâm mình\nMới mong hạnh phúc, an bình mãi thôi."
+},
+{
+	"id": "36",
+	"text": "Tâm phàm phu cứ xoay vần\nChạy theo dục vọng muôn phần đảo chao\nTinh vi, khó thấy được nào\nChỉ riêng người trí lo âu thật tình\nCanh phòng nghiêm ngặt tâm mình\nCho nên hạnh phúc, an bình mãi thôi."
+},
+{
+	"id": "37",
+	"text": "Tâm phàm phu cứ lao mình\nÂm thầm, đơn độc du hành rất xa\nNào đâu hình dạng phô ra\nHang kia ẩn náu thật là thẳm sâu,\nTâm ai điều phục được mau\nThoát Ma trói buộc, lụy đâu dục tình."
+},
+{
+	"id": "38",
+	"text": "Người không an định được tâm\nKhông rành chánh pháp, không thông đạo mầu\nLòng tin lại chẳng bền lâu\nTất nhiên trí tuệ dễ đâu hoàn thành."
+},
+{
+	"id": "39",
+	"text": "Người nào thanh tịnh trong tâm\nKhông còn tham ái và sân hận gì\nVượt lên thiện, ác đôi bề\nLà người giác ngộ chẳng hề sợ chi."
+},
+{
+	"id": "40",
+	"text": "Thân như đồ gốm mong manh\nGiữ tâm cho vững như thành vây quanh\nVới gươm trí tuệ tinh anh\nHãy mau đánh dẹp tan tành quân Ma\nDẹp Ma dục vọng quấy ta\nThắng rồi nỗ lực để mà tiến thêm\nGiữ gìn chiến thắng cho bền\nVượt vùng luyến ái, thoát miền nhiễm ô."
+},
+{
+	"id": "41",
+	"text": "Thân này rồi chẳng bao lâu\nNằm dài dưới đất, chôn sâu ngủ vùi\nÐâu còn ý thức chuyện đời\nTựa cây gỗ mục vứt nơi bụi bờ."
+},
+{
+	"id": "42",
+	"text": "Kẻ thù gây hại cho nhau\nHay người oán hận trước sau rửa hờn\nCũng đâu gây hại nhiều hơn\nHại do hạnh ác trong tâm tạo thành\nGây ra cho chính thân mình."
+},
+{
+	"id": "43",
+	"text": "Dù cha mẹ hoặc thân nhân\nGiúp ta chỉ được một phần thăng hoa\nChính nhờ tâm tốt của ta\nTìm về việc thiện, hướng qua hạnh lành\nLàm mình cao thượng thật nhanh."
+}
 			]
 		},
 		{
 			"id": 4,
 			"title": "4. Phẩm Hoa",
 			"verses": [
+{
+	"id": "44",
+	"text": "Ai mà tinh tấn nhận chân\nÐịa cầu và chính bản thân của mình,\nNhận chân được cõi nhân sinh\nKhổ đau bốn cảnh dập dình vây quanh,\nNhận chân cõi thế gian mình\nCũng như cảnh giới thiên đình cao xa,\nKhéo mang Pháp Cú giảng ra\nNhư người thợ khéo nhặt hoa làm tràng?"
+},
+{
+	"id": "45",
+	"text": "Người còn tu học nhận chân\nÐịa cầu và chính bản thân của mình,\nNhận chân được cõi nhân sinh\nKhổ đau bốn cảnh dập dình vây quanh,\nNhận chân cõi thế gian mình\nCũng như cảnh giới thiên đình cao xa,\nKhéo mang Pháp Cú giảng ra\nNhư người thợ khéo nhặt hoa làm tràng!"
+},
+{
+	"id": "46",
+	"text": "Chúng sinh nên biết thân này\nNhư là ảo ảnh rồi đây chóng tàn\nNhư là bọt nước mau tan\nNên hoa dục vọng chớ màng làm chi\nMũi tên cám dỗ bẻ đi\nDẹp Ma dục vọng còn gì hại thân,\nVượt qua tầm mắt tử thần."
+},
+{
+	"id": "47",
+	"text": "Tựa như nước lũ cuốn đi\nXóm làng say ngủ li bì nửa khuya\nTử thần cũng sẽ rước về\nNhững người phóng túng, đam mê tối ngày\nChỉ chuyên thu nhặt luôn tay\nCánh hoa dục lạc chất đầy trong tâm."
+},
+{
+	"id": "48",
+	"text": "Những người chỉ biết đam mê\nCánh hoa dục lạc hái về trong tay\nVới tâm phóng túng đọa đầy\nKhông hề thỏa mãn, tối ngày cuồng say\nChính là nô lệ tốt thay\nTử thần sẽ tới lôi ngay đi rồi."
+},
+{
+	"id": "49",
+	"text": "Sa-môn khất thực trong làng\nVí như ong lượn nhịp nhàng bên hoa\nKiếm tìm mật nhụy hút ra\nXong rồi tung cánh bay qua cuối vườn\nKhông làm hoa tổn sắc hương."
+},
+{
+	"id": "50",
+	"text": "Chớ nên dòm ngó lỗi người\nÐể xem họ đã làm rồi hay chưa,\nLỗi mình đừng có làm lơ\nPhải nên nhìn lại đừng chờ đợi chi\nCoi mình làm được những gì\nHay còn nhiều việc sẵn kia chưa làm."
+},
+{
+	"id": "51",
+	"text": "Hoa kia sắc đẹp phô trương\nTiếc rằng chẳng có chút hương thơm nào\nKhác chi người nói ngọt ngào\nTrăm điều hoa gấm, trăm câu tốt lành\nNói xong không chịu thực hành\nChẳng đem lợi ích, cũng thành uổng đi."
+},
+{
+	"id": "52",
+	"text": "Hoa kia sắc đẹp vô cùng\nLại thêm hương tỏa thơm lừng biết bao\nKhác chi người nói ngọt ngào\nTrăm điều hoa gấm, trăm câu tốt lành\nNói xong quyết chí thực hành\nTương lai kết quả tạo thành đẹp thay."
+},
+{
+	"id": "53",
+	"text": "Như từ một đống hoa tươi\nLựa ra ghép lại cho đời tràng hoa\nNhiều tràng phô sắc mặn mà,\nNgười đời cũng vậy khác xa đâu nào\nThân tâm an lạc, thanh cao\nLàm nên việc thiện kể sao cho vừa."
+},
+{
+	"id": "54",
+	"text": "Hương thơm hoa quý vườn kia\nNgược chiều gió thổi dễ gì thoảng bay,\nHương người đức hạnh thơm thay\nDù cho ngược gió dâng đầy muôn phương."
+},
+{
+	"id": "55",
+	"text": "Muôn hương tỏa ngát thơm tho\nTừ vườn hoa quý, từ hồ sen thanh\nDễ chi hơn được hương lành\nDo người đức hạnh lưu danh cho đời."
+},
+{
+	"id": "56",
+	"text": "Hương thơm hoa quý thua xa\nHương người đức hạnh chan hòa vượt trên\nXông lên mãi tận chư Thiên\nTỏa ra ngan ngát khắp miền trời cao."
+},
+{
+	"id": "57",
+	"text": "Ai hằng ngày chẳng buông lung\nLại thêm giới hạnh vô cùng thanh cao\nCó nguồn trí tuệ dạt dào\nThân tâm giải thoát há nào sợ chi\nMa vương dòm ngó dễ gì."
+},
+{
+	"id": "58",
+	"text": "Như từ trong đống bùn nhơ\nBên đường nước đọng, ai ngờ nở ra\nHoa sen phô sắc mặn mà\nTỏa hương thanh khiết gần xa đẹp lòng,"
+},
+{
+	"id": "59",
+	"text": "Khác chi giữa chốn bụi hồng\nGiữa phường mê muội ngập trong não phiền\nNảy sinh Phật tử trung kiên\nRạng soi trí tuệ khắp miền nhân gian."
+}
 			]
 		},
 		{
 			"id": 5,
 			"title": "5. Phẩm Người Ngu",
 			"verses": [
+{
+	"id": "60",
+	"text": "Người mất ngủ thấy đêm dài\nBộ hành mỏi mệt than hoài đường xa\nLuân hồi cũng vậy thôi mà\nChập chùng tiếp nối thật là tái tê\nVới người ngu dại, u mê\nBiết gì chánh pháp, hiểu chi đạo mầu."
+},
+{
+	"id": "61",
+	"text": "Khi cùng sánh bước đường đời\nNếu không tìm được một người so ra\nHơn ta hay chỉ bằng ta\nMột mình rong ruổi thế mà lại hay,\nGặp người ngu muội phiền thay\nChớ nên kết bạn có ngày khổ đau."
+},
+{
+	"id": "62",
+	"text": "“Ðây là con cái của tôi\nÐây là của cải mấy đời chắt chiu!”\nNgười ngu chỉ nghĩ bấy nhiêu\nNào hay biết được một điều thâm sâu:\nChính thân ta cũng có đâu\nMà đòi con nọ, mà cầu của kia."
+},
+{
+	"id": "63",
+	"text": "Người ngu tự biết mình ngu\nThế là có trí, người xưa dạy rồi,\nNgu mà cứ tưởng khôn thôi\nMới là một kẻ muôn đời thật ngu."
+},
+{
+	"id": "64",
+	"text": "Người ngu suốt cả một đời\nGần bên người trí cũng hoài công thôi\nHiểu đâu chánh pháp cao vời,\nNhư thìa, như muỗng múc nồi canh kia\nMúc hoài từ sáng tới khuya\nVị canh ngon ngọt hưởng gì được đâu."
+},
+{
+	"id": "65",
+	"text": "Người thông minh dễ dàng thay\nGần người trí tuệ hiểu ngay đạo mầu\nHiểu ngay chánh pháp thâm sâu\nKhác chi cái lưỡi nếm vào canh kia\nBiết ngay hương vị khó chi."
+},
+{
+	"id": "66",
+	"text": "Những người ngu dại, u mê\nThiếu phần trí tuệ, thiếu bề tinh anh\nTự mình lại biến chính mình\nThành ra thù địch quẩn quanh theo hoài\nTạo muôn nghiệp ác nào hay\nChuốc vào hậu quả đắng cay sau này."
+},
+{
+	"id": "67",
+	"text": "Việc làm chẳng thiện, chẳng lành\nNếu làm xong lại tự mình ăn năn\nDầm dề nhỏ lệ khóc than\nBiết rằng quả báo dữ dằn tương lai."
+},
+{
+	"id": "68",
+	"text": "Việc làm rất thiện, rất lành\nNếu làm xong thấy lòng mình thảnh thơi\nChẳng ăn năn, lại mừng vui\nTương lai quả báo đẹp tươi tốt lành."
+},
+{
+	"id": "69",
+	"text": "Khi mà nghiệp ác chưa thành\nChưa gây hậu quả thật tình thảm thương\nNgười ngu cảm thấy bình thường\nTưởng như được nếm mật đường ngọt thay,\nNhưng khi quả báo đọa đày\nNgười ngu chịu khổ, đắng cay não nề."
+},
+{
+	"id": "70",
+	"text": "Với đầu ngọn cỏ mong manh\nNgười ngu dùng bới cho mình thức ăn\nTu theo khổ hạnh nhọc nhằn\nNhịn ăn, nhịn uống quanh năm võ vàng\nSo ra đâu có phước bằng\nMột phần mười sáu của hàng chân tu\nHiểu thông chánh pháp từ xưa."
+},
+{
+	"id": "71",
+	"text": "Người ngu nghiệp ác tạo nên\nNào đâu hậu quả thấy liền nơi đây\nTựa như sữa chẳng đông ngay,\nTuy nhiên nghiệp báo đêm ngày ngầm theo\nGiống như ngọn lửa thầm reo\nTrong than hồng ủ dưới nhiều lớp tro."
+},
+{
+	"id": "72",
+	"text": "Chút tài mọn, chút hư danh\nDù thêm vào được cho mình nay mai\nNgười ngu vẫn tự hại đời\nTự đưa mình tới cuối trời diệt vong\nÐể rồi hạnh phúc chẳng còn\nTiêu tan đầu não, héo hon trí người."
+},
+{
+	"id": "73",
+	"text": "Kẻ ngu thường muốn hư danh\nNgồi trong Tăng chúng muốn dành chỗ trên,\nTrong Tăng viện muốn uy quyền,\nMuốn người cung kính đến xin cúng dường."
+},
+{
+	"id": "74",
+	"text": "Ðể cho kẻ tục, người Tăng\nPhục ta và phải nghĩ rằng ta đây:\n“Chính ta làm được việc này!”\nHay: “Ta ra lệnh đó đây thi hành!”\nKẻ ngu cuồng vọng khoe mình,\nLòng tham, ngạo mạn tăng nhanh với đời."
+},
+{
+	"id": "75",
+	"text": "Một đường danh lợi thế gian\nMột đường đưa tới Niết-bàn cao xa\nTỳ-kheo đệ tử Phật Ðà\nNhủ lòng cho rõ để mà bước chân,\nÐừng nên tham đắm lợi trần,\nÐạo mầu giải thoát chuyên tâm trau dồi!"
+}
 			]
 		},
 		{
 			"id": 6,
 			"title": "6. Phẩm Người Trí",
 			"verses": [
+{
+	"id": "76",
+	"text": "Nếu ta gặp được kẻ hiền\nChỉ bày điều lỗi, trách phiền chuyện sai\nGiống như gặp được một người\nChỉ cho vật quý chôn nơi kho tàng\nHãy mau cùng họ kết thân\nTrăm phần lợi ích, mười phân tốt lành."
+},
+{
+	"id": "77",
+	"text": "Ai thường khuyên dạy người ta\nÐừng gần điều ác, tránh xa lỗi lầm,\nNgười lành yêu họ vô ngần\nChỉ riêng người dữ muôn phần ghét chê."
+},
+{
+	"id": "78",
+	"text": "Người gian ác, kẻ tiểu nhân\nChớ nên làm bạn, kết thân với mình\nChỉ nên kết bạn người lành\nTác phong quân tử, tính tình thanh cao."
+},
+{
+	"id": "79",
+	"text": "Một khi chánh pháp thấm nhuần\nTươi vui cuộc sống, bình an tâm hồn\nCho nên người trí, người khôn\nHân hoan nghe Pháp thánh nhân giảng truyền."
+},
+{
+	"id": "80",
+	"text": "Những người tưới nước chăm lo\nÐào mương dẫn nước vào cho khắp miền,\nNhững người thợ vót cung tên\nCung tên lo uốn triền miên tháng ngày,\nNhững người thợ mộc khéo tay\nXẻ cây, uốn ván thẳng ngay tài tình,\nCòn như người trí tinh anh\nChăm lo thuần hóa thân mình cho nhanh."
+},
+{
+	"id": "81",
+	"text": "Gió nào lay núi đá cao\nVà người trí lớn khác nào núi kia\nTiếng đời trần tục khen chê\nTán dương, phỉ báng, dễ gì động tâm."
+},
+{
+	"id": "82",
+	"text": "Như là hồ nước thẳm sâu\nPhô dòng phẳng lặng, khoe mầu sạch trong\nNhững người có trí, có lòng\nKhi nghe chánh pháp cũng không khác gì\nThân tâm tịnh lạc kể chi."
+},
+{
+	"id": "83",
+	"text": "Người lành thường mãi lìa xa\nMọi điều dục lạc bỏ qua chẳng bàn,\nNgười hiền trí gặp vui buồn\nDù đầy hạnh phúc, hay tràn khổ đau\nKhông hề dao động trước sau\nTinh thần luôn vững, há nào mừng lo."
+},
+{
+	"id": "84",
+	"text": "Ðừng vì mình hay vì người\nHam cầu con cái, ham nơi ruộng tiền\nHay ngai vàng để ngự lên\nMà dùng mưu kế đảo điên ở đời,\nMuốn thành công chớ hại ai\nThấy điều bất chính lầm sai tránh đường\nSống đời đức hạnh thơm lừng\nRạng vầng trí tuệ, ngát hương đạo mầu."
+},
+{
+	"id": "85",
+	"text": "Ðám đông nhân loại quanh ta\nÍt người đạt được tới bờ bên kia\nCòn bao kẻ khác kể chi\nNgược xuôi quanh quẩn sớm khuya bờ này\nTrầm luân sinh tử thương thay!"
+},
+{
+	"id": "86",
+	"text": "Ai mà có đủ duyên may\nÐược nghe chánh pháp giảng bày phân minh\nÐúng theo chánh pháp tu hành\nSẽ mau thoát cảnh tử sinh bờ này\nTrùng dương dục vọng vượt ngay\nBên kia bờ giác dang tay đón chờ."
+},
+{
+	"id": "87",
+	"text": "Người hiền trí rời bỏ ngay\nCon đường bất thiện giăng đầy bóng đêm\nTìm qua nẻo thiện vượt lên\nÁnh vàng rực rỡ xuôi miền an vui,\nGia đình nhỏ hẹp lìa thôi\nXuất gia và sống cuộc đời độc thân"
+},
+{
+	"id": "88",
+	"text": "Ðúng theo phép tắc Sa-môn\nGột đi ô nhiễm trong tâm kỹ càng\nCầu vui chánh pháp Niết-bàn\nBao nhiêu dục lạc buộc ràng tránh xa."
+},
+{
+	"id": "89",
+	"text": "Người nào tu tập chuyên cần\nNương theo chánh pháp chuyên tâm một đường,\nXa lìa cố chấp thói thường\nSợi giây luyến ái chẳng vương bận lòng\nNão phiền đã diệt hết xong\nTrở nên sáng suốt. Ngay trong đời này\nNiết-bàn chứng ngộ được ngay."
+}
 			]
 		},
 		{
 			"id": 7,
 			"title": "7. Phẩm A-la-hán",
 			"verses": [
+{
+	"id": "90",
+	"text": "Với người hoàn tất hành trình\nƯu phiền vương vấn bên mình dứt đi\nHoàn toàn siêu thoát mọi bề\nBao nhiêu ràng buộc cắt lìa đã xong\nLửa tham ái sẽ chẳng còn\nMột khi tới đích thoát vòng khổ đau."
+},
+{
+	"id": "91",
+	"text": "Những người cố gắng tu thân\nLuôn luôn hăng hái, tinh thần thật cao\nÐâu còn lưu luyến là bao\nNơi ăn chốn ở thuở nào tại gia\nVí như những cánh thiên nga\nRời ao hồ cũ bay xa tít mù\nÐâu còn nhớ tiếc nơi xưa."
+},
+{
+	"id": "92",
+	"text": "Không màng tài sản chứa đầy\nUống ăn chừng mực qua ngày để tu\nThoát vòng đau khổ, ưu tư\nThảnh thơi theo cánh gió đưa Niết-bàn\nNhư chim bay giữa không gian\nTìm chim, dấu vết vô vàn khó thay."
+},
+{
+	"id": "93",
+	"text": "Nhiễm ô, ham muốn diệt ngay\nUống ăn chừng mực qua ngày để tu\nThoát vòng đau khổ, ưu tư\nThảnh thơi theo cánh gió đưa Niết-bàn\nNhư chim bay giữa không gian\nTìm chim, dấu vết vô vàn khó thay."
+},
+{
+	"id": "94",
+	"text": "Ai mà chế ngự sáu căn\nNhư người cưỡi ngựa muôn phần giỏi giang\nNgựa đi thuần thục dễ dàng,\nKhông còn kiêu ngạo, hết vương não phiền\nChư thiên ái mộ vô biên."
+},
+{
+	"id": "95",
+	"text": "Bao sân hận chẳng vương mang\nTâm như một cõi đất bằng phẳng kia\nVà như trụ đá kiên trì\nNhư hồ trong lắng không hề bùn nhơ\nNgười như vậy chẳng bao giờ\nLuân hồi sinh tử diễn ra được nào."
+},
+{
+	"id": "96",
+	"text": "Ai mà thanh thản trong tâm\nLại thêm ngôn ngữ thâm trầm nơi nơi\nThêm hành động thật khoan thai:\nLà người hiểu biết đúng sai mọi đường\nÐã mau siêu thoát nhẹ nhàng\nLuôn luôn tịnh lạc, hoàn toàn bình yên."
+},
+{
+	"id": "97",
+	"text": "Tự mình biết, chẳng tin ai\nTự mình giác ngộ hiểu nơi đạo mầu\nDương trần hệ lụy dứt mau\nNguyên nhân thiện, ác trước sau diệt trừ\nLòng tham ái chẳng còn ưa\nCon người cao quý khó ư sánh cùng."
+},
+{
+	"id": "98",
+	"text": "Dù làng xóm, hay núi rừng\nDù nơi vực thẳm, hay vùng non cao\nA-la-hán ở chỗ nào\nNơi này an tịnh, dạt dào niềm vui."
+},
+{
+	"id": "99",
+	"text": "Núi rừng tịnh lạc, nên thơ\nNhưng người phàm lại không ưa chốn này,\nRiêng người giải thoát khác thay\nTỏ ra thích ở nơi đây vô cùng\nVì bao dục lạc dứt xong."
+}
 			]
 		},
 		{
 			"id": 8,
 			"title": "8. Phẩm Ngàn",
 			"verses": [
+{
+	"id": "100",
+	"text": "Dù ngàn lời nói với nhau\nNếu đều vô nghĩa, ích đâu cho đời\nChẳng bằng chỉ nói một lời\nMột lời nghĩa lý, mọi người mừng thay\nNghe xong tâm tịnh lạc ngay."
+},
+{
+	"id": "101",
+	"text": "Kệ kia nói đến ngàn câu\nNếu đều vô nghĩa, ích đâu cho đời\nMột câu nói cũng đủ rồi\nNếu đầy nghĩa lý, mọi người mừng thay\nNghe xong tâm tịnh lạc ngay."
+},
+{
+	"id": "102",
+	"text": "Kệ kia tụng đến trăm câu\nNếu đều vô nghĩa, ích đâu cho đời\nChẳng bằng Pháp Cú tuyệt vời\nMột lời giáo pháp mọi người mừng thay\nNghe xong tâm tịnh lạc ngay."
+},
+{
+	"id": "103",
+	"text": "Thắng ngàn, ngàn địch chiến trường\nChẳng bằng tự thắng bản thân của mình\nThắng mình oanh liệt thật tình\nMới là chiến thắng xứng danh hàng đầu."
+},
+{
+	"id": "104",
+	"text": "Những người tự thắng bản thân\nVẻ vang hơn thắng địch quân hiểm nghèo\nThắng mình phải tiết chế nhiều\nBỏ lòng dục vọng, bỏ điều tham lam,"
+},
+{
+	"id": "105",
+	"text": "Dù ma quỷ, hay thiên thần\nChẳng ai thắng nổi khi cần đua tranh\nVới người tự thắng chính mình."
+},
+{
+	"id": "106",
+	"text": "Ngàn vàng tháng tháng bỏ ra\nTrăm năm cúng tế thật là uổng thay\nChẳng bằng giây lát duyên may\nCúng dường đúng bậc ngày ngày chân tu\nThật là ích lợi vô bờ\nHơn là cúng tế mê mờ trăm năm."
+},
+{
+	"id": "107",
+	"text": "Trăm năm ở tại rừng sâu\nDốc lòng thờ lửa cũng đâu sánh bằng\nChỉ trong giây lát cúng dường\nNhững người đạo hạnh một đường chân tu\nThật là công đức vô bờ\nHơn là thờ lửa mê mờ trăm năm."
+},
+{
+	"id": "108",
+	"text": "Suốt năm bố thí, cúng dường\nÐể cầu phước báu chẳng bằng so ra\nPhần tư công đức của ta\nKhi ta kính lễ những nhà chân tu\nThanh cao, chính trực vô bờ."
+},
+{
+	"id": "109",
+	"text": "Ai tôn kính bậc cao niên\nTuổi cao, đức trọng khắp miền kính yêu\nÐược thêm tăng trưởng bốn điều:\nKéo dài tuổi thọ, sắc nhiều đẹp tươi\nMuôn phần hạnh phúc yên vui\nTấm thân khỏe mạnh sống đời an khang."
+},
+{
+	"id": "110",
+	"text": "Cho dù sống đến trăm năm\nChỉ hay phá giới, không chăm tu thiền\nChẳng bằng sống một ngày liền\nMà luôn giữ giới, mà chuyên tu thiền."
+},
+{
+	"id": "111",
+	"text": "Cho dù sống đến trăm năm\nKhông còn trí tuệ, không chăm tu thiền\nChẳng bằng sống một ngày liền\nMà đầy trí tuệ, mà chuyên tu thiền."
+},
+{
+	"id": "112",
+	"text": "Trăm năm dù sống dài lâu\nMà luôn lười biếng không cầu tiến lên\nChẳng bằng sống một ngày liền\nChuyên cần, tinh tấn tiến thêm mọi đường."
+},
+{
+	"id": "113",
+	"text": "Trăm năm sống chẳng nhận ra\nPháp kia sinh diệt. Thật là uổng thay!\nChẳng bằng sống chỉ một ngày\nMà hay vạn vật chốn này giả thôi\nVô thường, tạm bợ, nổi trôi\nSinh ra rồi diệt, diệt rồi lại sinh."
+},
+{
+	"id": "114",
+	"text": "Trăm năm sống chẳng nhận ra\nPháp kia bất tử. Thật là uổng thay!\nChẳng bằng sống chỉ một ngày\nMà rồi giác ngộ thấy ngay Niết-bàn\nNơi bất diệt, đẹp vô vàn\nKhông trò bệnh lão, không màn tử sinh."
+},
+{
+	"id": "115",
+	"text": "Trăm năm sống chẳng nhận ra\nPháp kia tối thượng. Thật là uổng thay!\nChẳng bằng sống chỉ một ngày\nMà hay rằng giáo pháp đầy thâm sâu\nDạt dào chân lý tối cao."
+}
 			]
 		},
 		{
 			"id": 9,
 			"title": "9. Phẩm Ác",
 			"verses": [
+{
+	"id": "116",
+	"text": "Hãy mau thực hiện điều lành\nCòn bao điều ác tránh nhanh đừng làm,\nÐiều lành lười biếng không ham\nLàm càng chậm trễ lại càng khổ đau\nTrong tâm chuyện ác đến mau."
+},
+{
+	"id": "117",
+	"text": "Lỡ làm việc ác mất rồi\nChớ nên tiếp tục bước đời lầm sai\nChớ vui với việc ác này\nTâm hay chứa ác có ngày khổ đau."
+},
+{
+	"id": "118",
+	"text": "Ðã làm việc thiện, việc lành\nHãy nên tiếp tục thực hành hăng say\nHãy vui với việc lành này\nTâm hay làm thiện có ngày hưởng vui."
+},
+{
+	"id": "119",
+	"text": "Khi mà nghiệp ác chưa thành\nNgười làm điều ác tưởng mình vui thôi!\nÐến khi nghiệp ác tới rồi\nNgười ta mới thấy cuộc đời khổ đau."
+},
+{
+	"id": "120",
+	"text": "Khi mà nghiệp thiện chưa thành\nNgười làm điều thiện tưởng mình khổ thôi!\nÐến khi nghiệp thiện tới rồi\nNgười ta mới thấy cuộc đời an vui."
+},
+{
+	"id": "121",
+	"text": "Chớ khinh điều ác nhỏ nhoi\nCho rằng: “Quả báo mình thời chịu đâu!”\nNhớ rằng giọt nước nhỏ lâu\nMỗi ngày một chút cũng mau đầy bình,\nNgười ngu gom góp vào mình\nBao điều ác nhỏ dần thành họa to."
+},
+{
+	"id": "122",
+	"text": "Chớ khinh điều thiện nhỏ nhoi\nCho rằng: “Quả báo mình thời hưởng đâu!”\nNhớ rằng giọt nước nhỏ lâu\nMỗi ngày một chút cũng mau đầy bình,\nNgười hiền trí chứa tâm mình\nBao điều thiện nhỏ dần thành phước to."
+},
+{
+	"id": "123",
+	"text": "Tựa như một kẻ đi buôn\nCó mang nhiều của nhưng không bạn bè\nTránh đường nguy hiểm chẳng đi,\nHay người tham sống chẳng khi nào gần\nTránh liều thuốc độc vô ngần,\nChúng sinh noi đó lo thân tâm mình\nTránh xa điều ác cho nhanh."
+},
+{
+	"id": "124",
+	"text": "Bàn tay không có vết thương\nDù cầm thuốc độc chẳng phương hại gì\nNgười không làm ác sợ chi\nChẳng bao giờ bị ác kia hại mình."
+},
+{
+	"id": "125",
+	"text": "Khi mà kẻ ác hại người\nTâm tư trong sạch, cuộc đời hiền lương,\nÁc kia trở lại thảm thương\nGây cho kẻ ác trăm đường khổ thay\nTựa như ngược gió vung tay\nTung ra bụi bẩn, bụi bay lại mình."
+},
+{
+	"id": "126",
+	"text": "Con người sinh tự bào thai\nVà từ nơi đó ra đời. Lành thay!\nThế nhưng kẻ ác sinh ngay\nVào miền địa ngục đọa đầy triền miên,\nNhững người chính trực lành hiền\nSau này sẽ được sinh lên cõi trời,\nNhiễm ô ai diệt hết rồi\nMới lên được cõi thảnh thơi Niết-bàn."
+},
+{
+	"id": "127",
+	"text": "Dù bay lên tận không trung,\nHay là lặn xuống tận cùng bể khơi,\nChui vào hang thẳm núi đồi\nKhắp trên trần thế chẳng nơi an toàn\nThoát tay nghiệp ác chót mang."
+},
+{
+	"id": "128",
+	"text": "Dù bay lên tận không trung\nHay là lặn xuống tận cùng bể khơi,\nChui vào hang thẳm núi đồi\nKhắp trên trần thế chẳng nơi an toàn\nThoát tay thần chết kinh hoàng."
+}
 			]
 		},
 		{
 			"id": 10,
 			"title": "10. Phẩm Dao Gậy",
 			"verses": [
+{
+	"id": "129",
+	"text": "Sợ thay gậy gộc, gươm đao\nSợ tay thần chết hại bao cuộc đời\nSuy lòng mình ra lòng người\nChớ nên giết hại hoặc xui giết người."
+},
+{
+	"id": "130",
+	"text": "Sợ thay gậy gộc, gươm đao\nYêu thương mầm sống, khát khao cuộc đời\nSuy lòng mình ra lòng người\nChớ nên giết hại hoặc xui giết người."
+},
+{
+	"id": "131",
+	"text": "Ai cầu hạnh phúc cho mình\nMà dùng dao gậy gian manh hại người\nKhiến người tan nát cuộc đời,\nKiếp sau mình chẳng an vui được nào."
+},
+{
+	"id": "132",
+	"text": "Ai cầu hạnh phúc cho mình\nKhông dùng dao gậy gian manh hại người\nKhông gây tổn hại cho đời,\nKiếp sau mình sẽ an vui vô cùng."
+},
+{
+	"id": "133",
+	"text": "Ðừng nên mở miệng nói câu\nTục tằn, ác độc khiến đau lòng người\nNgười ta cũng nói trả thôi,\nNhững lời độc địa muôn đời khổ thay\n   Lời qua tiếng lại đắng cay\nNhư bao dao gậy phạt ngay thân mình."
+},
+{
+	"id": "134",
+	"text": "Nếu mà ngươi giữ lặng yên\nNhư chuông bể nứt im lìm chẳng vang\nTrước lời ác độc phũ phàng\nNiết-bàn ngươi đã thênh thang bước vào:\nChẳng còn sân hận chút nào."
+},
+{
+	"id": "135",
+	"text": "Người chăn cầm gậy đi sau\nLùa đàn bò nọ chạy mau ra đồng,\nGià nua, chết chóc đều cùng\nXua người đến chốn tử vong khác gì."
+},
+{
+	"id": "136",
+	"text": "Kẻ ngu nghiệp ác gây nên\nÐể rồi quả báo đến liền hay đâu,\nTương lai chịu vạn khổ đau\nNhư là lấy lửa thiêu mau chính mình."
+},
+{
+	"id": "137-140",
+	"text": "Ai dùng gậy gộc, gươm đao\nHại người lương thiện, thoát nào đớn đau\nMười điều khổ não trước sau\nTự mình lại sẽ rước vào thân thôi:\nMột là thống khổ kinh người,\nHai là thương tích khắp nơi thân mình,\nBa là bệnh nặng thật tình,\nBốn là tán loạn, thần kinh rối bời,\nNăm là tai họa trong đời\nVua, quan áp bức, hại thời tránh đâu,\nSáu là tội nặng ngập đầu\nBị người vu cáo dài lâu, phiền hà,\nBẩy là quyến thuộc trong nhà\nBà con ly tán xót xa bội phần,\nTám là tài sản xa gần\nTiêu ma giây phút, nát tan sớm chiều,\nChín là sẽ bị hỏa thiêu\nCửa nhà cháy hết, tiêu điều tang thương,\nMười là chết khó tránh đường\nÐọa vào địa ngục, diêm vương đón chờ."
+},
+{
+	"id": "141",
+	"text": "Dù tu khổ hạnh triền miên\nTrần truồng, bện tóc, tro đen xoa mình\nNhịn ăn, nằm đất, lăn sình\nSống dơ, ngồi xổm để hành xác thân\nNào đâu thanh tịnh được tâm\nNếu không trừ dứt đi phần hoài nghi."
+},
+{
+	"id": "142",
+	"text": "Người nào sống thật trang nghiêm\nThân tâm an tịnh, giữ gìn đường tu\nBao nhiêu dục vọng diệt trừ\nKhông hề buông thả hững hờ giác quan\nLại thêm giới hạnh chu toàn\nSinh linh chẳng hại, tính luôn ôn hòa\nDù cho ăn mặc xa hoa\nVẫn là tu sĩ, là Bà-la-môn."
+},
+{
+	"id": "143",
+	"text": "Biết điều hổ thẹn bản thân\nÐể mà tự chế, tự ngăn cấm mình\nThế gian ít kẻ đạt thành\nNhưng khi đạt được, thân lành biết bao\nTránh lời khiển trách khổ đau,\nNhư là ngựa giỏi roi nào quất đâu."
+},
+{
+	"id": "144",
+	"text": "Giống như ngựa giỏi chạy hăng\nThêm roi thúc giục lại càng hay hơn\nNgươi mau giữ giới chuyên cần\nNiềm tin, đạo đức quyết tâm giữ gìn,\nTrau dồi trí tuệ vững bền\nPháp môn thiền định nên chuyên thực hành\nTheo và hành đạo nhiệt thành\nÐể mau tiêu diệt ngọn ngành khổ đau."
+},
+{
+	"id": "145",
+	"text": "Những người tưới nước chăm lo\nÐào mương dẫn nước vào cho khắp miền,\nNhững người thợ vót cung tên\nCung tên lo uốn triền miên tháng ngày,\nNhững người thợ mộc khéo tay\nXẻ cây, uốn ván thẳng ngay tài tình,\nCòn như người trí tinh anh\nChăm lo kiểm soát thân mình cho nhanh."
+}
 			]
 		},
 		{
 			"id": 11,
 			"title": "11. Phẩm Già",
 			"verses": [
+{
+	"id": "146",
+	"text": "Làm sao thích thú vui cười\nKhi ta ở giữa cõi đời nóng thiêu\nLửa tham dục cháy trăm chiều\nVô minh tăm tối dập dìu vây quanh\nSao không tìm ánh quang minh\nNhờ đèn trí tuệ giúp mình thoát ra."
+},
+{
+	"id": "147",
+	"text": "Hãy nhìn cái tấm thân này\nBề ngoài đẹp đẽ, trong đầy nhớp nhơ\nÐống xương lở lói vô bờ\nMang bao tật bệnh, cứ ngờ tốt tươi\nChứa gì bền vững ở đời\nÐâu tồn tại mãi mà người bận tâm."
+},
+{
+	"id": "148",
+	"text": "Thân này suy yếu, già nua\nDễ dàng hư nát tựa như khu rừng\nTập trung bệnh tật chập chùng\nThời gian hủy hoại, cuối cùng tan đi\nCó sinh có tử lạ gì."
+},
+{
+	"id": "149",
+	"text": "Trái bầu khi tới mùa thu\nBị quăng vì héo vì khô mất rồi,\nThân này cũng vậy mà thôi\nTàn đời thành đống xương phơi bạc mầu\nNhìn xem vui thú gì đâu."
+},
+{
+	"id": "150",
+	"text": "Thân này là một cái thành\nXây bằng xương cốt và quanh bốn bề\nQuết tô máu thịt bao che\nÐể mà chứa chất não nề bên trong\nSự già nua, sự tử vong\nChứa chan kiêu ngạo, chất chồng dối gian."
+},
+{
+	"id": "151",
+	"text": "Cái xe vua chúa thường đi\nTrang hoàng lộng lẫy còn gì quý hơn\nRồi ra hư cũ, nát tan\nKhác chi so với tấm thân con người\nDù cho chăm sóc tuyệt vời\nCũng già cũng yếu cuối đời tránh sao,\nChỉ trừ giáo pháp tối cao\nCủa người thánh thiện không bao giờ tàn\nLuôn luôn sáng tỏ rỡ ràng\nNgười lành truyền tụng, vô vàn quý thay."
+},
+{
+	"id": "152",
+	"text": "Người không chịu học, chịu nghe\nGiống như bò với trâu kia vô ngần,\nTrâu bò lớn mạnh thịt gân\nNhưng mà trí tuệ trăm phần y nguyên\nNào đâu phát triển được thêm."
+},
+{
+	"id": "153",
+	"text": "Lang thang khắp nẻo luân hồi\nQua bao tiền kiếp nổi trôi ta bà\nTìm không gặp kẻ làm nhà\nChuyên gây cuộc sống diễn ra rối bời,"
+},
+{
+	"id": "154",
+	"text": "Nay ta bắt gặp ngươi rồi\nKẻ làm nhà hỡi, ngừng thôi đừng làm!\nRui mè ngươi đã gãy ngang\nRui mè dục vọng tan hoang đã đành,\nCột kèo ngươi cũng tan tành\nCột kèo tăm tối vô minh hại người!\nNiết-bàn ta chứng đắc rồi\nBao nhiêu tham ái dứt nơi tâm này."
+},
+{
+	"id": "155",
+	"text": "Lúc còn cường tráng thiếu niên\nÐã không tạo dựng được thêm gia tài\nTu hành biếng nhác, chây lười\nÐến khi luống tuổi con người giống sao\nCò già buồn đứng bờ ao\nAo khô cạn nước kiếm sao ra mồi\nChết mòn thân xác mất thôi!"
+},
+{
+	"id": "156",
+	"text": "Lúc còn cường tráng thiếu niên\nÐã không tạo dựng được thêm gia tài\nTu hành biếng nhác, chây lười\nKhi già nằm xuống dáng người khác chi\nCây cung bị gãy vứt kia\nBuồn than dĩ vãng trôi đi mất rồi."
+}
 			]
 		},
 		{
 			"id": 12,
 			"title": "12. Phẩm Chính Mình",
 			"verses": [
+{
+	"id": "157",
+	"text": "ai mà biết tự thương mình\nPhải nên bảo vệ nhiệt tình bản thân\nTrong ba giai đoạn đường trần\nTrẻ trung, lớn tuổi và luôn về già\nNgười hiền trí hãy tỉnh ra\nTìm đường giác ngộ, lìa xa mê lầm."
+},
+{
+	"id": "158",
+	"text": "Ðầu tiên hãy tự đặt mình\nVào đường chân chính quang minh rạng ngời\nVề sau mới giáo hóa người,\nKẻ hiền, kẻ trí luôn noi gương này\nNào ai chê trách nữa đây."
+},
+{
+	"id": "159",
+	"text": "Muốn khuyên, muốn dạy dỗ ai\nTrước tiên hãy tự sửa nơi chính mình\nÐích thân gương mẫu thực hành\nRồi sau mới dạy điều lành điều hay\nSửa mình quả thật khó thay!"
+},
+{
+	"id": "160",
+	"text": "Tự mình là vị cứu tinh\nTự mình nương tựa vào mình tốt thay\nNào ai cứu được mình đây?\nTự mình điều phục hàng ngày cho chuyên\n   Thành ra điểm tựa khó tìm."
+},
+{
+	"id": "161",
+	"text": "Khi mà nghiệp ác sinh ra\nDo mình tự tạo, khó mà thoát thân\nNghiệp này nghiến kẻ ngu đần\nKim cương nghiến đá muôn phần giống nhau."
+},
+{
+	"id": "162",
+	"text": "Người phá giới tự hại mình,\nNhư dây chùm gửi leo quanh cây vườn\nDần dần siết chết cây luôn,\nNgười này gieo hại bản thân vô bờ,\nGieo điều xấu, ác mong chờ\nMà quân thù địch ước mơ hại mình."
+},
+{
+	"id": "163",
+	"text": "Làm điều gây hại cho mình\nDù cho hung ác, thật tình dễ sao,\nViệc lành, việc tốt biết bao\nDù cho lợi ích làm nào dễ đâu."
+},
+{
+	"id": "164",
+	"text": "Ðám người khờ dại, ngu si\nVì nhìn sai lạc, khinh khi đạo mầu\nKhinh khi giáo pháp thâm sâu\nNhạo người chánh đạo từ lâu tu hành,\nÐám này rước khổ vào mình\nGiống cây lau nọ khi sinh quả rồi\nSẽ liền tự diệt mà thôi."
+},
+{
+	"id": "165",
+	"text": "Làm điều ác cũng bởi ta\nNhiễm ô cũng vậy tạo ra bởi mình\nVà khi làm những điều lành\nHoặc là thanh tịnh cũng mình tạo ra,\nTịnh hay không tịnh do ta\nChính ta tự tạo, ai mà khác đâu!"
+},
+{
+	"id": "166",
+	"text": "Chớ vì lợi ích cho người\nMà quên lợi ích cho nơi chính mình\nMục tiêu giải thoát tử sinh\nAi lo lợi ích cho mình chớ quên\nQuyết tâm đạt được cho bền."
+}
 			]
 		},
 		{
 			"id": 13,
 			"title": "13. Phẩm Thế Gian",
 			"verses": [
+{
+	"id": "167",
+	"text": "Ðừng theo dục vọng thấp hèn\nSống đừng buông thả đắm chìm bản thân\nÐừng mang thành kiến sai lầm\nÐừng tăng thêm mãi dương gian não phiền\nLuân hồi sinh tử triền miên."
+},
+{
+	"id": "168",
+	"text": "Luôn hăng hái, chớ buông lung\nSống theo chánh pháp vô cùng tịnh thanh\nNhững người chánh hạnh thực hành\nÐời này cảm thấy thân mình an vui\nÐời sau sung sướng thêm thôi."
+},
+{
+	"id": "169",
+	"text": "Thực hành chánh hạnh chuyên cần\nÐừng theo đường ác, chớ làm điều sai\nAi theo chánh pháp đời này\nNiềm vui mãi hưởng kéo dài đời sau."
+},
+{
+	"id": "170",
+	"text": "Tựa như bọt nước trôi sông,\nLâu đài, phố chợ bềnh bồng biển sương\nToàn là ảo ảnh vô thường\nNhìn đời như vậy còn vương vấn gì\nTử thần ta há sợ chi."
+},
+{
+	"id": "171",
+	"text": "Dù nhìn trần thế của ta\nXa hoa lộng lẫy như là xe vua\nKẻ cuồng dại mới thích ưa\nMới mong tham đắm mê mờ ngu si\nCòn như người trí thiết chi\nCó đâu luyến ái, dễ gì bận tâm."
+},
+{
+	"id": "172",
+	"text": "Người nào trước sống buông lung\nSau không phóng dật, một lòng chuyên tu\nNhư trăng thoát khỏi mây mù\nSáng soi trần thế, đẹp phô ánh vàng."
+},
+{
+	"id": "173",
+	"text": "Người nào làm những việc lành\nXóa mờ nghiệp ác của mình thuở xưa\nNhư trăng thoát khỏi mây mù\nSáng soi trần thế, đẹp phô ánh vàng."
+},
+{
+	"id": "174",
+	"text": "Ðời này mù quáng vô vàn\nÍt người thấy được rõ ràng mà thôi\nNhư chim thoát khỏi lưới rồi\nÍt con bay thẳng hướng trời cao xa."
+},
+{
+	"id": "175",
+	"text": "Thiên nga tung cánh thảnh thơi\nChỉ bay theo hướng mặt trời hừng đông,\nNgười quyền phép nhờ thần thông\nChỉ bay lượn giữa hư không dễ dàng,\nRiêng người trí lớn vô vàn\nDẹp trừ dục vọng Ma quân kia rồi\nMới bay khỏi thế gian thôi."
+},
+{
+	"id": "176",
+	"text": "Ai vi phạm giáo pháp rồi,\nAi ưa gian dối thốt lời dài lâu,\nAi tin chẳng có đời sau,\nBao điều xấu, ác họ đâu sợ gì\nSẵn sàng làm, có ngại chi."
+},
+{
+	"id": "177",
+	"text": "Những người keo kiết ở đời\nSinh đâu vào được cõi trời mai sau\nNhững người ngu muội dài lâu\nGhét lời bố thí, ghét câu cúng dường,\nChỉ riêng người trí tìm đường\nMở tâm quảng đại cúng dường lòng vui\nÐời sau an lạc mãi thôi."
+},
+{
+	"id": "178",
+	"text": "Dù làm bá chủ thế gian,\nDù sinh vào chốn vẻ vang cõi trời,\nDù làm chúa tể cao vời\nChủ trì vũ trụ khắp nơi huy hoàng,\nSo ra cũng chẳng sánh ngang\nNgười xuôi dòng tới Niết-bàn thênh thang\nNhập Lưu đắc quả vẻ vang."
+}
 			]
 		},
 		{
 			"id": 14,
 			"title": "14. Phẩm Đức Phật",
 			"verses": [
+{
+	"id": "179",
+	"text": "Chẳng ai hơn nổi con người\nÐã từng thắng phục được nơi dục tình\nNgười như vậy chính thân mình\nỞ đời không sợ dục tình dõi theo\nMênh mông Phật giới cao siêu\nTham, sân, si dấu tích đều còn đâu\nCác ngươi cám dỗ dễ nào."
+},
+{
+	"id": "180",
+	"text": "Lưới mê được giải tỏa rồi\nDục tình kia khó tìm người dõi theo\nMênh mông Phật giới cao siêu\nTham, sân, si dấu tích đều còn đâu\nCác ngươi cám dỗ dễ nào!"
+},
+{
+	"id": "181",
+	"text": "Người hiền trí chuyên tu thiền\nƯa hương giải thoát, thích miền tịnh yên\nNghĩ suy giác ngộ vô biên\nChúng sinh yêu kính, chư thiên nể vì."
+},
+{
+	"id": "182",
+	"text": "Khó mà sinh được làm người,\nRồi ra sống được trọn đời khó hơn,\nÐược nghe chánh pháp tuyên dương\nCũng là điều khó trăm đường mà thôi,\nDuyên may gặp Phật ra đời\nLà điều hy hữu, tuyệt vời biết bao."
+},
+{
+	"id": "183",
+	"text": "Chớ làm điều ác bao giờ\nLàm điều lành tốt người chờ, người mong\nGiữ tâm, giữ ý sạch trong\nLà lời Phật dạy ghi lòng chớ quên."
+},
+{
+	"id": "184",
+	"text": "Phật thường dạy đã lâu rồi\nNiết-bàn là chốn tuyệt vời cao siêu\nCũng như nhẫn nhục trăm chiều\nLấy điều khổ hạnh làm điều tối cao,\nXuất gia chẳng hại ai nào\nSa-môn tu tập nỡ sao hại người."
+},
+{
+	"id": "185",
+	"text": "Chớ nên phỉ báng một ai\nÐừng gây tổn hại cho người xung quanh\nGiữ gìn giới luật nghiêm minh\nUống ăn chừng mực cho thành thói quen\nLánh riêng sống chỗ tịnh yên\nChuyên tu thiền định, hướng miền thanh cao\nLời chư Phật dạy lành sao!"
+},
+{
+	"id": "186",
+	"text": "Dù cho mưa xuống bạc vàng\nCũng đâu thỏa mãn lòng tham con người\nNgười hiền trí biết rõ thôi\nDục tình vui ít để rồi khổ thêm,"
+},
+{
+	"id": "187",
+	"text": "Cõi trời cao ngất từng trên\nDục tình dù có, chớ nên ham cầu,\nNgười con Phật hiểu pháp mầu\nChỉ mong tham ái được mau diệt trừ."
+},
+{
+	"id": "188-189",
+	"text": "Loài người hãi sợ kinh hoàng\nNên tìm nhiều chỗ vội vàng quy y\nThánh thần núi nọ, rừng kia\nHoặc nơi cây cối, tháp bia, miếu đền\nNào đâu nương tựa được yên\nQuy y như vậy não phiền còn vương,"
+},
+{
+	"id": "190-192",
+	"text": "Nếu quy y Phật, Pháp, Tăng\nRiêng phần trí tuệ vinh thăng nhiệm mầu\nHiểu ra Tứ Ðế thâm sâu:\nBiết rằng trần thế khổ đau là gì,\nHiểu ra nguồn gốc khổ kia,\nBiết đường diệt hết khổ đi là rồi\nBiết Bát Chánh Ðạo tuyệt vời\nTám đường chân chính con người nên theo\nQuy y chỗ đó cao siêu\nAn toàn, giải thoát trăm điều khổ đau."
+},
+{
+	"id": "193",
+	"text": "Khó mà gặp được thánh nhân\nLà người trí tuệ muôn phần cao siêu\nNgười như vậy chẳng có nhiều,\nChỗ nào kẻ trí sớm chiều sinh ra\nGia đình hạnh phúc chan hòa."
+},
+{
+	"id": "194",
+	"text": "Vui thay đức Phật ra đời!\nVui thay giáo pháp giảng nơi cõi trần!\nTăng hòa hợp đẹp muôn phần!\nÐẹp thay giới luật xa gần đồng tu!"
+},
+{
+	"id": "195-196",
+	"text": "Cúng dường vị đáng cúng dường\nPhật hay đệ tử thân thương của Ngài\nLà người khắc phục, anh tài\nVượt qua chướng ngại, thoát ngoài lo âu\nKhông còn phiền não muộn sầu\nLửa tham, lửa dục từ lâu tắt rồi\nCúng dường như thế tuyệt vời\nGây bao công đức nào ai sánh cùng."
+}
 			]
 		},
 		{
 			"id": 15,
 			"title": "15. Phẩm An Lạc",
 			"verses": [
+{
+	"id": "197",
+	"text": "Ở ngay giữa đám nhân sinh\nDù người hờn oán, nếu mình thảnh thơi\nSống không thù hận cùng người\nThật là sung sướng, cuộc đời thơm hương."
+},
+{
+	"id": "198",
+	"text": "Ở ngay giữa đám nhân sinh\nKhi người đau ốm, nếu mình thảnh thơi\nSống không tật bệnh trong người\nThật là sung sướng, cuộc đời thơm hương."
+},
+{
+	"id": "199",
+	"text": "Ở ngay giữa đám nhân sinh\nMặc người tham ái, nếu mình thảnh thơi\nSống không dục vọng như người\nThật là sung sướng, cuộc đời thơm hương."
+},
+{
+	"id": "200",
+	"text": "Chúng ta hạnh phúc vô biên\nKhi không chướng ngại, não phiền nổi trôi\nSống đời hỷ lạc tuyệt vời\nTựa như những vị cõi trời Quang Âm."
+},
+{
+	"id": "201",
+	"text": "Khi mà thắng lợi vẻ vang\nSinh ra thù oán ngập tràn. Nguy thay!\nKhi mà thất bại chua cay\nSinh ra đau khổ chất đầy tâm can!\nChi bằng thắng bại chẳng màng\nCuộc đời tịnh lạc, bình an vô cùng."
+},
+{
+	"id": "202",
+	"text": "Lửa nào lại sánh được ngang\nLửa tham lửa dục cháy tan dữ dằn,\nÁc nào lại sánh cho bằng\nÁc sân ác hận hung hăng oán hờn,\nKhổ nào lại vượt được hơn\nKhổ thân ngũ uẩn hợp tan sớm chiều,\nVui kia so sánh đủ điều\nSao bằng vui chốn cao siêu Niết-bàn."
+},
+{
+	"id": "203",
+	"text": "Ðói là chứng bệnh lớn lao,\nVô thường ngũ uẩn khổ đau nhất đời,\nNếu ai hiểu đúng vậy rồi\nCoi như đạt đến cực vui Niết-bàn."
+},
+{
+	"id": "204",
+	"text": "Ai không bệnh, lợi nhất đời\nAi mà biết đủ là người giàu sang\nAi thành tín là bạn vàng\nVà nơi cực lạc: Niết-bàn là đây."
+},
+{
+	"id": "205",
+	"text": "Ai từng vui sống một mình\nAi từng hưởng thú an bình, tịnh yên\nSẽ không đau khổ não phiền\nNiềm vui chánh pháp hưởng thêm dạt dào."
+},
+{
+	"id": "206",
+	"text": "Lành thay gặp được thánh nhân\nCạnh người ta hưởng thêm phần an vui,\nMuốn cho hạnh phúc lâu dài\nNhững người ngu dại ta thời tránh mau."
+},
+{
+	"id": "207",
+	"text": "Sống chung, thân cận người ngu\nLúc nào cũng thấy buồn lo phập phồng,\nKhổ thay gần kẻ ngu đần\nKhác nào sống cạnh địch quân hiểm nghèo,\n Sống cùng người trí lành nhiều\nVui như bên kẻ thân yêu, họ hàng."
+},
+{
+	"id": "208",
+	"text": "Ðúng như vậy! Thật rõ ràng:\nNếu gần gũi được những hàng thánh nhân,\nNgười hiền trí, người đa văn\nNhững người trì giới thành tâm, kiên trì\nNên theo gót họ mọi bề\nNhư trăng theo mãi đường đi sao trời."
+}
 			]
 		},
 		{
 			"id": 16,
 			"title": "16. Phẩm Yêu Thích",
 			"verses": [
+{
+	"id": "209",
+	"text": "Siêng làm việc chẳng đáng làm\nLơ là những việc vô vàn thiết thân\nQuên đi mục đích tối cần\nChạy theo dục lạc muôn phần lầm sai\nAi mà như vậy muôn đời\nTỵ hiềm, ganh ghét những người chuyên tu."
+},
+{
+	"id": "210",
+	"text": "Chớ kề cận kẻ yêu thương,\nChớ gần gũi kẻ mình thường chẳng ưa,\nỞ đời khổ mấy cho vừa\nKhi yêu không gặp, khi ưa chẳng kề\nCũng đau cũng đớn kể chi\nGhét này phải gặp, oán kia phải kề."
+},
+{
+	"id": "211",
+	"text": "Ðừng yêu đến độ say mê\nKẻo khi ly biệt não nề héo hon\nNếu mà yêu ghét không còn\nChẳng chi ràng buộc, tâm hồn thảnh thơi."
+},
+{
+	"id": "212",
+	"text": "Khởi từ tình ái sinh ra\nChứa chan hãi sợ, chan hòa lo âu\nThân yêu, tình ái lìa mau\nChẳng còn lo sợ, ưu sầu tiêu tan."
+},
+{
+	"id": "213",
+	"text": "Khởi từ luyến ái sinh ra\nChứa chan hãi sợ, chan hòa lo âu\nMến thương, luyến ái lìa mau\nChẳng còn lo sợ, ưu sầu tiêu tan."
+},
+{
+	"id": "214",
+	"text": "Khởi từ hỷ ái sinh ra\nSinh lo, sinh sợ khó mà tránh đi\nKhi mà hỷ ái xa lìa\nChẳng còn lo sợ chút gì nữa đâu."
+},
+{
+	"id": "215",
+	"text": "Khởi từ dục ái sinh ra\nSinh lo, sinh sợ khó mà tránh đi\nKhi mà dục ái xa lìa\nChẳng còn lo sợ chút gì nữa đâu."
+},
+{
+	"id": "216",
+	"text": "Khởi từ tham ái sinh ra\nSinh lo, sinh sợ khó mà tránh đi\nKhi mà tham ái xa lìa\nChẳng còn lo sợ chút gì nữa đâu."
+},
+{
+	"id": "217",
+	"text": "Người mà giới hạnh chu toàn\nSáng soi trí tuệ, vững vàng đạo tâm\nBao điều chân lý thấm nhuần\nLàm tròn bổn phận mười phân vẹn mười\nLà người đáng kính tuyệt vời."
+},
+{
+	"id": "218",
+	"text": "Ai mà tâm nguyện dạt dào\nMong tìm lên chốn tối cao Niết-bàn\nThú vui ái dục chẳng màng\nÐáng tôn bậc ấy là hàng “thượng lưu”."
+},
+{
+	"id": "219-220",
+	"text": "Hãy nhìn người khách ly hương\nLâu ngày an ổn từ phương xa về\nBà con cùng với bạn bè\nHân hoan chào đón tràn trề niềm vui,\nNgười làm lành cũng vậy thôi\nTạo ra nghiệp phước để rồi mất đâu\nQua đời này đến đời sau\nBao nhiêu nghiệp phước khác nào người thân\nÐón mừng họ rất ân cần."
+}
 			]
 		},
 		{
 			"id": 17,
 			"title": "17. Phẩm Phẫn Nộ",
 			"verses": [
+{
+	"id": "221",
+	"text": "Lìa mau lòng giận dữ đi\nChớ hề ngạo mạn, chớ hề kiêu căng\nHãy mau giải thoát buộc ràng\nÐừng ham danh sắc, đừng màng thân tâm\nKhông còn dục vọng xa gần\nKhổ đau sẽ chẳng quẩn chân gây phiền."
+},
+{
+	"id": "222",
+	"text": "Khi cơn giận dữ bùng ra\nAi mà ngăn được mới là người hay\nGiỏi như hãm lại được ngay\nChiếc xe đang chạy chở đầy, phóng nhanh,\nNếu không thì bản thân mình\nCầm cương hờ hững tài tình gì đâu."
+},
+{
+	"id": "223",
+	"text": "Lấy từ bi, lấy ôn hòa\nThắng cơn nóng giận bùng ra thét gầm\nLấy hiền lành, lấy thiện tâm\nThắng lòng hung ác bất nhân khó lường\nLấy tâm bố thí cúng dường\nThắng hàng keo kiệt, thắng phường tham lam\nLấy chân thật để đập tan\nNhững trò hư ngụy, dối gian ở đời."
+},
+{
+	"id": "224",
+	"text": "Nói lời chân thật luôn luôn,\nDẹp cơn nóng giận dỗi hờn khó coi,\nDù ta có ít của thôi\nCũng chia bố thí cho người đến xin,\nNhờ ba việc tốt lành trên\nÐưa ta đến cõi chư thiên, cõi trời."
+},
+{
+	"id": "225",
+	"text": "Bậc hiền lương chẳng hại ai\nThân tâm lo chế ngự hoài trước sau\nÐến nơi bất tử thật mau\nNiết-bàn chốn ấy hết sầu, hết bi."
+},
+{
+	"id": "226",
+	"text": "Những người giác tỉnh thường xuyên\nDốc lòng tu tập ngày đêm chuyên cần\nQuyết tâm hướng đến Niết-bàn\nThì bao phiền não tiêu tan chẳng còn."
+},
+{
+	"id": "227",
+	"text": "Người con Phật hãy nghe đây\nChuyện không phải chỉ đời này mà thôi\nTừ đời xưa đã nói rồi:\n“Làm thinh thời sẽ có người chê bai,\nNói nhiều cũng bị chê hoài,\nDù cho nói ít cũng người chê thôi”.\nLàm người không bị chê cười\nThực là chuyện khó ở nơi cõi trần."
+},
+{
+	"id": "228",
+	"text": "Ở đời toàn bị chê bai\nHay toàn nghe tiếng người ngoài khen ta\nTừ xưa chẳng thấy xảy ra,\nTìm trong hiện tại thật là khó sao,\nTương lai cũng chẳng có nào."
+},
+{
+	"id": "229-230",
+	"text": "Hàng ngày tự xét bản thân\nTránh bao hành động sai lầm xấu xa\nLuôn luôn trí tuệ phô ra\nNêu gương phẩm hạnh sáng lòa không trung\nTựa vàng ròng, quý vô cùng\nAi mà còn dám tìm đường chê bai\nChư thiên cũng tán dương hoài\nPhạm thiên, người trí hết lời ngợi khen."
+},
+{
+	"id": "231",
+	"text": "Giữ gìn kiểm soát Thân người\nÐừng vì nóng giận để rồi làm sai\nThân đừng làm ác, hại ai\nLàm lành, làm thiện miệt mài tu thân."
+},
+{
+	"id": "232",
+	"text": "Giữ gìn kiểm soát Lời người\nÐừng vì nóng giận để rồi nói sai\nLời đừng nói ác, hại ai\nNói lành, nói thiện miệt mài tu thân."
+},
+{
+	"id": "233",
+	"text": "Giữ gìn kiểm soát Ý người\nÐừng vì nóng giận để rồi nghĩ sai\nÝ đừng nghĩ ác, hại ai\nNghĩ lành, nghĩ thiện miệt mài tu thân."
+},
+{
+	"id": "234",
+	"text": "Những người trí, những kẻ hiền\nLuôn lo kiểm soát, giữ gìn tấm thân\nLời ăn tiếng nói lo luôn\nLại lo cho ý, cho tâm của mình\nChăm lo ba nghiệp nhiệt tình."
+}
 			]
 		},
 		{
 			"id": 18,
 			"title": "18. Phẩm Dơ Bẩn",
 			"verses": [
+{
+	"id": "235",
+	"text": "Ngươi nay giống lá héo khô\nDiêm vương sứ giả đang chờ đợi ngươi\nÐứng trên ngưỡng cửa tử rồi\nHành trang, lương thực ngươi thời không mang\nKhông hề chuẩn bị kỹ càng\nChuyến đi thăm thẳm vô vàn dài lâu."
+},
+{
+	"id": "236",
+	"text": "Hãy lo tự tạo cho mình\nMột hòn đảo để tu hành bình an\nTinh cần, trí tuệ, khôn ngoan\nGột đi dục vọng, phá tan não phiền\nBước lên cảnh giới chư thiên"
+},
+{
+	"id": "237",
+	"text": "Ðời ngươi sắp lụn sắp tàn\nNgươi đang lê bước đến gần diêm vương\nKhông nơi ngơi nghỉ dọc đường\nHành trang, lương thực không mang theo mình\nKhông hề chuẩn bị hành trình."
+},
+{
+	"id": "238",
+	"text": "Hãy lo tự tạo cho mình\nMột hòn đảo để tu hành bình an\nTinh cần, trí tuệ, khôn ngoan\nGột đi dục vọng, phá tan não phiền\nSẽ không quay trở về miền\nquẩn quanh sinh lão, triền miên luân hồi."
+},
+{
+	"id": "239",
+	"text": "Từng giây, từng phút, từng giờ\nNhững người hiền trí âu lo trừ dần\nBao nhiêu dơ bẩn bản thân\nNhư thợ vàng mãi chuyên cần khổ công\nGột trừ cặn bã cho xong\nGiữ lại toàn chất vàng ròng mà thôi."
+},
+{
+	"id": "240",
+	"text": "Sét kia do sắt sinh ra\nÐể rồi trở lại ăn qua sắt này\nKhác chi nghiệp ác người gây\nNghiệp kia trở lại hại ngay người rồi\nÐưa người vào cõi ác thôi."
+},
+{
+	"id": "241",
+	"text": "Không chuyên tụng niệm, uổng kinh\nKhông siêng chăm sóc, hại nhanh cửa nhà\nBiếng lười, thân sắc xấu xa;\nBuông lung, tâm lạc nẻo tà nhớp nhơ\nVì canh phòng quá ơ hờ."
+},
+{
+	"id": "242",
+	"text": "Hư thân, mất nết, hạnh tà\nVết nhơ đối với đàn bà tính hoang,\nLòng người keo kiệt, tham lam\nVết nhơ của kẻ không ham cúng dường,\nNhưng riêng tội ác, bất lương\nLuôn là một vết nhơ trong cõi này\nVà luôn trong cõi tới đây."
+},
+{
+	"id": "243",
+	"text": "Ðiều dơ bẩn, việc xấu xa\nÐứng đầu tất cả chính là vô minh\nTỳ-kheo nên diệt tận tình\nDiệt trừ cho hết vô minh, ngu đần\nThành người thanh tịnh thân tâm."
+},
+{
+	"id": "244",
+	"text": "Sống không xấu hổ bao giờ\nLại thêm lỗ mãng giống như quạ diều\nChê bai, khoác lác đủ điều\nKhoa trương, ngạo mạn, tự kiêu tháng ngày\nSống như vậy thật dễ thay!"
+},
+{
+	"id": "245",
+	"text": "Sống mà hổ thẹn răn mình\nThường cầu thanh tịnh, dục tình chẳng ham\nTính tình khiêm tốn vô vàn\nNghĩ suy sáng suốt, tinh thần sạch trong\nSống như vậy mới khó khăn!"
+},
+{
+	"id": "246-247",
+	"text": "Ai mà có thói sát sinh\nNói năng gian dối, tính tình tà dâm\nSay sưa, trộm cắp, hư thân\nSống đời như thế trầm luân vô vàn\nCoi như ngay cõi nhân gian\nTự đào bỏ mất thiện căn của mình."
+},
+{
+	"id": "248",
+	"text": "Các ngươi nên biết rõ rằng\nDễ gì chế ngự việc làm ác đâu\nTham lam, tội lỗi hố sâu\nKéo ta xuống chốn khổ đau đời đời."
+},
+{
+	"id": "249",
+	"text": "Do lòng tin, bởi niềm vui\nNgười người bố thí, nơi nơi cúng dường\nKẻ mà tâm xấu buông lung\nThấy ai được hưởng, trong lòng ghét ganh\nNgày đêm sẽ mãi quẩn quanh\nKhông hề an tịnh tâm mình được lâu."
+},
+{
+	"id": "250",
+	"text": "Chỉ riêng người hiểu pháp mầu\nNên lòng ganh ghét trước sau diệt trừ\nNgày đêm hương đạo thơm đưa\nCõi lòng an tịnh, tâm tư thanh nhàn."
+},
+{
+	"id": "251",
+	"text": "Lửa nào có thể sánh ngang\nLửa tham dục nọ dữ dằn vô biên,\nKhông còn cố chấp nào bền\nBằng tâm sân hận nổi lên cấp kỳ,\nLưới nào trói buộc dầm dề\nSo ra với lưới ngu si buộc ràng,\nSông nào chìm đắm cho bằng\nDòng sông ái dục cuốn phăng bao người."
+},
+{
+	"id": "252",
+	"text": "Lỗi người dễ thấy biết bao\nLỗi ta khó thấy ai nào muốn khui,\nLỗi người cứ cố phanh phui\nNhư tìm trấu lẫn trong nồi gạo kia\nLỗi ta lại dấu diếm đi\nTựa người săn bắn muốn che dấu mình\nHay như con bạc cố tình\nCờ gian bạc lận lưu manh dấu bài."
+},
+{
+	"id": "253",
+	"text": "Nếu ta thấy được lỗi người\nTâm ta nóng giận tức thời dễ sinh\nTăng thêm phiền não thật nhanh,\nXa lìa an tịnh, quẩn quanh muộn sầu,\nLỗi người chẳng để tâm lâu\nCòn chi sầu muộn, còn đâu não phiền"
+},
+{
+	"id": "254",
+	"text": "Hư không đâu dấu vết chi,\nBên ngoài chánh pháp dễ gì tìm ra\nBóng Sa-môn tỏa hương xa,\nRiêng điều hư vọng tâm tà ngu si\nChúng sinh thích thú say mê,\nNhư Lai hư vọng đã lìa từ lâu\nBao nhiêu chướng ngại còn đâu."
+},
+{
+	"id": "255",
+	"text": "Hư không đâu dấu vết chi,\nBên ngoài chánh pháp dễ gì tìm ra\nBóng Sa-môn tỏa hương xa,\nCòn như năm uẩn thường là chóng tan\nVì rằng vật chất dễ tàn,\nRiêng chư Phật với thời gian trường tồn\nKhông hề dao động chập chờn."
+}
 			]
 		},
 		{
 			"id": 19,
 			"title": "19. Phẩm Trọng Pháp",
 			"verses": [
+{
+	"id": "256",
+	"text": "Người mà phân xử vội vàng\nTỏ ra khinh suất. Công bằng còn đâu!\nChánh, tà phân biệt trước sau\nMới là kẻ trí, đạo mầu luôn theo."
+},
+{
+	"id": "257",
+	"text": "Không hề khinh suất sai lầm\nÐúng theo luật pháp, luôn luôn công bình\nHộ trì chánh pháp nhiệt tình\nMới là lãnh đạo tinh anh hàng đầu\nNương theo luật pháp dài lâu."
+},
+{
+	"id": "258",
+	"text": "Nào đâu cứ phải nhiều lời\nMới là kẻ trí, chuyện đời tinh thông\nAi mà an tịnh thân tâm\nOán thù, hãi sợ trăm phần dẹp nhanh\nMới là người trí xứng danh."
+},
+{
+	"id": "259",
+	"text": "Nào đâu cứ phải nói nhiều\nLà người chánh pháp chuyên theo hộ trì,\nAi tuy ít học, ít nghe\nNhưng mang chánh pháp quyết đi thực hành\nChẳng buông lung, rất tâm thành\nHộ trì như vậy xứng danh hàng đầu."
+},
+{
+	"id": "260",
+	"text": "Chỉ vì mái tóc bạc đầu\nMà xưng “trưởng lão” có đâu hợp tình,\nVì cao tuổi tự xưng mình\nLà bậc trưởng lão cũng thành khó nghe\nDanh suông, rỗng tuếch còn chi."
+},
+{
+	"id": "261",
+	"text": "Ai mà chân lý đã thông\nGiữ theo chánh hạnh luôn luôn tâm thành\nKhông hề sát hại sinh linh\nTự mình chế phục chính mình trước sau\nHạng người trí tuệ dạt dào\nNhiễm ô thanh lọc từ lâu hết rồi\nXứng danh trưởng lão ở đời."
+},
+{
+	"id": "262",
+	"text": "Người hay ganh tị, dối gian\nLại thêm ích kỷ, kiêu căng ở đời\nDù cho ăn nói có tài\nDù cho tướng mạo bề ngoài bảnh bao\nChắc đâu được liệt ngay vào\nThành người lương thiện dễ nào hơn ai!"
+},
+{
+	"id": "263",
+	"text": "Chỉ riêng người trí người hiền\nDiệt lòng sân hận não phiền cho mau\nÐoạn trừ tận gốc từ lâu\nLà người lương thiện ai nào sánh ngang."
+},
+{
+	"id": "264",
+	"text": "Người mà nói dối, nói sai\nLại thêm phá giới, sống đời buông lung\nDù đầu cạo tóc hết luôn\nCũng chưa xứng gọi Sa-môn tu hành\nHuống còn tham dục đầy mình\nLàm sao lại xứng trở thành Sa-môn."
+},
+{
+	"id": "265",
+	"text": "Bao nhiêu điều ác ở đời\nDù cho lớn, nhỏ ai người dứt luôn\nChính nhờ điều ác không còn\nXứng danh được gọi Sa-môn tu hành."
+},
+{
+	"id": "266",
+	"text": "Chỉ đi khất thực từng nhà\nLàm sao đủ gọi được là Tỳ-kheo,\nNgười tu chân chánh phải theo\nBao nhiêu giới luật là điều tối cao\nGọi Tỳ-kheo xứng làm sao,\nChỉ riêng khất thực lẽ nào xứng danh."
+},
+{
+	"id": "267",
+	"text": "Bao nhiêu thiện, ác vượt xong\nTu hành thanh tịnh, tác phong cao vời\nSống đầy hiểu biết ở đời\nXứng danh được gọi là người Tỳ-kheo."
+},
+{
+	"id": "268",
+	"text": "Kẻ ngu đần dù lặng yên\nÐâu thành một vị thánh hiền ẩn danh,\nNhưng người trí tuệ tinh anh\nCầm cân nảy mực phân ranh tỏ tường\nChọn lành, bỏ dữ chẳng màng\nMới là ẩn sĩ thuộc hàng xứng danh."
+},
+{
+	"id": "269",
+	"text": "Chọn lành, bỏ dữ cho nhanh\nNội giới, ngoại giới biết rành cả hai\nThế gian hai chốn trong ngoài\nSuốt thông ngũ uẩn đôi nơi ngọn ngành\nCủa người lẫn của chính mình\nMới là ẩn sĩ, xứng danh thánh hiền."
+},
+{
+	"id": "270",
+	"text": "Sinh linh sát hại triền miên\nThánh hiền đâu xứng là tên của mình,\nKhông còn sát hại sinh linh\nThánh hiền mới thật xứng danh vô cùng."
+},
+{
+	"id": "271-272",
+	"text": "Không vì giới luật luôn theo\nKhông vì học rộng, nghe nhiều giỏi thêm\nKhông vì chứng ngộ tu thiền\nHay là cô độc sống riêng một mình\nMà cho là đã đạt thành\n“Niềm vui giải thoát, hương lành xuất gia\nPhàm phu không thể sánh qua!”\nTỳ-kheo chớ có tỏ ra bằng lòng\nKhi mà trừ diệt chưa xong\nMê lầm, phiền não còn trong tâm mình."
+}
 			]
 		},
 		{
 			"id": 20,
 			"title": "20. Phẩm Con Đường",
 			"verses": [
+{
+	"id": "273",
+	"text": "Con đường cao thượng hàng đầu\nLà Bát Chánh Ðạo nhiệm mầu biết bao,\nBốn điều chân lý tối cao\nLà Tứ Diệu Ðế dễ nào sánh ngang,\nKhông còn luyến ái vấn vương\nLà điều cao thượng thơm hương Niết-bàn,\nTrong loài động vật hai chân\nThì Ðấng Toàn Giác vô ngần tối cao."
+},
+{
+	"id": "274",
+	"text": "Con đường duy nhất dẫn vào\nÐâu còn tìm được đường nào khác hơn\nKhiến cho thanh tịnh nhãn quan,\nCác ngươi theo đúng lối vàng nói trên\nMa vương mê loạn ngay liền\nChẳng còn dục vọng gây phiền cho ngươi."
+},
+{
+	"id": "275",
+	"text": "Thuận tu theo chánh đạo rồi\nBao nhiêu khổ não tức thời tiêu tan,\nSau khi chứng ngộ đạo vàng\nBiết phương cách diệt vô vàn chông gai\nDiệt bao chướng ngại hại người\nTa nay truyền dạy các ngươi con đường."
+},
+{
+	"id": "276",
+	"text": "Các ngươi phải tự gắng công\nTa là thầy dạy chỉ đường mà thôi\nCon đường giác ngộ tuyệt vời,\nTự ngươi thiền định theo nơi đúng đường\nThoát ra khỏi lưới Ma vương."
+},
+{
+	"id": "277",
+	"text": "Mọi sinh vật vốn “vô thường”\nTrí người nếu hiểu tận tường như trên\nThoát ly ngay mọi não phiền\nTheo đường thanh tịnh vào miền sạch trong."
+},
+{
+	"id": "278",
+	"text": "Mọi sinh vật vốn “khổ đau”\nTrí người sáng suốt hiểu mau điều này\nNão phiền sẽ thoát ly ngay\nTheo đường thanh tịnh tràn đầy sạch trong."
+},
+{
+	"id": "279",
+	"text": "Mọi sinh vật có thật đâu\nThảy đều “vô ngã”, “ta” nào là “ta”\nTrí người nếu hiểu rõ ra\nThoát ly phiền não cho xa tức thời,\nTheo đường thanh tịnh tuyệt vời."
+},
+{
+	"id": "280",
+	"text": "Lúc cần nỗ lực lại lười\nDù đang cường tráng, dù thời thiếu niên,\nTinh thần suy nhược triền miên\nCòn đâu trí tuệ mà tìm được ra\nCon đường ngộ đạo thơm hoa."
+},
+{
+	"id": "281",
+	"text": "Lời nên thận trọng mọi bề,\nÝ luôn kiềm chế chớ hề buông lung,\nThân đừng làm ác, bất lương\nCố mà thanh lọc ba đường kể trên\nSẽ mau chứng đạo thánh hiền."
+},
+{
+	"id": "282",
+	"text": "Tu thiền trí tuệ phát sinh,\nBỏ thiền trí tuệ rời mình trôi ngay\nAi mà thông suốt điều này\nBiết so lợi hại, dở hay đôi đường\nTự mình nỗ lực tăng cường\nThêm phần trí tuệ ngát hương thơm lành."
+},
+{
+	"id": "283",
+	"text": "Ðốn rừng nhưng chớ chặt cây,\nÐốn rừng tham ái với đầy sân si\nChính do rừng dục vọng kia\nMà bao sợ hãi dễ bề sinh ra\nRừng to, rừng nhỏ quanh ta\nCả hai rừng đó mau mà đốn đi,\nCác Tỳ-kheo hãy thoát ly\nThoát rừng dục vọng muôn bề tối tăm."
+},
+{
+	"id": "284",
+	"text": "Dây tình nam nữ, gái trai\nNếu mà chưa dứt, còn hoài vương mang\nThì tâm, ý vẫn buộc ràng\nNhư bê bú mẹ luôn ham, chẳng rời."
+},
+{
+	"id": "285",
+	"text": "Dây tình ái hãy dứt liền\nNhư tay ngắt bỏ cành sen thu tàn\nSiêng tu an tịnh đạo vàng\nLà đường Phật dạy tìm sang Niết-bàn."
+},
+{
+	"id": "286",
+	"text": "“Nơi đây ta ở mùa mưa,\nÐông về, hạ tới cũng ưa chốn này”\nNgười ngu nghĩ dại khờ thay\nNào hay nguy hiểm cạnh ngay tử thần\nLuôn luôn cái chết rất gần."
+},
+{
+	"id": "287",
+	"text": "Người mà tâm mãi hằng ngày\nCháu con, gia sản đắm say chẳng ngừng\nKhó mà thoát khỏi tử thần\nGiống như thảm họa xóm làng ngủ say\nBị cơn nước lũ cuốn ngay."
+},
+{
+	"id": "288",
+	"text": "Tử thần khi đến kêu mình\nBà con thân thuộc cũng đành bó tay\nCha con tình có tràn đầy\nDễ gì giúp được nhau ngay lúc này."
+},
+{
+	"id": "289",
+	"text": "Khi ta hiểu lẽ trên đây\nNgười nào giới hạnh hàng ngày luôn theo\nLại thêm trí tuệ cao siêu\nSẽ mau mở lối đi nhiều hương hoa\nNiết-bàn chốn đó tìm qua."
+}
 			]
 		},
 		{
 			"id": 21,
 			"title": "21. Phẩm Tạp Lục",
 			"verses": [
+{
+	"id": "290",
+	"text": "Nếu niềm vui nhỏ buông đi\nÐón về hạnh phúc trăm bề lớn hơn,\nNgười khôn vui nhỏ chẳng vương\nÐón niềm vui lớn ngát hương tâm hồn."
+},
+{
+	"id": "291",
+	"text": "Gieo đau gieo khổ cho người\nÐể mong cầu được niềm vui cho mình\nSẽ gây oán hận thật tình\nKhông sao thoát khỏi quẩn quanh hận thù."
+},
+{
+	"id": "292",
+	"text": "Việc nên làm lại không làm\nÐi làm những việc không cần thiết chi\nNhững người phóng túng kiêu kỳ\nNão phiền, tội lỗi ắt thì gia tăng."
+},
+{
+	"id": "293",
+	"text": "Những người cần mẫn siêng năng\nThường lo quán sát kỹ càng bản thân\nKhông làm những việc chẳng cần,\nViệc cần cố gắng chu toàn cho xong\nSuy tư, sáng suốt, tinh khôn\nNão phiền, tội lỗi không còn vương mang."
+},
+{
+	"id": "294",
+	"text": "Trừ mẹ ái dục cho mau,\nTrừ cha kiêu ngạo, tự hào, khoe khoang,\nTrừ hai Vua nọ kiêu căng\nTham vọng, hiếu chiến, ý càng lầm sai\nChẳng tin nhân quả, luân hồi\nKhó mà giải thoát, muôn đời hại dân,\nTrừ thêm vương quốc kia luôn\nHạ mười hai xứ: sáu trần, sáu căn\nTự mình làm chủ giác quan\nTạo ra an lạc thân tâm bội phần,\nTrừ luôn cả vị đại thần\nBo bo gìn giữ kho tàng quốc vương\nKhác gì một kẻ lầm đường\nHam mùi luyến ái, vấn vương cuộc đời\nTrừ xong mọi việc trên rồi\nVị A-la-hán thảnh thơi cõi lòng\nRa đi, sầu muộn chẳng còn."
+},
+{
+	"id": "295",
+	"text": "Trừ mẹ ái dục cho mau,\nTrừ cha kiêu ngạo, tự hào luôn luôn,\nTrừ hai Vua Bà-la-môn\nLuôn mang tư tưởng sai lầm mãi thôi\nChẳng tin nhân quả luân hồi\nKhó mà giải thoát, muôn đời ngu si\nTrừ con đường nọ hiểm nguy\nGiăng năm chướng ngại ngăn che mắt trần\nGiống năm vị tướng dữ dằn\nHoài nghi là tướng đứng hàng thứ năm,\nTrừ xong mọi việc khó khăn\nVị A-la-hán thênh thang cõi lòng\nRa đi, sầu muộn chẳng còn."
+},
+{
+	"id": "296",
+	"text": "Những người đệ tử Phật Ðà\nÐêm ngày tỉnh giác để mà nghĩ suy\nNghĩ về Ðức Phật từ bi\nMột lòng tưởng niệm sớm khuya chuyên cần."
+},
+{
+	"id": "297",
+	"text": "Những người đệ tử Phật Ðà\nÐêm ngày tỉnh giác để mà nghĩ suy\nNghĩ về Chánh Pháp từ bi\nMột lòng tưởng niệm sớm khuya chuyên cần."
+},
+{
+	"id": "298",
+	"text": "Những người đệ tử Phật Ðà\nÐêm ngày tỉnh giác để mà nghĩ suy\nNghĩ về Giáo Hội từ bi\nChư Tăng hòa hợp sớm khuya tu hành."
+},
+{
+	"id": "299",
+	"text": "Những người đệ tử Phật Ðà\nÐêm ngày tỉnh giác để mà nghĩ suy\nSắc thân bất tịnh kể chi\nNên tìm hiểu rõ mọi bề cho mau."
+},
+{
+	"id": "300",
+	"text": "Những người đệ tử Phật Ðà\nÐêm ngày tỉnh giác để mà nghĩ suy\nVề niềm vui lớn kể chi:\nChớ gây tổn hại chút gì cho ai."
+},
+{
+	"id": "301",
+	"text": "Những người đệ tử Phật Ðà\nÐêm ngày tỉnh giác để mà nghĩ suy\nVề niềm vui lớn kể chi:\nLo tu thiền định sớm khuya chuyên cần."
+},
+{
+	"id": "302",
+	"text": "Khó thay diệt ái dục rồi\nÐể mà vui sống cuộc đời xuất gia,\nKhó thay cuộc sống tại nhà\nTrần gian sinh hoạt thật là thương đau,\nKhổ thay phải sống gần nhau\nKhi không ý hợp tâm đầu êm xuôi,\nKhổ thay cứ mãi nổi trôi\nTrong vòng sinh tử luân hồi quẩn quanh,\nVậy lo vượt thoát cho nhanh\nKhổ đau nơi ấy, tử sinh chốn này."
+},
+{
+	"id": "303",
+	"text": "Tâm ai tràn ngập niềm tin\nLại thêm giới hạnh giữ gìn thanh cao\nCó thêm tài đức dồi dào\nÐi đâu cũng được đón chào tôn vinh."
+},
+{
+	"id": "304",
+	"text": "Người lành dầu ở chốn xa\nVẫn luôn tỏ rạng như là núi cao,\nCòn như người ác lạ sao\nDù cho kề cận ai nào thấy đâu\nNhư tên bắn giữa đêm thâu."
+},
+{
+	"id": "305",
+	"text": "Một mình đi đứng nằm ngồi\nChẳng hề buồn chán sống nơi âm thầm\nTự mình điều phục thân tâm\nDù trong rừng vắng muôn phần sống vui."
+}
 			]
 		},
 		{
 			"id": 22,
 			"title": "22. Phẩm Địa Ngục",
 			"verses": [
+{
+	"id": "306",
+	"text": "Nói lời xảo trá dối gian,\nLàm rồi lại chối không làm, không hay\nAi mà tạo những nghiệp này\nChết vào địa ngục đọa đày tránh đâu\nLàm người ty tiện dài lâu."
+},
+{
+	"id": "307",
+	"text": "Dù cho mặc lắm cà sa\nNhưng mà hạnh ác, gian tà chẳng ngăn\nSau vì nghiệp ác mình làm\nChết vào địa ngục gian nan đọa đày."
+},
+{
+	"id": "308",
+	"text": "Hay phá giới, chẳng tu hành\nThà nuốt sắt đỏ vào mình nóng ran\nNhư cho lửa cháy đốt thân\nCòn hơn thọ lãnh nhân dân cúng dường."
+},
+{
+	"id": "309",
+	"text": "Buông lung theo vợ, chồng người\nMắc vào bốn nạn khiến đời bất an:\nBản thân tội lỗi vương mang,\nNgủ đêm trằn trọc, tâm can rối bời\nBà con khinh bỉ chê cười\nChết vào địa ngục là nơi đọa đày."
+},
+{
+	"id": "310",
+	"text": "Mang về vô phước cho mình,\nÐọa làm ác thú. Cuộc tình vui chi\nVì đang lo sợ mọi bề,\nThêm vua phạt tội nặng nề bản thân,\nCho nên phải giữ thân tâm\nVợ, chồng người chớ tà dâm hoang đàng"
+},
+{
+	"id": "311",
+	"text": "Cỏ kia sắc tựa lưỡi dao\nNhững người vụng dại nắm vào đứt tay,\nSa-môn tà hạnh còn đầy\nTất nhiên địa ngục đọa ngay tức thì."
+},
+{
+	"id": "312",
+	"text": "Ai mà phóng đãng buông lung\nKhông theo giới cấm, vô cùng nhiễm ô\nSống đời đạo hạnh đáng ngờ\nKhông sao chứng quả, khó mà thành công."
+},
+{
+	"id": "313",
+	"text": "Việc cần làm, phải nên làm\nLàm cho hết sức, tận tâm, nhiệt tình,\nXuất gia mà chẳng giữ mình\nHành vi phóng đãng, tu hành buông lơi\nChỉ gieo cát bụi cho đời."
+},
+{
+	"id": "314",
+	"text": "Ðừng làm ác, chẳng lợi gì!\nGieo đi độc ác, gặt về khổ đau\nLàm lành, làm tốt cho mau\nKhông hề hối tiếc, trước sau đẹp lòng."
+},
+{
+	"id": "315",
+	"text": "Tựa như thành ở biên cương\nTrong ngoài phòng thủ kỹ càng nghiêm minh\nTa nên phòng hộ thân mình\nChớ nên chểnh mảng mặc tình buông lung\nBuông lung nguy hiểm vô cùng\nÐọa đày địa ngục trong chừng phút giây."
+},
+{
+	"id": "316",
+	"text": "Việc không đáng hổ thẹn gì\nMà ta hổ thẹn, lạ kỳ làm sao?\nViệc kia đáng thẹn biết bao\nMà ta chẳng thẹn chút nào cho cam\nCứ ôm nhận định sai lầm\n Ðọa đày địa ngục trăm phần tránh đâu!"
+},
+{
+	"id": "317",
+	"text": "Việc không đáng sợ hãi gì\nMà ta sợ hãi, lạ kỳ làm sao?\nViệc kia đáng sợ biết bao\nMà ta chẳng sợ chút nào cho cam\nCứ ôm nhận định sai lầm\nÐọa đày địa ngục trăm phần tránh đâu!"
+},
+{
+	"id": "318",
+	"text": "Việc không lầm lỗi chút gì\nMà ta tưởng lỗi, lạ kỳ làm sao?\nViệc kia lầm lỗi biết bao\nMà không thấy được chút nào cho cam\nCứ ôm nhận định sai lầm\nÐọa đày địa ngục trăm phần tránh đâu!"
+},
+{
+	"id": "319",
+	"text": "Khi làm lỗi, nhận lỗi mình\nKhi không làm lỗi biết rành rằng không\nNghĩ suy sáng suốt luôn luôn\nÐúng sai, phải trái nhận chân đôi đường\nCảnh nhàn chờ đón thơm hương."
+}
 			]
 		},
 		{
 			"id": 23,
 			"title": "23. Phẩm Voi",
 			"verses": [
+{
+	"id": "320",
+	"text": "Như voi ra trước trận tiền\nLuôn luôn hứng chịu cung tên bắn mình\nNhư Lai nhẫn nhục tu hành\nChịu điều phỉ báng cũng đành lòng thôi,\nSống vô tư cách lắm người\nXa điều giới luật, ghét nơi cửa thiền."
+},
+{
+	"id": "321",
+	"text": "Luyện voi dự hội, tài thay\nLuyện voi vua cưỡi cũng hay vô cùng,\nNhưng mà nếu luyện được lòng\nLuôn luôn nhẫn nhục, chẳng còn nổi sân\nKhi nghe phỉ báng bản thân\nMới là điêu luyện, muôn phần tài hơn."
+},
+{
+	"id": "322",
+	"text": "Con la được huấn luyện qua\nTrở nên thuần tánh, tỏ ra tốt lành,\nNgựa nòi sinh chốn sông xanh\nSau khi huấn luyện, trở thành ngựa hay,\nVoi ngà to lớn quý thay\nSau khi huấn luyện voi này tuyệt luân,\nCon người nếu chính bản thân\nTự mình thuần hóa được luôn chính mình\nMới là người thật tài tình!"
+},
+{
+	"id": "323",
+	"text": "Nào đâu nhờ những xe này\nMà ngươi lại đến được ngay Niết-bàn\nChỉ người tu luyện đàng hoàng\nTự mình điều phục bản thân tốt lành\nNiết-bàn mới đến được nhanh."
+},
+{
+	"id": "324",
+	"text": "Voi kia khó trị vô vàn\nÐến kỳ phát dục lại càng hung hăng\nKhi chân bị trói, bị ràng\nNgày không ăn uống, đêm hằng nhớ thương\nNhớ đàn, nhớ mẹ, nhớ rừng."
+},
+{
+	"id": "325",
+	"text": "Người phàm, ngu muội, tham ăn\nLại thêm ưa ngủ, nằm lăn lóc hoài\nNhư heo ăn bụng no rồi\nTái sinh chịu mãi, luân hồi tránh đâu."
+},
+{
+	"id": "326",
+	"text": "Như Lai thuở trước buông lung\nBao nhiêu tham dục cứ thường chạy theo,\nTâm ta nay đã xoay chiều\nNhờ vào chánh niệm ta điều phục tâm\nNhư voi hung dữ vô ngần\nNhờ tay quản tượng sẽ thuần tính ngay."
+},
+{
+	"id": "327",
+	"text": "Canh phòng tâm thật kỹ càng\nTươi vui, sáng suốt, siêng năng, nhiệt tình\nMình lo tự cứu lấy mình\nKhỏi đường tà ác chúng sinh đọa đày\nNhư voi kia bị sa lầy\nRút chân gắng sức vượt ngay đầm bùn."
+},
+{
+	"id": "328",
+	"text": "Nếu mà gặp bạn đồng hành\nHiền lương, trí tuệ cùng mình đi xa\nHãy vui sánh bước hoan ca\nBên người khôn khéo vượt qua hiểm nghèo."
+},
+{
+	"id": "329",
+	"text": "Nếu không gặp bạn đồng hành\nHiền lương, trí tuệ cùng mình đi xa\nTa nên sống một mình ta\nNhư vua lánh khỏi nước nhà bại vong,\nNhư voi kia sống thong dong\nMột mình thanh thản ở trong rừng già."
+},
+{
+	"id": "330",
+	"text": "Thà ta cứ ở một mình\nCòn hơn có bạn đồng hành ngu si,\nMình ta rong ruổi bước đi\nTránh làm điều ác có chi phiền lòng,\nNhư voi kia sống thong dong\nMột mình thanh thản ở trong rừng già."
+},
+{
+	"id": "331",
+	"text": "Vui thay có bạn khi cần!\nVui thay thấy đủ trong tầm đôi tay\nVới gì mình có hiện nay!\nVui thay khi chết thân này tạo ra\nNghiệp lành nở đẹp như hoa!\nVui thay thống khổ lìa xa chẳng còn!"
+},
+{
+	"id": "332",
+	"text": "Ở đời còn có nhân duyên\nKính yêu, phụng dưỡng mẹ hiền là vui,\nCông cha như núi cao vời\nKính yêu phụng dưỡng được người là vui,\nCũng vui thay nếu ở đời\nCó lòng tôn kính tìm nơi cúng dường\nSa-môn cùng với thánh nhân."
+},
+{
+	"id": "333",
+	"text": "Vui thay từ trẻ đến già\nLuôn luôn giữ giới thiết tha chẳng rời,\nVui thay khi sống làm người\nNiềm tin chân chánh muôn đời chẳng thay!\nVui thay trí tuệ tràn đầy!\nVui thay điều ác hàng ngày tránh xa!"
+}
 			]
 		},
 		{
 			"id": 24,
 			"title": "24. Phẩm Ái Dục",
 			"verses": [
+{
+	"id": "334",
+	"text": "Sống đời say đắm buông lung\nThì lòng ái dục vô cùng tăng nhanh\nGiống như giữa chốn rừng xanh\nGiây leo, cỏ dại mặc tình tràn lan,\nÐời người tiếp nối miên man\nKhác gì khỉ, vượn đang tham quả rừng\nChuyền cây liên tục chẳng ngừng."
+},
+{
+	"id": "335",
+	"text": "Nếu mà ở cõi trần gian\nBị điều ái dục buộc ràng vây quanh\nThời bao sầu khổ tăng nhanh\nNhư là cỏ dại thỏa tình hứng mưa."
+},
+{
+	"id": "336",
+	"text": "Ðời này nếu bản thân ta\nKhi điều ái dục vượt qua chẳng màng\nThời bao sầu khổ lìa tan\nNhư mưa trơn tuột khỏi hàng lá sen."
+},
+{
+	"id": "337",
+	"text": "Ðiều Như Lai dạy các ngươi:\n“Lành thay cho kẻ họp nơi chốn này\nNhổ cho sạch gốc rễ ngay\nDiệt trừ ái dục thẳng tay từ nguồn\nNhư là nhổ rễ cỏ hoang\nChớ nên để lũ Ma quân dục tình\nQuẩn quanh phá hoại tâm mình\nNhư cơn nước lũ tung hoành bụi lau”."
+},
+{
+	"id": "338",
+	"text": "Ðốn cây mà chẳng chịu đào\nHết luôn gốc rễ bám vào đất sâu\nThì cây lại mọc ra mau,\nÐoạn trừ ái dục khác nào đốn cây\nÐoạn cho căn gốc sạch ngay\nNếu không khổ não mãi quay trở về."
+},
+{
+	"id": "339",
+	"text": "Người ham ái dục luôn luôn\nTheo ba mươi sáu dòng tuôn bạo tàn\nCuốn vào cảnh dục dễ dàng.\nNhững người ái dục dâng tràn trong tâm\nBị dòng ái dục cuốn phăng."
+},
+{
+	"id": "340",
+	"text": "Dòng sông ái dục dâng tràn\nNhư dây leo dại mọc lan khắp miền,\nThấy dây leo mới nhô lên\nDùng gươm trí tuệ diệt liền cho mau\nDiệt trừ tận gốc thật sâu."
+},
+{
+	"id": "341",
+	"text": "Người đời ái dục thích ham\nNên ưa rong ruổi theo làn sóng xô\nNgụp chìm biển dục vô bờ\nTuy cầu hạnh phúc khó mà thành công\nVẫn còn trong chốn trầm luân\nQuẩn quanh sinh tử vẫy vùng thoát đâu."
+},
+{
+	"id": "342",
+	"text": "Người mà ái dục bao trùm\nKinh hoàng như thỏ vẫy vùng lưới kia\nSa vào bẫy, sợ kể chi,\nNão phiền, ái dục chẳng lìa cho mau\nKhổ đau càng chịu dài lâu."
+},
+{
+	"id": "343",
+	"text": "Người mà ái dục bao trùm\nKinh hoàng như thỏ vẫy vùng lưới kia\nSa vào bẫy, sợ kể chi,\nTỳ-kheo ái dục gắng lìa cho mau\nNiết-bàn giải thoát xa đâu."
+},
+{
+	"id": "344",
+	"text": "Người lìa ái dục, xuất gia\nSống vui ở chốn rừng già, núi sâu\nÐể rồi một sớm quay đầu\nXuôi dòng ái dục thương đau về nhà,\nKẻ hoàn tục đáng xót xa\nCởi ra rồi lại tự ta trói vào."
+},
+{
+	"id": "345",
+	"text": "Với người trí tuệ mở mang\nDù cho trói buộc bằng phương tiện gì:\nDây gai, cây, sắt sá chi\nNào đâu vững chắc, chẳng hề bền lâu!\nRiêng lòng luyến ái khát khao\nVợ con, châu báu quyện vào chẳng xa,\nTrói này sao gỡ cho ra!"
+},
+{
+	"id": "346",
+	"text": "Những người có trí nói rằng:\n“Dây này trói buộc ngày càng chắc thêm!”\nDây tuy mềm mại, êm đềm\nNhưng mà sao dễ nhận chìm người ta\nKhó mà tháo gỡ cho ra\nThế nên người trí lìa xa dục tình\nCắt dây luyến ái cho nhanh\nTự mình giải thoát, tu hành bản thân."
+},
+{
+	"id": "347",
+	"text": "Những người ái dục đắm chìm\nXuôi dòng ái dục vào miền khổ đau\nLọt vòng dây trói trước sau\nTựa như con nhện mắc vào lưới giăng.\nAi mà dứt mọi buộc ràng\nKhông còn ái dục, chẳng vương não phiền."
+},
+{
+	"id": "348",
+	"text": "Mặc cho quá khứ trôi đi\nNíu chi hiện tại, chờ gì tương lai\nRời mau bến thảm cuộc đời\nVượt qua bờ nọ là nơi tuyệt vời\nKhi tâm đã giải thoát rồi\nÐâu còn sinh lão nổi trôi xoay vần."
+},
+{
+	"id": "349",
+	"text": "Người nào bị khuấy động nhiều\nBởi tâm xấu ác, bởi điều bất lương\nThường ham dục lạc vô cùng,\nNgười mà dục lạc cầu mong tăng nhiều\nTự mình một sớm một chiều\nTrói mình thêm chặt vào theo não phiền."
+},
+{
+	"id": "350",
+	"text": "Ai vui vì chẳng còn vương\nTư tưởng bất thiện, bất lương loại trừ,\nXác thân bất tịnh suy tư\nGiữ gìn chánh niệm, thích ưa điều lành\nSẽ trừ ái dục vây quanh\nMa Vương ràng buộc phá nhanh dễ dàng."
+},
+{
+	"id": "351",
+	"text": "Mục tiêu ai đạt tới nơi\nKhông còn sợ hãi. Xa rời nhiễm ô\nXa lìa ái dục êm ru\nCắt đi gai chướng nhỏ to trong đời\nMũi tên sinh tử nhổ rồi\nThân này là cuối, luân hồi còn đâu."
+},
+{
+	"id": "352",
+	"text": "Xa lìa ái dục tầm thường\nKhông còn luyến tiếc vấn vương bận lòng\nBao nhiêu giáo pháp tinh thông\nLời văn, ý nghĩa vô cùng hiểu sâu\nLà người trí tuệ hàng đầu\nVĩ nhân đáng kính, còn đâu luân hồi,\nThân này là cuối cùng rồi."
+},
+{
+	"id": "353",
+	"text": "Như Lai vượt tất cả rồi\nLại còn thông suốt, sáng soi mọi bề\nBao nhiêu trói buộc dứt lìa\nThoát ly tất cả còn gì vấn vương\nChú tâm trọn vẹn một đường\nDiệt đi ái dục tầm thường thế gian\nTự mình chứng ngộ đạo vàng\nTa còn xưng tụng ai làm thầy đây!"
+},
+{
+	"id": "354",
+	"text": "Coi như bố thí hàng đầu\nLà đem Chân Lý nhiệm mầu tặng nhau,\nCoi như hương vị tối cao\nHương vị Chân Lý ngọt ngào dài lâu\nCoi như hoan hỷ hàng đầu\nNiềm vui Chân Lý thấm sâu tuyệt vời,\nNgười nào ái dục diệt rồi\nVượt qua phiền não, xa rời khổ đau."
+},
+{
+	"id": "355",
+	"text": "Giàu sang, tài sản dồi dào\nChỉ làm hại được kẻ nào ngu thôi,\nDễ gì hại được những người\nÐang cầu giác ngộ hướng nơi Niết-bàn,\nChỉ vì ham muốn giàu sang\nKẻ ngu tự hại bản thân đã đành\nHại thêm cả kẻ xung quanh."
+},
+{
+	"id": "356",
+	"text": "Cỏ hoang làm hại ruộng vườn\nTham lam gây hại nhiều hơn cho người,\nTham lam ai đã lìa rồi\nCúng dường vị ấy chẳng nơi nào bằng\nHưởng về phước báu vô vàn."
+},
+{
+	"id": "357",
+	"text": "Cỏ hoang làm hại ruộng vườn\nLòng sân gây hại nhiều hơn cho người,\nAi lìa sân hận được rồi\nCúng dường vị ấy chẳng nơi nào bằng\nHưởng về phước báu vô vàn."
+},
+{
+	"id": "358",
+	"text": "Cỏ hoang làm hại ruộng vườn\nSi mê gây hại nhiều hơn cho người,\nSi mê ai đã lìa rồi\nCúng dường vị ấy chẳng nơi nào bằng\nHưởng về phước báu vô vàn."
+},
+{
+	"id": "359",
+	"text": "Cỏ hoang làm hại ruộng vườn\nÁi dục gây hại nhiều hơn cho người,\nAi lìa ái dục được rồi\nCúng dường vị ấy chẳng nơi nào bằng\nHưởng về phước báu vô vàn."
+}
 			]
 		},
 		{
 			"id": 25,
 			"title": "25. Phẩm Tỳ-kheo",
 			"verses": [
+{
+	"id": "360-361",
+	"text": "Người nào chế ngự được ngay\nMắt, tai, mũi, lưỡi: lành thay vô ngần!\nLại thêm chế ngự được thân\nCũng như lời nói và tâm ý mình\nNói chung quả thật tài tình!\nTỳ-kheo nào bản thân mình thật hay\nChế ngự xong mọi điểm này\nKhổ đau giải thoát, đọa đày tiêu tan."
+},
+{
+	"id": "362",
+	"text": "Người nào chế ngự tay chân\nGiữ gìn lời nói và tâm ý mình\nThích ưa thiền định nhiệt thành\nÐộc thân, tự tại, tu hành cô liêu\nBiết đầy đủ, chẳng ham nhiều\nXứng danh là bậc Tỳ-kheo vô cùng."
+},
+{
+	"id": "363",
+	"text": "Tỳ-kheo ngôn ngữ thuần rồi\nNói câu khôn khéo, tránh lời tự cao\nThì khi giảng Pháp ngọt ngào\nMuôn phần êm dịu, xiết bao rõ ràng."
+},
+{
+	"id": "364",
+	"text": "Tỳ-kheo chánh pháp tuân theo\nMột lòng suy tưởng, mến yêu đạo mầu\nTư duy chánh pháp thâm sâu\nSẽ không sa đọa. Chẳng bao giờ rời\nMãi theo chánh pháp tuyệt vời."
+},
+{
+	"id": "365",
+	"text": "Ðiều mình thọ lĩnh được rồi\nChớ nên coi rẻ, buông lời khinh khi,\nNgười ta thọ lĩnh được chi\nChớ thèm, chớ muốn thứ gì của ai,\nTỳ-kheo ganh tỵ người ngoài\nKhó mà an trú cho nơi tâm mình\nBao điều thiền định tốt lành."
+},
+{
+	"id": "366",
+	"text": "Tỳ-kheo thọ lĩnh cúng dường\nÍt nhiều cũng chẳng coi thường khinh chê\nCứ luôn sinh hoạt mọi bề\nSiêng năng, thanh tịnh không hề buông lơi\nChư thiên khen ngợi hết lời."
+},
+{
+	"id": "367",
+	"text": "Thân tâm, danh sắc biết ra\nCái “ta” không chấp, “của ta” chẳng màng,\nƯu tư, sầu não sẽ tan\nKhi “ta” không chấp, chẳng màng “của ta”\nNgười như vậy thật cao xa\nXứng danh đáng được gọi là Tỳ-kheo."
+},
+{
+	"id": "368",
+	"text": "Tỳ-kheo chất chứa trong tâm\nTừ bi hoa nở hương thầm bay xa\nVui trong giáo pháp Phật đà\nSẽ mau đạt cảnh thăng hoa Niết-bàn\nNhanh siêu thoát, sớm bình an\nChẳng còn phiền não, vô vàn sướng vui."
+},
+{
+	"id": "369",
+	"text": "Tỳ-kheo tát nước thuyền này\nThuyền không nhẹ nhõm xuôi ngay theo dòng,\nTham và sân trừ diệt xong\nThân này cũng nhẹ thoát vòng nhiễm ô\nNiết-bàn mau chóng qua bờ."
+},
+{
+	"id": "370",
+	"text": "Tỳ-kheo nào cắt đứt xong\nNăm điều phiền não chẳng còn vấn vương,\nNăm điều ô trược dứt luôn,\nNăm căn lành tốt tìm phương trau dồi,\nNăm điều trói buộc vượt rồi\nXứng danh được gọi là người thành công\n“Vượt dòng nước lũ” mênh mông."
+},
+{
+	"id": "371",
+	"text": "Tỳ-kheo hãy cố tu thiền\nChớ nên buông thả, chớ nên lơ là\nTâm mình ái dục tránh xa\nÐừng chờ nuốt sắt nóng mà kêu than:\n“Thân thiêu đốt khổ vô vàn!”"
+},
+{
+	"id": "372",
+	"text": "Khi mà trí tuệ thiếu rồi\nThời bao thiền định trôi xuôi theo dòng,\nKhi mà thiền định chẳng còn\nThời bao trí tuệ theo dòng trôi xuôi,\nAi mà định, tuệ đủ đôi\nSóng vàng đưa lối kề nơi Niết-bàn."
+},
+{
+	"id": "373",
+	"text": "Tỳ-kheo ẩn dật sống nhàn\nLuôn luôn yên tịnh vô vàn trong tâm\nBao điều chánh pháp nhận chân\nSẽ vui hưởng thú siêu nhân hơn người."
+},
+{
+	"id": "374",
+	"text": "Ai mà suy nghĩ, nhận chân\nLẽ sinh diệt của thân tâm này rồi\nThân tâm ngũ uẩn con người,\nHưởng ngay hạnh phúc, niềm vui tốt lành\nCủa người thoát khỏi tử sinh."
+},
+{
+	"id": "375-376",
+	"text": "Tỳ-kheo có trí hiểu rằng\nPhải lo chế ngự lục căn cho lành,\nTự mình biết đủ phần mình,\nÐạo mầu giới luật nghiêm minh giữ gìn\nKết thân với các bạn hiền\nCó tài, có đức lại thêm chuyên cần.\nChân thành giao thiệp xa gần\nTác phong đoan chính muôn phần thanh cao,\nÐược như vậy tốt là bao\nXua đi phiền não, đón vào sướng vui."
+},
+{
+	"id": "377",
+	"text": "Như hoa lài lúc héo tàn\nBuông rơi cánh úa theo làn gió kia,\nTỳ-kheo theo đó khác chi\nTham và sân xả hết đi mọi đường."
+},
+{
+	"id": "378",
+	"text": "Tỳ-kheo thanh tịnh bản thân\nÔn hòa ngôn ngữ, bình an tâm hồn\nUng dung tự tại luôn luôn\nKhông màng dục lạc thế nhân thường tình\nCon người an tịnh xứng danh!"
+},
+{
+	"id": "379",
+	"text": "Tự mình hãy kiểm soát mình\nTự mình dò xét chân thành bản thân\nTự mình giác tỉnh canh phòng\nTỳ-kheo sẽ sống vô cùng an vui."
+},
+{
+	"id": "380",
+	"text": "Tự mình bảo vệ bản thân\nTự mình nương tựa chẳng cần nhờ ai,\nVậy nên kiềm chế thân người\nNhư là chàng lái buôn ngồi ngựa hay\nLo kiềm chế ngựa luôn tay."
+},
+{
+	"id": "381",
+	"text": "Tỳ-kheo hoan hỷ bản thân\nTin theo Phật pháp với tâm chân thành\nSẽ mau đạt cảnh an lành\nThân tâm phiền não sớm thanh tịnh liền."
+},
+{
+	"id": "382",
+	"text": "Tỳ-kheo tuy trẻ tuổi thôi\nNhưng mà Phật pháp tu thời siêng năng\nSẽ là ánh sáng huy hoàng\nRạng soi toàn cõi thế gian mịt mờ\nNhư trăng ra khỏi mây mù."
+}
 			]
 		},
 		{
 			"id": 26,
 			"title": "26. Phẩm Bà-la-môn",
 			"verses": [
+{
+	"id": "383",
+	"text": "Bà-la-môn dũng cảm lên\nÐoạn trừ ái dục lụy phiền cho nhanh\nMột khi thấu hiểu thân mình\nLà do ngũ uẩn tạo thành mà thôi\nThân mau tận diệt rã rời\nCác người liền thấy được nơi Niết-bàn."
+},
+{
+	"id": "384",
+	"text": "Chính nhờ hai pháp tu thiền\nNgưng lại, quan sát, xét xem mọi bề\nBà-la-môn đến bờ kia\nBao nhiêu ràng buộc dứt lìa tiêu tan\nDo nơi trí tuệ rỡ ràng."
+},
+{
+	"id": "385",
+	"text": "Không bờ này với lục căn,\nCũng không ôm giữ lục trần bờ kia\nHai bờ mau chóng thoát ly\nBuông cho phiền não trôi đi nhạt nhòa\nBuộc ràng dục vọng lìa xa\nNhư Lai gọi họ là Bà-la-môn."
+},
+{
+	"id": "386",
+	"text": "Siêng năng ẩn dật tu thiền\nNhiễm ô dứt bỏ, não phiền buông trôi\nTu tâm nhiệm vụ xong xuôi\nMục tiêu tối thượng tuyệt vời đạt nhanh\nBà-la-môn thật xứng danh!"
+},
+{
+	"id": "387",
+	"text": "Mặt trời chiếu sáng ban ngày\nMặt trăng đêm xuống tỏa đầy ánh quang\nGươm đao, nhung giáp huy hoàng\nTrận tiền chiếu sáng rỡ ràng cho Vua\nBà-la-môn vốn từ xưa\nHào quang chiếu sáng khi tu hành thiền,\nNhưng hào quang Phật vô biên\nNgày đêm chiếu sáng khắp miền nhân gian."
+},
+{
+	"id": "388",
+	"text": "Người mà nghiệp ác dứt xa\nXứng danh tên gọi là Bà-la-môn\nNgười mà an tịnh luôn luôn\nXứng danh tên gọi Sa-môn tu hành,\nNgười mà ô nhiễm diệt nhanh\nMới là một bậc thuần thành xuất gia."
+},
+{
+	"id": "389",
+	"text": "Chớ nên đánh Bà-la-môn!\nBà-la-môn chớ nổi sân cùng người!\nđánh người xấu hổ một hai,\nNếu người bị đánh giận hoài không nguôi\nNổi cơn sân hận mãi thôi\nMới là hổ thẹn gấp mười lần hơn."
+},
+{
+	"id": "390",
+	"text": "Bà-la-môn chẳng hận thù\nLợi này không nhỏ từ xưa vậy rồi\nKhi mà luyến ái đã rời\nKhi mà tâm muốn hại người đã yên\nMới mong diệt hết não phiền\nVà khi đó mới xa miền khổ đau."
+},
+{
+	"id": "391",
+	"text": "Người không tạo nghiệp ác chi\nHành vi, lời nói, nghĩ suy đúng đường,\nKhi thân, khẩu, ý đàng hoàng\nTự mình chế ngự, sẽ mang tốt lành\nBà-la-môn thật xứng danh!"
+},
+{
+	"id": "392",
+	"text": "Ai mà hướng dẫn cho ta\nHiểu thông giáo lý Phật Ðà cao xa\nTa nên kính lễ thiết tha\nNhư người thờ lửa dòng Bà-la-môn\nThành tâm kính lễ lửa thần."
+},
+{
+	"id": "393",
+	"text": "Mệnh danh là Bà-la-môn\nNào vì bện tóc ở luôn trên đầu\nNào vì chủng tộc mình đâu\nCũng không vì đã dựa vào nơi sinh,\nRiêng ai hiểu biết thật tình\n“Bốn điều Chân Lý” tâm thành nhận ra\nTinh thông Chánh Pháp Phật Ðà\nVà luôn thanh tịnh, là Bà-la-môn"
+},
+{
+	"id": "394",
+	"text": "Kẻ ngu bện tóc trên đầu\nDa dê may áo mặc đâu ích gì,\nLòng đầy tham dục chưa lìa\nÐiểm trang ngoài mặt làm chi cho thừa."
+},
+{
+	"id": "395",
+	"text": "Ai tuy áo vá tầm thường\nỐm gầy đến lộ gân xương thân hình\nTu thiền rừng vắng một mình\nBà-la-môn gọi xứng danh vô cùng."
+},
+{
+	"id": "396",
+	"text": "Không vì do mẹ sinh ra\nMột người được gọi là Bà-la-môn\nNếu còn phiền não trong tâm\nThì người chỉ được gọi bằng tên suông,\nAi mà chướng ngại dứt luôn\nChẳng còn luyến ái vấn vương tâm mình\nBà-la-môn mới xứng danh."
+},
+{
+	"id": "397",
+	"text": "Ai mà dứt hết não phiền\nTừng phen lèo lái, xích xiềng thân ta\nBao cơn sợ hãi vượt qua\nChẳng còn dính mắc, lìa xa buộc ràng\nBà-la-môn xứng tên vàng."
+},
+{
+	"id": "398",
+	"text": "Bỏ đai da sân hận đi\nBỏ cương luyến ái chớ hề vấn vương\nBỏ dây tà kiến lầm đường\nBỏ đồ phụ thuộc buộc ràng quẩn quanh\nBỏ đi cây trục vô minh\n“Bốn điều Chân Lý” thật tình hiểu ra\nCon người giác ngộ tiến xa\nXứng danh tên gọi là Bà-la-môn."
+},
+{
+	"id": "399",
+	"text": "Ai không tức giận với người\nChịu lời khiển trách, đòn roi, phạt hình\nLấy điều nhẫn nhục lặng thinh\nLàm quân lực bảo vệ mình một bên\nBà-la-môn thật xứng tên."
+},
+{
+	"id": "400",
+	"text": "Ai không nóng giận với người\nChu toàn bổn phận, sống đời trang nghiêm\nKhông tham ái, biết tự kiềm\nXác thân hiện tại trở nên cuối cùng\nLuân hồi sinh tử chẳng còn\nBà-la-môn gọi tên không sai gì."
+},
+{
+	"id": "401",
+	"text": "Người mà ái dục thoát ly\nKhông còn đắm nhiễm chút gì dài lâu\nTựa như giọt nước trôi mau\nChẳng còn dính lại trên tàu lá sen\nHay hột cải đặt đầu kim\nKhông còn dính lại ở trên được nào,\nBà-la-môn xứng danh sao!"
+},
+{
+	"id": "402",
+	"text": "Ai tu ở thế gian này\nTự mình giác ngộ được ngay đạo mầu\nDiệt trừ hết mọi khổ đau\nThân tâm nặng gánh bỏ mau bên đường\nÐể rồi siêu thoát nhẹ nhàng\nBà-la-môn thật vô vàn xứng danh."
+},
+{
+	"id": "403",
+	"text": "Người nào trí tuệ sâu xa\nNhận chân đường chánh, nẻo tà phân minh\nMục tiêu tối thượng đạt thành\nBà-la-môn thật xứng danh vô cùng."
+},
+{
+	"id": "404",
+	"text": "Ai mà không thích kết thân\nVới người thế tục hay hàng xuất gia\nLang thang đơn độc, không nhà\nKhông còn ham muốn thiết tha dục tình\nBà-la-môn thật xứng danh."
+},
+{
+	"id": "405",
+	"text": "Ai không dao gậy bạo hành\nTrong khi tiếp xúc chúng sinh ở đời\nDù người mạnh, yếu vậy thôi\nKhông gây thương tổn hay đòi sát sinh\nBà-la-môn thật xứng danh."
+},
+{
+	"id": "406",
+	"text": "Tỏ ra thân thiết chân tình\nGiữa người thù nghịch quanh mình gần xa,\nTỏ ra thiện chí ôn hòa\nVới người tính khí thật là hung hăng,\nKhông còn luyến ái vương mang\nBên người cố chấp buộc ràng vây quanh,\nBà-la-môn thật xứng danh."
+},
+{
+	"id": "407",
+	"text": "Người mà phủi sạch tham lam\nVà bao sân hận, kiêu căng, tỵ hiềm\nKhông còn bám lại gây phiền,\nTựa như hột cải đặt trên kim này\nMũi kim giữ cải khó thay,\nBà-la-môn thật xứng ngay tên người."
+},
+{
+	"id": "408",
+	"text": "Nói lời êm dịu, ôn hòa\nLại thêm lợi ích, thật thà mãi thôi\nKhông hề xúc phạm đến ai\nBà-la-môn gọi tên người xứng sao!"
+},
+{
+	"id": "409",
+	"text": "Thế gian hễ cứ một ai\nKhông hề lấy vật mà người không cho\nDài hay ngắn, nhỏ hay to\nDù tốt hay xấu, dù hư hay lành\nBà-la-môn thật xứng danh."
+},
+{
+	"id": "410",
+	"text": "Dù đời này hay đời sau\nNgười không dục vọng khát khao chút gì\nDễ dàng siêu thoát mọi bề\nBà-la-môn gọi tên thì xứng sao."
+},
+{
+	"id": "411",
+	"text": "Người nào tham ái dứt luôn\nDo nhờ có trí không còn nghi nan\nÐã mau chứng ngộ đạo vàng\nNiềm vui bất tử Niết-bàn tiến nhanh\nBà-la-môn thật xứng danh."
+},
+{
+	"id": "412",
+	"text": "Những người sống ở đời này\nHai điều thiện, ác vượt ngay qua rồi\nChẳng còn ràng buộc tâm người\nChẳng còn phiền muộn rối bời vây quanh\nKhông ô nhiễm, rất tịnh thanh\nBà-la-môn thật xứng danh gọi người."
+},
+{
+	"id": "413",
+	"text": "Người nhơ bẩn phủi sạch rồi\nNhư trăng vằng vặc sáng ngời trong đêm\nRất thanh tịnh, rất lặng yên\nDiệt trừ ái dục quẩn bên hại mình\nBà Là Môn thật xứng danh."
+},
+{
+	"id": "414",
+	"text": "Vũng lầy tham ái tránh xa\nCon đường dục vọng vượt qua được rồi,\nSi mê u tối đã rời\nThoát ra khỏi biển luân hồi cuồng quay,\nBờ kia thiền định sang ngay,\nRũ mau nghi hoặc vương đầy trước kia\nNgười không bám víu điều chi\nDặm trường hoàn tất nẻo đi Niết-bàn\nBà-la-môn xứng tên vàng."
+},
+{
+	"id": "415",
+	"text": "Ở trên cõi thế gian này\nNgười nào dục lạc bỏ ngay chẳng màng\nKhước từ đời sống trần gian\nLìa nơi nhà cửa, nhập hàng xuất gia\nNgăn dục lạc tái sinh ra\nNhư Lai gọi họ là Bà-la-môn."
+},
+{
+	"id": "416",
+	"text": "Ở trên cõi thế gian này\nNgười nào ái dục bỏ ngay chẳng màng\nKhước từ đời sống trần gian\nLìa nơi nhà cửa, nhập hàng xuất gia\nNgăn ái dục tái sinh ra\nNhư Lai gọi họ là Bà-la-môn."
+},
+{
+	"id": "417",
+	"text": "Xa lìa trói buộc nhân gian,\nVượt qua trói buộc trên hàng trời cao,\nBuộc ràng giải thoát hết mau\nBà-la-môn thật tên đâu xứng bằng."
+},
+{
+	"id": "418",
+	"text": "Bỏ điều ưa ghét một bên\nNhiễm ô chẳng vướng, thản nhiên nhìn đời\nThế gian ngũ uẩn thắng rồi\nKiên trì, cố gắng, con người đáng khen\nBà-la-môn thật xứng tên."
+},
+{
+	"id": "419",
+	"text": "Người nào hiểu rõ chúng sinh\nSinh ra, hoại diệt quẩn quanh thế nào\nÐể rồi khéo vượt qua mau\nMột khi giác ngộ, xa đâu Niết-bàn\nBà-la-môn xứng tên vàng."
+},
+{
+	"id": "420",
+	"text": "Ai mà sau lúc qua đời\nDù chư thiên hoặc loài người khắp nơi\nHay chúng sinh ở cõi trời\nKhông hay biết họ về nơi chốn nào,\nHọ là bậc đáng tự hào\nNhiễm ô, dục vọng diệt bao lâu rồi\nChẳng còn sinh tử luân hồi\nBà-la-môn xứng tên người biết bao!"
+},
+{
+	"id": "421",
+	"text": "Người không bám víu vật chi\nDù trong quá khứ hay về tương lai\nHoặc trong hiện tại lúc này\nChẳng ham nắm giữ trong tay chút gì\nBà-la-môn xứng tên chi."
+},
+{
+	"id": "422",
+	"text": "Như trâu dũng mãnh đầu đàn\nChẳng hề sợ hãi trong tâm điều gì\nAnh hùng, cao thượng kể chi\nBao nhiêu dục vọng xấu kia đã rời\nRửa đi ô nhiễm sạch rồi\nSáng bừng giác ngộ hướng nơi Niết-bàn\nBà-la-môn xứng tên vàng."
+},
+{
+	"id": "423",
+	"text": "Thánh hiền không chỉ thấy rành\nCuộc đời quá khứ của mình mà thôi,\nThấy thêm nhàn nhã cảnh trời\nThấy luôn cõi khổ nơi nơi đọa đầy,\nTử sinh chấm dứt đời này,\nTự mình cải tiến được ngay cho mình\nNhờ vào trí tuệ tinh anh\nTrọn đời đạo hạnh tốt lành thiêng liêng\nBao nhiêu dục vọng dứt liền\nBà-la-môn thật xứng tên vô cùng."
+}
 			]
 		}
 	]

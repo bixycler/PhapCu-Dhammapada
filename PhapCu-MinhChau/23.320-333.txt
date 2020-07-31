@@ -14,7 +14,7 @@ Thuần chủng loài ngựa Sin.
 Tự điều mới tối thượng."
  
 323. "Chẳng phải loài cưỡi ấy,
-Đưa người đến Niết bàn,
+Đưa người đến Niết-bàn,
 Chỉ có người tự điều,
 Đến đích, nhờ điều phục."
  
@@ -62,7 +62,7 @@ Vui thay, mọi khổ đoạn."
  
 332. "Vui thay, hiếu kính mẹ,
 Vui thay, hiếu kính cha,
-Vui thay, kính Sa môn,
+Vui thay, kính Sa-môn,
 Vui thay, kính Hiền Thánh."
  
 333. "Vui thay, già có giới!
