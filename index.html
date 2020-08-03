@@ -1,0 +1,63 @@
+﻿<html>
+<head>
+	<meta charset="utf-8">
+	<title>Kinh Pháp Cú (Dhammapada)</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Charm">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lemonada">
+	<style>
+	* {
+		font-family: "Times New Roman", Times, serif;
+	}
+	h1 {
+		font-family: "Lobster";
+		font-weight: lighter;
+		text-align: center;
+	}
+	h2 {
+		font-family: "Charm";
+	}
+	p.explanation {
+		font: 12px "Lemonada";
+	}
+	.poem {
+		font: italic 16px "Lora";
+	}
+	img.illustration {
+		width: 320px;
+		float: right;
+	}
+	#contents {
+		display: grid;
+		grid-template-columns: 30px 1fr 1fr 1fr;
+	}
+	</style>
+	<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+	<script src="Dhammapada-Wickramanayaka.json"></script>
+	<script src="PhapCu-MinhChau.json"></script>
+	<script src="PhapCu-TamMinh.json"></script>
+	<!--script src="PhapCu-ThienNhut.json"></script-->
+</head>
+<body>
+
+<h1 style="text-shadow: 1px 1px grey;">Kinh Pháp Cú (Dhammapada)</h1>
+<div id="headers"></div>
+<div id="contents"></div>
+<script>
+(function() {
+	let book = PhapCu_TamMinh;
+	$.each(book.verses, function(i, verse) {
+		//console.log(i+': \n'+verse);
+	});
+	let numverses = 423;
+	let imgdir = 'Dhammapada-Wickramanayaka/720px';
+	for(i=1; i<=numverses; i++){
+		$('<img class="illustration">').attr('src', imgdir+'/iDhp'+('00'+i).slice(-3)+'.jpg')
+			.attr('title','ch '+i).appendTo(contents);
+	}
+})();
+</script>
+
+</body>
+</html>
