@@ -1,62 +1,171 @@
 ﻿<html>
 <head>
-	<meta charset="utf-8">
-	<title>Kinh Pháp Cú (Dhammapada)</title>
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Charm">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lemonada">
-	<style>
-	* {
-		font-family: "Times New Roman", Times, serif;
-	}
-	h1 {
-		font-family: "Lobster";
-		font-weight: lighter;
-		text-align: center;
-	}
-	h2 {
-		font-family: "Charm";
-	}
-	p.explanation {
-		font: 12px "Lemonada";
-	}
-	.poem {
-		font: italic 16px "Lora";
-	}
-	img.illustration {
-		width: 320px;
-		float: right;
-	}
-	#contents {
-		display: grid;
-		grid-template-columns: 30px 1fr 1fr 1fr;
-	}
-	</style>
-	<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
-	<script src="Dhammapada-Wickramanayaka.json"></script>
-	<script src="PhapCu-MinhChau.json"></script>
-	<script src="PhapCu-TamMinh.json"></script>
-	<!--script src="PhapCu-ThienNhut.json"></script-->
+    <meta charset="utf-8">
+    <title>Kinh Pháp Cú (Dhammapada)</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Charm">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lemonada">
+    <style>
+    body {
+        margin: 0;
+        font-family: "Arial";
+    }
+    h1 {
+        font-family: "Lobster";
+        font-weight: lighter;
+        text-align: center;
+        text-shadow: 1px 2px grey;
+    }
+    #HeaderDiv {
+        width: 100%; text-align: center;
+        background: lightgray;
+    }
+    .sticky {
+        position: fixed; top: 0;
+        width: 100%;
+    }
+    .sticky + #ContentDiv {
+        padding-top: 32; /* pad ContentDiv with the height of HeaderDiv when HeaderDiv gets sticky */
+    }
+    .chapter {
+        font: bold 18px Charm;
+    }
+    label {
+        margin-left: 30px;
+    }
+    #VerseId {
+        background: linear-gradient(to bottom,#F8F8F8,#E0E0E0);
+        text-align: center;
+        width: 50px;
+    }
+    #ContentDiv {
+        display: grid;
+        grid-template-columns: 50px max-content minmax(30%,500px) max-content;
+        grid-column-gap: 30px;
+        margin: auto; width: fit-content; /* center this div */
+        align-items: center;
+    }
+    div.index {
+        text-align: right;
+    }
+    p.poetry {
+        font: italic 18px "Lora";
+        text-align: center;
+    }
+    p.explanation {
+        font: 14px "Lemonada";
+        text-align: right;
+    }
+    img.illustration {
+        width: 320px;
+        float: right;
+    }
+    #FooterDiv {
+        text-align: center;
+        background: lightgray;
+        grid-column: span 4;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="Dhammapada-Wickramanayaka.json"></script>
+    <script src="PhapCu-MinhChau.json"></script>
+    <script src="PhapCu-TamMinh.json"></script>
+    <script src="PhapCu-CreatZy.json"></script>
+    <!--script src="PhapCu-ThienNhut.json"></script-->
 </head>
 <body>
 
-<h1 style="text-shadow: 1px 1px grey;">Kinh Pháp Cú (Dhammapada)</h1>
-<div id="headers"></div>
-<div id="contents"></div>
+<h1>Kinh Pháp Cú (Dhammapada)</h1>
+
+<div id="HeaderDiv">
+    <label for="ChapterSel">Phẩm (chương):</label>
+    <select id="ChapterSel" name="ChapterSel" class="chapter"
+        onchange="setChapter(this.value);"></select>
+    <label for="VerseId" style="">Kệ (khổ):</label>
+    <input type="number" id="VerseId" name="VerseId" min="1" max="423" value="1"
+        onchange="VerseSlide.value = this.value; setVerse(this.value);" />
+    <input type="range" id="VerseSlide" min="1" max="423" value="1" 
+        style="width:30%; vertical-align:middle;"
+        oninput="VerseId.value = this.value;" onchange="setVerse(this.value);" />
+</div>
+
+<div id="ContentDiv"></div>
+
+
 <script>
-(function() {
-	let book = PhapCu_TamMinh;
-	$.each(book.verses, function(i, verse) {
-		//console.log(i+': \n'+verse);
-	});
-	let numverses = 423;
-	let imgdir = 'Dhammapada-Wickramanayaka/720px';
-	for(i=1; i<=numverses; i++){
-		$('<img class="illustration">').attr('src', imgdir+'/iDhp'+('00'+i).slice(-3)+'.jpg')
-			.attr('title','ch '+i).appendTo(contents);
-	}
-})();
+toc = PhapCu_CreatZy;
+poem = PhapCu_TamMinh;
+prose = PhapCu_MinhChau;
+imgdir = 'Dhammapada-Wickramanayaka/720px';
+
+// set up HeaderDiv
+$.each(toc.chapters, function(i, chapter) {
+    $('<option>').attr('value',i).text(chapter.title).appendTo(ChapterSel);
+});
+numchapters = Object.keys(toc.chapters).length;
+numverses = toc.chapters[numchapters].to_verse;
+VerseSlide.max = numverses; VerseId.max = numverses;
+// make HeaderDiv "sticky" to the top
+stickypos = HeaderDiv.offsetTop;
+window.onscroll = function() {
+    if(window.pageYOffset > stickypos) {
+    HeaderDiv.classList.add("sticky");
+    } else {
+    HeaderDiv.classList.remove("sticky");
+    }    
+}
+
+setChapter(1);
+
+function setChapter(cid){ cid = Number(cid);
+    console.log('-> chapter '+cid);
+    let chap = toc.chapters[cid];
+    if(VerseId.value < chap.from_verse || VerseId.value > chap.to_verse){ 
+        VerseId.value = chap.from_verse; $(VerseId).trigger('change');
+    }
+    ContentDiv.innerHTML = ''; //reset then set new content
+    for(let vid=chap.from_verse; vid<=chap.to_verse; vid++){
+        $('<div class="index">').text(vid).appendTo(ContentDiv);
+        $('<p class="poetry">'+poem.verses[vid].replace(/\n/g,'<br/>\n')+'</p>').appendTo(ContentDiv);
+        $('<p class="explanation">'+prose.verses[vid].replace(/\n/g,'<br/>\n')+'</p>').appendTo(ContentDiv);
+        $('<img class="illustration">').attr('src', imgdir+'/iDhp'+('00'+vid).slice(-3)+'.jpg')
+            .attr('title','ch '+vid).appendTo(ContentDiv);
+    }
+    $('<div id="FooterDiv">').appendTo(ContentDiv);
+    if(cid > 1) { $('<input type="button" class="chapter">')
+        .attr('value',toc.chapters[cid-1].title+' ⮘')
+        .attr('onclick','setChapter('+(cid-1)+');').appendTo(FooterDiv); }
+    $('<input type="button" class="chapter">').attr('value','⮙')
+        .attr('onclick','scrollToTop();').appendTo(FooterDiv);
+    if(cid < numchapters) { $('<input type="button" class="chapter">')
+        .attr('value','⮚ '+toc.chapters[cid+1].title)
+        .attr('onclick','setChapter('+(cid+1)+');').appendTo(FooterDiv); }
+}
+
+function scrollToTop(){
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+
+function setVerse(vid){
+    console.log('-> verse '+vid);
+    let cid = Number(ChapterSel.value);
+    let chap = toc.chapters[cid];
+    let step = (vid < chap.from_verse)?-1: (vid > chap.to_verse)?1: 0;
+    if(step != 0){ 
+        while((vid < chap.from_verse || vid > chap.to_verse)
+            && cid >= 1 && cid <= numchapters){ 
+            cid += step; chap = toc.chapters[cid];
+            //console.log('  -> chap '+cid);
+        }
+        if(cid >= 1 && cid <= numchapters){
+            ChapterSel.value = cid; $(ChapterSel).trigger('change');
+        }
+    }
+}
 </script>
 
 </body>
