@@ -1,25 +1,34 @@
 ﻿<html>
 <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8"/>
     <title>Kinh Pháp Cú (Dhammapada)</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Charm">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lemonada">
-    <style>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Charm"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lemonada"/>
+    <meta name="viewport" id="viewport" content="width=1500, height=3000"/> <!-- for mobile devices
+        set the viewport size way larger than any mobile screen for easy detection of them -->
+    <style title="PhapCuStyle" id="PhapCuStyle">
     body {
         margin: 0;
-        font-family: "Arial";
+        font-family: "Arial", sans-serif;
+        text-size-adjust: none;
+        -webkit-text-size-adjust: none;
+        -moz-text-size-adjust: none;
+        -ms-text-size-adjust: none;
     }
     h1 {
-        font-family: "Lobster";
-        font-weight: lighter;
+        width: 100%;
+        font: lighter 32px "Lobster", "Times New Roman", serif;
         text-align: center;
-        text-shadow: 1px 2px grey;
+        text-shadow: 1px 1px grey;
     }
     #HeaderDiv {
         width: 100%; text-align: center;
         background: lightgray;
+    }
+    .control {
+        white-space: nowrap;
     }
     .sticky {
         position: fixed; top: 0;
@@ -29,7 +38,7 @@
         padding-top: 32; /* pad ContentDiv with the height of HeaderDiv when HeaderDiv gets sticky */
     }
     .chapter {
-        font: bold 18px Charm;
+        font: bold 18px "Charm", "Times New Roman", serif;
     }
     label {
         margin-left: 30px;
@@ -42,31 +51,42 @@
     #ContentDiv {
         display: grid;
         grid-template-columns: 50px max-content minmax(30%,500px) max-content;
-        grid-column-gap: 30px;
+                            /* 50        400            400                    350 */
+                            /* => (((index+poem)450 + image)800 + prose)1200 */
         margin: auto; width: fit-content; /* center this div */
         align-items: center;
     }
     div.index {
         text-align: right;
+        margin-right: 10px;
+        padding-top: 50%; padding-bottom: 50%;
     }
     p.poetry {
-        font: italic 18px "Lora";
+        font: italic 18px "Lora", "Times New Roman", serif;
         text-align: center;
+        margin-right: 30px;
     }
     p.explanation {
-        font: 14px "Lemonada";
+        font: 14px "Lemonada", "Arial", sans-serif;
         text-align: right;
+        margin-right: 10px;
+    }
+    div.poetry, div.explanation {
+        display: flex;
+        align-items: center;
+        height: 90%;
+        border-left: 1px solid;
+        padding-left: 10px;
     }
     img.illustration {
         width: 320px;
         float: right;
     }
     #FooterDiv {
+        width: 100%;
         text-align: center;
         background: lightgray;
-        grid-column: span 4;
         margin-top: 20px;
-        margin-bottom: 20px;
     }
     </style>
     <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
@@ -76,30 +96,45 @@
     <script src="PhapCu-CreatZy.json"></script>
     <!--script src="PhapCu-ThienNhut.json"></script-->
 </head>
-<body>
+<body id="Body">
 
 <h1>Kinh Pháp Cú (Dhammapada)</h1>
 
 <div id="HeaderDiv">
+<span class="control">
     <label for="ChapterSel">Phẩm (chương):</label>
     <select id="ChapterSel" name="ChapterSel" class="chapter"
         onchange="setChapter(this.value);"></select>
+</span>
+<span class="control">
     <label for="VerseId" style="">Kệ (khổ):</label>
     <input type="number" id="VerseId" name="VerseId" min="1" max="423" value="1"
         onchange="VerseSlide.value = this.value; setVerse(this.value);" />
-    <input type="range" id="VerseSlide" min="1" max="423" value="1" 
+    <input type="range" id="VerseSlide" min="1" max="423" value="1"
         style="width:30%; vertical-align:middle;"
         oninput="VerseId.value = this.value;" onchange="setVerse(this.value);" />
+</span>
 </div>
 
-<div id="ContentDiv"></div>
+<div id="ContentDiv" onload='contentLoaded();'></div>
 
+<div id="FooterDiv"></div>
 
 <script>
 toc = PhapCu_CreatZy;
 poem = PhapCu_TamMinh;
-prose = PhapCu_MinhChau;
-imgdir = 'Dhammapada-Wickramanayaka/720px';
+prose = PhapCu_MinhChau; hasProse = true;
+imgdir = 'Dhammapada-Wickramanayaka/720px'; hasImage = true;
+seeking = false; // ::= auto-scrolling
+
+// detect & handle mobile screen
+console.log('Screen size detected: '+screen.width+' x '+screen.height);
+console.log('Window size detected: '+window.innerWidth+' x '+window.innerHeight);
+//confirm('Screen size: '+screen.width+' x '+screen.height+'\nWindow size: '+window.innerWidth+' x '+window.innerHeight);
+onMobile = (screen.width < window.innerWidth || screen.height < window.innerHeight);
+console.log('Device type detected: '+(onMobile?'mobile':'computer'));
+// then squeeze the viewport of mobile browser to the device' actual screen size
+viewport.content = "width="+screen.width+', height='+screen.height;
 
 // set up HeaderDiv
 $.each(toc.chapters, function(i, chapter) {
@@ -110,39 +145,124 @@ numverses = toc.chapters[numchapters].to_verse;
 VerseSlide.max = numverses; VerseId.max = numverses;
 // make HeaderDiv "sticky" to the top
 stickypos = HeaderDiv.offsetTop;
-window.onscroll = function() {
+window.onscroll = function(event) {
     if(window.pageYOffset > stickypos) {
-    HeaderDiv.classList.add("sticky");
-    } else {
-    HeaderDiv.classList.remove("sticky");
-    }    
+        HeaderDiv.classList.add("sticky");
+    }else{ HeaderDiv.classList.remove("sticky"); }
+    updateVerseId();
 }
 
-setChapter(1);
+// set up ContentDiv
+if(!updateColumns(onMobile? screen.width: window.innerWidth)){ setChapter(1);}
+if(onMobile){
+    console.log('* New viewport: '+window.innerWidth+' x '+window.innerHeight);
+    updateElementWidth(window.innerWidth);
+    window.onorientationchange = function(){
+        console.log('* Screen rotated: '+screen.width+' x '+screen.height);
+        //confirm('Screen rotated: '+screen.width+' x '+screen.height);
+        // adjust viewport to the new dimensions
+        viewport.content = "width="+screen.width+', height='+screen.height;
+        updateElementWidth(screen.width);
+        updateColumns(screen.width);
+        console.log('* New viewport: '+window.innerWidth+' x '+window.innerHeight);
+        updateElementWidth(window.innerWidth);
+        scrollToVerse(true);
+    }
+}else{
+    Body.onresize = function(){
+        console.log('* Window resized: '+window.innerWidth+' x '+window.innerHeight);
+        updateColumns(window.innerWidth);
+        scrollToVerse(true);
+    }
+}
+new ResizeObserver(function(entries){
+    //console.log('* ContentDiv resized: '+entries[0].devicePixelContentBoxSize[0].blockSize); //Chrome only!
+    console.log('* ContentDiv resized: '+entries[0].contentRect.width+' x '+entries[0].contentRect.height);
+    scrollToVerse();
+}).observe(ContentDiv);
+
+function updateColumns(width){
+    /* => (((index+poem)450 + image)800 + prose)1200 */
+    let hp = (width > 1000), hi = (width > 600);
+    if(hp==hasProse && hi==hasImage){ return false; }
+    hasProse = hp; hasImage = hi;
+    $(ContentDiv).css('grid-template-columns','50px max-content '
+        +(hasProse?'minmax(30%,500px) ':'') + (hasImage?'max-content':''));
+    console.log('grid-template-columns = '+$(ContentDiv).css('grid-template-columns'));
+    setChapter(ChapterSel.value);
+    return true;
+}
+
+// update elements' width which are depending on viewport width (eg. "width: 100%")
+function updateElementWidth(vpwidth){
+    console.log('  update width: '+vpwidth);
+    $('h1').css('width',vpwidth);
+    $(HeaderDiv).css('width',vpwidth);
+        let sticky = HeaderDiv.classList.contains('sticky');
+        if(sticky){ HeaderDiv.classList.remove("sticky"); }
+        stickypos = HeaderDiv.offsetTop;
+        if(sticky){ HeaderDiv.classList.add("sticky"); }
+        for(let style of document.styleSheets){ if(style.title=='PhapCuStyle'){
+        for(let rule of (style.cssRules||style.rules)){
+            if(rule.selectorText.includes(".sticky + #ContentDiv")){
+                rule.style.paddingTop = $(HeaderDiv).css('height');
+                console.log('  update paddingTop = '+rule.style.paddingTop);
+            }
+        }}}
+    $(FooterDiv).css('width',vpwidth);
+}
 
 function setChapter(cid){ cid = Number(cid);
     console.log('-> chapter '+cid);
     let chap = toc.chapters[cid];
-    if(VerseId.value < chap.from_verse || VerseId.value > chap.to_verse){ 
-        VerseId.value = chap.from_verse; $(VerseId).trigger('change');
-    }
-    ContentDiv.innerHTML = ''; //reset then set new content
+    ContentDiv.innerHTML = ''; //reset new content
     for(let vid=chap.from_verse; vid<=chap.to_verse; vid++){
-        $('<div class="index">').text(vid).appendTo(ContentDiv);
-        $('<p class="poetry">'+poem.verses[vid].replace(/\n/g,'<br/>\n')+'</p>').appendTo(ContentDiv);
-        $('<p class="explanation">'+prose.verses[vid].replace(/\n/g,'<br/>\n')+'</p>').appendTo(ContentDiv);
-        $('<img class="illustration">').attr('src', imgdir+'/iDhp'+('00'+vid).slice(-3)+'.jpg')
-            .attr('title','ch '+vid).appendTo(ContentDiv);
+        $('<div class="index" id="v'+vid+'">').text(vid).appendTo(ContentDiv);
+        let res = processVerse(poem,vid);
+        if(res.num){ 
+            let cell = $('<p class="poetry">'+res.txt+'</p>');
+            if(res.num > 1){
+                let p = cell; cell = $('<div class="poetry">'); p.appendTo(cell);
+            }
+            cell.css('grid-row-start','span '+res.num).appendTo(ContentDiv);
+        }
+        if(hasProse){
+            res = processVerse(prose,vid);
+            if(res.num){
+                let cell = $('<p class="explanation">'+res.txt+'</p>');
+                if(res.num > 1){
+                    let p = cell; cell = $('<div class="explanation">'); p.appendTo(cell);
+                }
+                cell.css('grid-row-start','span '+res.num).appendTo(ContentDiv);
+            }
+        }
+        if(hasImage){ $('<img class="illustration">')
+            .attr('src', imgdir+'/iDhp'+('00'+vid).slice(-3)+'.jpg')
+            .attr('title','kệ số '+vid).appendTo(ContentDiv);
+        }
     }
-    $('<div id="FooterDiv">').appendTo(ContentDiv);
+    FooterDiv.innerHTML = ''; // reset new footer
     if(cid > 1) { $('<input type="button" class="chapter">')
-        .attr('value',toc.chapters[cid-1].title+' ⮘')
-        .attr('onclick','setChapter('+(cid-1)+');').appendTo(FooterDiv); }
-    $('<input type="button" class="chapter">').attr('value','⮙')
+        .attr('value',toc.chapters[cid-1].title+' ◁')
+        .attr('onclick','ChapterSel.value='+(cid-1)+'; $(ChapterSel).trigger("change");').appendTo(FooterDiv); }
+    $('<input type="button" class="chapter">').attr('value','△')
         .attr('onclick','scrollToTop();').appendTo(FooterDiv);
     if(cid < numchapters) { $('<input type="button" class="chapter">')
-        .attr('value','⮚ '+toc.chapters[cid+1].title)
-        .attr('onclick','setChapter('+(cid+1)+');').appendTo(FooterDiv); }
+        .attr('value','▷ '+toc.chapters[cid+1].title)
+        .attr('onclick','ChapterSel.value='+(cid+1)+'; $(ChapterSel).trigger("change");').appendTo(FooterDiv); }
+    if(VerseId.value < chap.from_verse || VerseId.value > chap.to_verse){
+        VerseId.value = chap.from_verse; $(VerseId).trigger("change");
+    }
+}
+
+function processVerse(book,vid){
+    let res = {"txt":'', "num":0};
+    let txt = book.verses[vid];
+    if(isFinite(Number(txt))){ return res; }
+    res.txt = txt.replace(/\n/g,'<br/>\n'); res.num = 1;
+    while(++vid <= Object.keys(book.verses).length
+    && isFinite(Number(book.verses[vid]))){ res.num++; }
+    return res;
 }
 
 function scrollToTop(){
@@ -155,9 +275,9 @@ function setVerse(vid){
     let cid = Number(ChapterSel.value);
     let chap = toc.chapters[cid];
     let step = (vid < chap.from_verse)?-1: (vid > chap.to_verse)?1: 0;
-    if(step != 0){ 
+    if(step){
         while((vid < chap.from_verse || vid > chap.to_verse)
-            && cid >= 1 && cid <= numchapters){ 
+            && cid >= 1 && cid <= numchapters){
             cid += step; chap = toc.chapters[cid];
             //console.log('  -> chap '+cid);
         }
@@ -165,6 +285,36 @@ function setVerse(vid){
             ChapterSel.value = cid; $(ChapterSel).trigger('change');
         }
     }
+    scrollToVerse();
+}
+
+async function scrollToVerse(jump){
+    seeking = true;
+    let vid = VerseId.value;
+    let verse = document.querySelector('#v'+vid);
+    console.log('  scrolling '+vid+' ...> '+verse.offsetTop);
+    verse.scrollIntoView({behavior: jump?'auto':'smooth', block: 'center'});
+    // wait for the scrolling to finish
+    while(toViewport(verse)){ await new Promise(r => setTimeout(r, 100)); }
+    console.log('  scrolling '+vid+' finished. ');
+    seeking = false;
+}
+
+function updateVerseId(){ //to reflect the one present in current viewport
+    if(seeking){ return;} // don't mess with auto-scrolling!
+    let vid = Number(VerseId.value);
+    let verse = document.querySelector('#v'+vid);
+    let step = toViewport(verse);
+    for(;step; vid += step){
+        verse = document.querySelector('#v'+vid);
+        if(!toViewport(verse)){ break;}
+    }
+    VerseId.value = VerseSlide.value = vid;
+}
+
+function toViewport(verse){
+    return (verse.offsetTop+verse.offsetHeight < window.pageYOffset)? 1:
+        (verse.offsetTop > window.pageYOffset+window.innerHeight)? -1: 0;
 }
 </script>
 
