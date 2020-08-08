@@ -1,7 +1,7 @@
 ﻿<html>
 <head>
     <meta charset="utf-8"/>
-    <title>Kinh Pháp Cú (Dhammapada)</title>
+    <title>Kinh Pháp Cú</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Charm"/>
@@ -81,7 +81,7 @@
 	}
 @media not screen and (min-device-width: 800px) {
 	.menu-item button {
-		font-size: 6vw;
+		font-size: 6vmin;
 	}
 }
 	.menu-item button:hover {
@@ -90,6 +90,9 @@
 	.menu-item button:disabled {
 		background: #dddddd;
 	}
+    select:hover {
+        background: #FFFFEE;
+    }
     select.book, select.book-dual {
 		width: 100%; height: 100%;
         font: 16px "Arial", sans-serif;
@@ -203,15 +206,15 @@
     <div id="Menu" class="menu">
 		<button id="MenuButton" class="menubtn">&gt;&gt;</button>
 		<div class="menu-list hidden" id="MenuList">
-			<div  class="menu-item"><button id="IntroBtn" 
+			<div  class="menu-item"><button id="IntroView" 
 				onclick="setView(this.id);">Giới thiệu</button></div>
-			<div  class="menu-item chosen"><button id="ColumnsViewBtn" 
+			<div  class="menu-item chosen"><button id="ColumnsView" 
 				onclick="setView(this.id);">Xem kinh theo cột</button></div>
-			<div  class="menu-item"><button id="DualViewBtn"
+			<div  class="menu-item"><button id="DualView"
 				onclick="setView(this.id);">So sánh 2 bản song song</button></div>
-			<div  class="menu-item"><button id="PrefacesBtn" 
+			<div  class="menu-item"><button id="PrefacesView" 
 				onclick="setView(this.id);">Lời của các dịch giả</button></div>
-			<div  class="menu-item"><button id="HelpBtn" 
+			<div  class="menu-item"><button id="HelpView" 
 				onclick="setView(this.id);">Hướng dẫn sử dụng</button></div>
 		</div>
 	</div>
@@ -260,6 +263,13 @@ collections = [poetries, illustrations, proses]; //in the order of priority
 for(coll of collections){ for(let i in coll.books){ 
 	coll.books[i].collection = coll; coll.books[i].id = coll.id+i; }} 
 dualBooks = [PhapCu_TamMinh, PhapCu_MinhChau];
+function getBook(bid){
+    let book = null;
+    for(let coll of collections){ if(bid[0]==coll.id){
+            book = coll.books[bid.slice(1)]; break;
+    }}
+    return book;    
+}
 
 seeking = false; // ::= auto-scrolling
 
@@ -318,32 +328,31 @@ for(coll of collections){
 	gr = coll.group.cloneNode(true); gr.id += '2';
 	DualBook2.append(gr);
 }
-if(!updateColumns(onMobile? screen.width: window.innerWidth)){ loadChapter(1);}
 if(onMobile){  //keep both the Body and the content fit
     console.log('* New window size: '+window.innerWidth+' x '+window.innerHeight);
-	onInit = 1; //process this init in the next window.onresize
+	onTipping = false;
     window.onorientationchange = function(){
         console.log('* Screen rotated: '+screen.width+' x '+screen.height);
         //alert('Screen rotated: '+screen.width+' x '+screen.height);
         console.log('* New window size: '+window.innerWidth+' x '+window.innerHeight+' (wrong aspect ratio!)');
-		onInit = 2; //process this init in the next window.onresize
+		onTipping = true; //process this orientation tipping in the next window.onresize
     }
 }
 window.onresize = function(){
 	let delta = window.innerWidth - windowWidth;
 	console.log('  Window resized ('+delta+'): '+window.innerWidth+' x '+window.innerHeight+
-		(onInit>1?' (wrong width!)':''));
-	if(Math.abs(delta) < 1 && !onInit){ return;}else{ windowWidth = window.innerWidth; }
+		(onTipping?' (wrong width!)':''));
+	if(Math.abs(delta) < 1 && !onTipping){ return;}else{ windowWidth = window.innerWidth; }
 	if(onMobile){ 
 		let scale = screen.width/window.innerWidth; 
 		console.log('    full-screen scale: '+(Math.round(scale*1000)/10)+'%');
 		console.log('    current viewport: '+(Math.round(visualViewport.scale*1000)/10)+
 			'% x ('+Math.round(visualViewport.width)+','+Math.round(visualViewport.height)+')');
-		if(onInit){
+		if(onTipping){
 			$(Body).width(screen.width);
 		}
 	} 
-	updateColumns(onInit? screen.width: window.innerWidth); onInit = false;
+	updateColumns(onTipping? screen.width: window.innerWidth); onTipping = false;
 	scrollToVerse(true);
 }
 new ResizeObserver(function(entries){
@@ -367,12 +376,10 @@ Menu.onmouseleave = function(){ MenuList.classList.add('hidden'); }
 // handle book change events
 $('select.book').change(function loadBook(){
 	let bid = this.value; console.log('-> book '+bid);
-	let src = null, dest = null, matched = false;
-	for(dest of collections){ 
-		if(bid[0]==dest.id){ matched = true; break; }
-	}
-	if(!matched){ console.log('* Unrecognisable book id: '+bid); return;}
-	dest.book = dest.books[bid.slice(1)];
+	let book = getBook(bid);
+	if(!book){ console.log('! Error: book id "'+bid+'" not found.'); return;}
+    let dest = book.collection, src = null;
+    book.collection.book = book;
 	if(this != dest.select){
 		for(src of collections){ if(src.select == this){ break;}}
 		moveColumn(src, dest, bid); 
@@ -384,19 +391,55 @@ $('select.book').change(function loadBook(){
 // handle dual book change events
 $('select.book-dual').change(function loadBookDual(){
 	let bid = this.value; console.log('-> book '+bid);
-	let book = null;
-	for(coll of collections){ if(bid[0]==coll.id){
-			book = coll.books[bid.slice(1)]; break;
-	}}
+	let book = getBook(bid);
 	if(!book){ console.log('! Error: book id "'+bid+'" not found.'); return;}
-	if(inView(['DualViewBtn'])){
+	if(inView(['DualView'])){
 		dualBooks[Number(this.id[this.id.length - 1]) - 1] = book;
 		loadChapter(ChapterSel.value);
-	}else if(inView(['PrefacesBtn'])){
+	}else if(inView(['PrefacesView'])){
 		AppendixDiv.innerHTML = '';
 		$('<p>'+book.preface.replace(/\n/g,'<br/>\n')+'</p>').appendTo(AppendixDiv);
+        updateURL();
 	}
 });
+
+// handle URL history
+window.onpopstate = function(event) {
+    let st = window.location.href;
+    if(event.state){ st = event.state.hash;}
+    console.log('==> pop history: '+st);
+    loadPage(window.location.href);
+}
+// parse current URL and load the corresponding content
+loadPage(window.location.href);
+function loadPage(url){
+    console.log('======================\n'+url);
+    hash = new URL(url).hash; if(!hash){ hash='#ColumnsView/e0-o0-i0/1/1';}
+    autoNavigating = true; //don't add URL to history
+    hash = hash.slice(1).split('/');
+    if(hash[0]=='ColumnsView'||hash[0]=='DualView'){
+        VerseId.value = hash[3];
+        ChapterSel.value = hash[2];
+        let books = hash[1].split('-');
+        if(hash[0]=='ColumnsView'){
+            PoetryBook.value = books[0]; 
+            poetries.book = poetries.books[books[0].slice(1)]
+            ProseBook.value = books[1];
+            proses.book = proses.books[books[1].slice(1)]
+            IllustrationBook.value = books[2];
+            illustrations.book = illustrations.books[books[2].slice(1)]
+        }else{
+            DualBook1.value = books[0];
+            dualBooks[0] = getBook(books[0]);
+            DualBook2.value = books[1];
+            dualBooks[1] = getBook(books[1]);
+        }
+    }else if(hash[0]=='PrefacesView'){
+            DualBook2.value = hash[1];
+    }
+    setView(hash[0]);
+    autoNavigating = false;
+};
 
 function moveColumn(src, dest, bid){
 	console.log('* Move column: '+src.class+' ==> '+dest.class);
@@ -411,21 +454,22 @@ function updateColumns(width){
     let colnum = (width > 1000)? 3: (width > 600)? 2: 1;
 	console.log('  update column ('+colnum+') to width = '+width);
 	
-	// update DualViewBtn
+	// update DualView menu item and switch to ColumnsView if needed
 	if(colnum < 2){
-		DualViewBtn.disabled = true;
-		DualViewBtn.title = 'Không đủ rộng để xem 2 cột';
-		if(onMobile){ DualViewBtn.innerHTML = '';
-			$(DualViewBtn).append('So sánh 2 bản song song<br/>(Xoay ngang màn hình để xem)');
+		DualView.disabled = true;
+		DualView.title = 'Không đủ rộng để xem 2 cột';
+		if(onMobile){ DualView.innerHTML = '';
+			$(DualView).append('So sánh 2 bản song song<br/>(Xoay ngang màn hình để xem)');
 		}
-		if(inView(['DualViewBtn'])){ setView('ColumnsViewBtn');}
+		if(inView(['DualView'])){ setView('ColumnsView');}
 	}else{
-		DualViewBtn.disabled = false;
-		DualViewBtn.title = '';
+		DualView.disabled = false;
+		DualView.title = '';
 		if(onMobile){
-			$(DualViewBtn).text('So sánh 2 bản song song');
+			$(DualView).text('So sánh 2 bản song song');
 		}
 	}
+	if(!inView(['ColumnsView'])){ return false;}
 	
 	// Add/remove columns by moving option groups in <select>s around
 	let coll = null;
@@ -449,7 +493,6 @@ function updateColumns(width){
 		}
 	}}
 	
-	if(!inView(['ColumnsViewBtn'])){ return false;}
 	updateGridTemplate();	
     loadChapter(ChapterSel.value);
     return true;
@@ -457,10 +500,10 @@ function updateColumns(width){
 
 function updateGridTemplate(view){
 	let colw = '50px';
-	if(!view || view == 'ColumnsViewBtn'){
+	if(!view || view == 'ColumnsView'){
 		for(coll of [poetries,proses,illustrations]){ //in the order of display, not of priority 
 			if($(coll.select).css('display')=='block'){ colw += ' '+coll.colw; }}
-	}else if(view == 'DualViewBtn'){ colw += ' minmax(320px, 1000px) minmax(320px, 1000px)'; 
+	}else if(view == 'DualView'){ colw += ' minmax(320px, 1000px) minmax(320px, 1000px)'; 
 	}else { colw += ' minmax(80%, 1000px)'; }
 	$(ContentDiv).css('grid-template-columns', colw);
 	console.log('* grid-template-columns = '+colw);
@@ -472,7 +515,7 @@ function loadChapter(cid){ cid = Number(cid);
 	
 	//calculate the list of books
 	let books = null;
-	if(inView(['DualViewBtn'])){ books = dualBooks;
+	if(inView(['DualView'])){ books = dualBooks;
 	}else{ books = [];
         for(let coll of [poetries,proses,illustrations]){ //in the order of display, not of priority  
 			if(!coll.select.classList.contains('unchosen')){
@@ -514,7 +557,7 @@ function loadChapter(cid){ cid = Number(cid);
         .attr('onclick','ChapterSel.value='+(cid+1)+'; $(ChapterSel).trigger("change");').appendTo(FooterDiv); }
     if(VerseId.value < chap.from_verse || VerseId.value > chap.to_verse){
         VerseId.value = chap.from_verse; $(VerseId).trigger("change");
-    }
+    }else{ updateURL();}
 }
 
 function processVerse(book,vid){
@@ -550,12 +593,12 @@ function loadVerse(vid){
         if(cid >= 1 && cid <= numchapters){
             ChapterSel.value = cid; $(ChapterSel).trigger('change');
         }
-    }
+    }else{ updateURL();}
     scrollToVerse();
 }
 
 async function scrollToVerse(jump){
-	if(!inView(['ColumnsViewBtn','DualViewBtn'])){ return; }
+	if(!inView(['ColumnsView','DualView'])){ return; }
     seeking = true;
     let vid = VerseId.value;
     let verse = document.querySelector('#v'+vid);
@@ -568,7 +611,7 @@ async function scrollToVerse(jump){
 }
 
 function updateVerseId(){ //to reflect the one present in current viewport
-	if(!inView(['ColumnsViewBtn','DualViewBtn'])){ return; }
+	if(!inView(['ColumnsView','DualView'])){ return; }
     if(seeking){ return;} // don't mess with auto-scrolling!
     let vid = Number(VerseId.value);
     let verse = document.querySelector('#v'+vid);
@@ -586,7 +629,7 @@ function toViewport(verse){
 }
 
 function inView(suspects){
-	for(button of [ColumnsViewBtn,DualViewBtn,PrefacesBtn,IntroBtn,HelpBtn]){
+	for(button of [ColumnsView,DualView,PrefacesView,IntroView,HelpView]){
 		if(button.parentNode.classList.contains('chosen')){ 
 			if(!suspects){ return button.id; }
 			let found = false;
@@ -597,42 +640,77 @@ function inView(suspects){
 }
 
 async function setView(view){ MenuList.classList.add('hidden');
-	for(let button of [ColumnsViewBtn,DualViewBtn,PrefacesBtn,IntroBtn,HelpBtn]){ 
+	for(let button of [ColumnsView,DualView,PrefacesView,IntroView,HelpView]){ 
 		if(button.id == view){ button.parentNode.classList.add('chosen');
 		}else{ button.parentNode.classList.remove('chosen');}
 	}
 	
 	// the book selectors
 	for(let coll of collections){ 
-		if(view == 'ColumnsViewBtn'){ coll.select.classList.remove('hidden'); 
+		if(view == 'ColumnsView'){ coll.select.classList.remove('hidden'); 
 		}else{ coll.select.classList.add('hidden');}
 	}
-	if(view == 'DualViewBtn'){
+	if(view == 'DualView'){
 		DualBook1.classList.remove('hidden');
 		DualBook2.classList.remove('hidden');
 		DualBook1.value = dualBooks[0].id; DualBook2.value = dualBooks[1].id;
 	}else{
 		DualBook1.classList.add('hidden');
-		if(view != 'PrefacesBtn'){ DualBook2.classList.add('hidden');
+		if(view != 'PrefacesView'){ DualBook2.classList.add('hidden');
 		}else{ DualBook2.classList.remove('hidden');}
 	}
 	
 	// the content
-	if(view == 'PrefacesBtn'){ 
+	if(view == 'PrefacesView'){ 
 		PrefaceHeader.classList.remove('hidden'); $(DualBook2).trigger('change');
 	}else{ PrefaceHeader.classList.add('hidden');}
 	updateGridTemplate(view);
-	if(view == 'ColumnsViewBtn' || view == 'DualViewBtn'){
+	if(view == 'ColumnsView' || view == 'DualView'){
 		HeaderDiv.classList.remove('hidden'); FooterDiv.classList.remove('hidden');
 		AppendixDiv.classList.add('hidden');
-		loadChapter(ChapterSel.value);
+        if(!updateColumns(onMobile? screen.width: window.innerWidth)){ 
+            loadChapter(ChapterSel.value);}
 	}else{
 		HeaderDiv.classList.add('hidden'); FooterDiv.classList.add('hidden');
 		AppendixDiv.classList.remove('hidden');
 		while(ContentDiv.children.length > 6){ ContentDiv.children[6].remove(); } 
-		if(view == 'IntroBtn'){ $('<h3>Giới thiệu</h3>').appendTo(ContentDiv);
-		}else if(view == 'HelpBtn'){ $('<h3>Hướng dẫn sử dụng</h3>').appendTo(ContentDiv);}
+		if(view == 'IntroView'){ $('<h3>Giới thiệu</h3>').appendTo(ContentDiv);
+            updateURL();
+		}else if(view == 'HelpView'){ $('<h3>Hướng dẫn sử dụng</h3>').appendTo(ContentDiv);
+            updateURL();
+        }
 	}
+}
+
+function updateURL(){
+    //construct address hash(path) & (sub)title
+    let view = inView();
+    let hash = '#'+view, title = 'Kinh Pháp Cú';
+    if(view=='ColumnsView'||view=='DualView'||view=='PrefacesView'){
+        // books
+        if(view=='ColumnsView'){
+            hash += '/'+poetries.book.id+'-'+proses.book.id+'-'+illustrations.book.id;
+        }else if(view=='DualView'){
+            hash += '/'+dualBooks[0].id+'-'+dualBooks[1].id;
+        }else{ hash += '/'+DualBook2.value; title += ' | Lời dịch giả '+
+            DualBook2.options[DualBook2.selectedIndex].text; }
+
+        // chapter & verse
+        if(view!='PrefacesView'){
+            hash += '/'+ChapterSel.value+'/'+VerseId.value;
+            title += ' | '+toc.chapters[ChapterSel.value].title+' #'+VerseId.value;
+        }
+    }else{
+        title += ' | '+$('#'+view)[0].innerText;
+    }
+
+    //update the history (URL & title)
+    if(!autoNavigating){ window.history.pushState({"hash": hash},'',hash);
+    }else{ window.history.replaceState({"hash": hash},'',hash);}
+    //window.location.replace(hash);
+    document.title = title;
+    console.log('  title = '+title);
+    console.log('  hash = '+hash);
 }
 </script>
 
