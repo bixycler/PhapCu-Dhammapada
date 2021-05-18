@@ -1,4 +1,4 @@
-﻿PhapCu_CreatZy={
+﻿PhapCu_CreatZy = {
 	"title": "Kinh Pháp Cú (Dhammapada)",
 	"year": 2020,
 	"author": "CreatZy (Lê Xuân Định)",

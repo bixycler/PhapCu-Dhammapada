@@ -1,4 +1,6 @@
-﻿toc = PhapCu_CreatZy;
+﻿//import toc from 'PhapCu_CreatZy.json'; // js module cannot be loaded from localhost!
+toc = PhapCu_CreatZy; // so, just use the preloaded var from pseudo JSON file
+
 poetries = { "id": "e",
 	"books": [PhapCu_TamMinh, PhapCu_MinhDuc, PhapCu_ThienNhut, PhapCu_MinhChau],
 	"book": PhapCu_TamMinh,
