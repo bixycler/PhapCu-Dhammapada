@@ -1,143 +1,143 @@
 ﻿PhapCu_MinhChau={
-	"title": "Đại Tạng Kinh Việt Nam\nKINH TIỂU BỘ TẬP I\nKhuddhaka Nikàya\nKINH PHÁP CÚ",
-	"year": 1969,
-	"author": "Thích Minh Châu",
-	"source": "dịch từ tiếng Pāli",
-	"link": "https://thuvienhoasen.org/a7960/kinh-phap-cu",
-	"preface": "Tôi dịch tập Dhammapada ra tiếng Việt để cúng dường Phật đản 2513 (1969). Quyển kinh Dhammapada thuộc tập Khud daka Nikaya (Tiểu bộ kinh) được xem như quyển Thánh kinh trong Phật giáo và trở thành một trong những tập sách được dịch ra nhiều thứ tiếng nhất trong kinh sách Phật giáo. Không những 423 bài kệ trong kinh này tóm thâu tinh hoa giáo lý đức Phật, nhưng nhiều bài kệ đã trở thành những lời dạy chính đức Phật thân thuyết. Và đọc những bài kệ này, chúng ta cảm thấy như thân nghe chính lời Phật dạy từ hơn 2000 năm vang lại. Giá trị bất hủ của tập Dhammapada là ở chỗ này, và ta cảm thấy không còn sợ trung gian của các vị Tổ sư kết tập kinh điển.\n\nChúng tôi cho dịch theo thể kệ năm chữ một, để thật trung thành với nguyên văn, và quí vị sẽ thấy rõ sự cố gắng của chúng tôi, đã dịch hết sức sát với nguyên văn, và nhiều bài kệ có thể xem không thêm, không bớt, một chữ Pali chúng tôi cũng cố gắng tôn trọng đến mức tối đa. Vì đây là thể kệ chứ không phải là thể thơ nên không có thi hóa trong bản dịch của tôi.\n\nDịch tập Dhammapada này ra thể kệ, chúng tôi chỉ có một tâm nguyện mong sao những lời dạy này của đức Phật sẽ soi sáng dẫn đường cho mọi hành động, tâm tư, ngôn ngữ của chúng ta. Và ở trong một thời đại đầy máu lửa đau thương nước mắt, đầy những phân hóa, hỗn tạp, hận thù này, những lời dạy này của đức Phật xoa dịu một phần nào cho tâm tư đã quá căng thẳng hay buồn nản của con người Việt Nam, làm con người Phật tử trở lại con người Phật tử.\n\nVạn Hạnh, ngày Phật Đản 2513 (1969)\nTỳ Kheo Thích Minh Châu\nViện Trưởng Viện Đại Học Vạn Hạnh.",
-	"chapters": {
-		"1": {
-			"title": "I. Phẩm Song Yếu",
-			"from_verse": 1,
-			"to_verse": 20
-		},
-		"2": {
-			"title": "II. Phẩm Không Phóng Dật",
-			"from_verse": 21,
-			"to_verse": 32
-		},
-		"3": {
-			"title": "III. Phẩm Tâm",
-			"from_verse": 33,
-			"to_verse": 43
-		},
-		"4": {
-			"title": "IV. Phẩm Hoa",
-			"from_verse": 44,
-			"to_verse": 59
-		},
-		"5": {
-			"title": "V. Phẩm Ngu",
-			"from_verse": 60,
-			"to_verse": 75
-		},
-		"6": {
-			"title": "VI. Phẩm Hiền Trí",
-			"from_verse": 76,
-			"to_verse": 89
-		},
-		"7": {
-			"title": "VII. Phẩm A-la-hán",
-			"from_verse": 90,
-			"to_verse": 99
-		},
-		"8": {
-			"title": "VIII. Phẩm Ngàn",
-			"from_verse": 100,
-			"to_verse": 115
-		},
-		"9": {
-			"title": "IX. Phẩm Ác",
-			"from_verse": 116,
-			"to_verse": 128
-		},
-		"10": {
-			"title": "X. Phẩm Hình Phạt",
-			"from_verse": 129,
-			"to_verse": 145
-		},
-		"11": {
-			"title": "XI. Phẩm Già",
-			"from_verse": 146,
-			"to_verse": 156
-		},
-		"12": {
-			"title": "XII. Phẩm Tự Ngã",
-			"from_verse": 157,
-			"to_verse": 166
-		},
-		"13": {
-			"title": "XIII. Phẩm Thế Gian",
-			"from_verse": 167,
-			"to_verse": 178
-		},
-		"14": {
-			"title": "XIV. Phẩm Phật-đà",
-			"from_verse": 179,
-			"to_verse": 196
-		},
-		"15": {
-			"title": "XV. Phẩm An Lạc",
-			"from_verse": 197,
-			"to_verse": 208
-		},
-		"16": {
-			"title": "XVI. Phẩm Hỷ Ái",
-			"from_verse": 209,
-			"to_verse": 220
-		},
-		"17": {
-			"title": "XVII. Phẩm Phẫn Nộ",
-			"from_verse": 221,
-			"to_verse": 234
-		},
-		"18": {
-			"title": "XVIII. Phẩm Cấu Uế",
-			"from_verse": 235,
-			"to_verse": 255
-		},
-		"19": {
-			"title": "XIX. Phẩm Pháp Trụ",
-			"from_verse": 256,
-			"to_verse": 272
-		},
-		"20": {
-			"title": "XX. Phẩm Đạo",
-			"from_verse": 273,
-			"to_verse": 289
-		},
-		"21": {
-			"title": "XXI. Phẩm Tạp Lục",
-			"from_verse": 290,
-			"to_verse": 305
-		},
-		"22": {
-			"title": "XXII. Phẩm Địa Ngục",
-			"from_verse": 306,
-			"to_verse": 319
-		},
-		"23": {
-			"title": "XXIII. Phẩm Voi",
-			"from_verse": 320,
-			"to_verse": 333
-		},
-		"24": {
-			"title": "XXIV. Phẩm Tham Ái",
-			"from_verse": 334,
-			"to_verse": 359
-		},
-		"25": {
-			"title": "XXV. Phẩm Tỷ-kheo",
-			"from_verse": 360,
-			"to_verse": 382
-		},
-		"26": {
-			"title": "XXVI. Phẩm Bà-la-môn",
-			"from_verse": 383,
-			"to_verse": 423
-		}
-	},
-	"verses": {
+  "title": "Đại Tạng Kinh Việt Nam\nKINH TIỂU BỘ TẬP I\nKhuddhaka Nikàya\nKINH PHÁP CÚ",
+  "year": 1969,
+  "author": "Thích Minh Châu",
+  "source": "dịch từ tiếng Pāli",
+  "link": "https://thuvienhoasen.org/a7960/kinh-phap-cu",
+  "preface": "Tôi dịch tập Dhammapada ra tiếng Việt để cúng dường Phật đản 2513 (1969). Quyển kinh Dhammapada thuộc tập Khud daka Nikaya (Tiểu bộ kinh) được xem như quyển Thánh kinh trong Phật giáo và trở thành một trong những tập sách được dịch ra nhiều thứ tiếng nhất trong kinh sách Phật giáo. Không những 423 bài kệ trong kinh này tóm thâu tinh hoa giáo lý đức Phật, nhưng nhiều bài kệ đã trở thành những lời dạy chính đức Phật thân thuyết. Và đọc những bài kệ này, chúng ta cảm thấy như thân nghe chính lời Phật dạy từ hơn 2000 năm vang lại. Giá trị bất hủ của tập Dhammapada là ở chỗ này, và ta cảm thấy không còn sợ trung gian của các vị Tổ sư kết tập kinh điển.\n\nChúng tôi cho dịch theo thể kệ năm chữ một, để thật trung thành với nguyên văn, và quí vị sẽ thấy rõ sự cố gắng của chúng tôi, đã dịch hết sức sát với nguyên văn, và nhiều bài kệ có thể xem không thêm, không bớt, một chữ Pali chúng tôi cũng cố gắng tôn trọng đến mức tối đa. Vì đây là thể kệ chứ không phải là thể thơ nên không có thi hóa trong bản dịch của tôi.\n\nDịch tập Dhammapada này ra thể kệ, chúng tôi chỉ có một tâm nguyện mong sao những lời dạy này của đức Phật sẽ soi sáng dẫn đường cho mọi hành động, tâm tư, ngôn ngữ của chúng ta. Và ở trong một thời đại đầy máu lửa đau thương nước mắt, đầy những phân hóa, hỗn tạp, hận thù này, những lời dạy này của đức Phật xoa dịu một phần nào cho tâm tư đã quá căng thẳng hay buồn nản của con người Việt Nam, làm con người Phật tử trở lại con người Phật tử.\n\nVạn Hạnh, ngày Phật Đản 2513 (1969)\nTỳ Kheo Thích Minh Châu\nViện Trưởng Viện Đại Học Vạn Hạnh.",
+  "chapters": {
+    "1": {
+      "title": "I. Phẩm Song Yếu",
+      "from_verse": 1,
+      "to_verse": 20
+    },
+    "2": {
+      "title": "II. Phẩm Không Phóng Dật",
+      "from_verse": 21,
+      "to_verse": 32
+    },
+    "3": {
+      "title": "III. Phẩm Tâm",
+      "from_verse": 33,
+      "to_verse": 43
+    },
+    "4": {
+      "title": "IV. Phẩm Hoa",
+      "from_verse": 44,
+      "to_verse": 59
+    },
+    "5": {
+      "title": "V. Phẩm Ngu",
+      "from_verse": 60,
+      "to_verse": 75
+    },
+    "6": {
+      "title": "VI. Phẩm Hiền Trí",
+      "from_verse": 76,
+      "to_verse": 89
+    },
+    "7": {
+      "title": "VII. Phẩm A-la-hán",
+      "from_verse": 90,
+      "to_verse": 99
+    },
+    "8": {
+      "title": "VIII. Phẩm Ngàn",
+      "from_verse": 100,
+      "to_verse": 115
+    },
+    "9": {
+      "title": "IX. Phẩm Ác",
+      "from_verse": 116,
+      "to_verse": 128
+    },
+    "10": {
+      "title": "X. Phẩm Hình Phạt",
+      "from_verse": 129,
+      "to_verse": 145
+    },
+    "11": {
+      "title": "XI. Phẩm Già",
+      "from_verse": 146,
+      "to_verse": 156
+    },
+    "12": {
+      "title": "XII. Phẩm Tự Ngã",
+      "from_verse": 157,
+      "to_verse": 166
+    },
+    "13": {
+      "title": "XIII. Phẩm Thế Gian",
+      "from_verse": 167,
+      "to_verse": 178
+    },
+    "14": {
+      "title": "XIV. Phẩm Phật-đà",
+      "from_verse": 179,
+      "to_verse": 196
+    },
+    "15": {
+      "title": "XV. Phẩm An Lạc",
+      "from_verse": 197,
+      "to_verse": 208
+    },
+    "16": {
+      "title": "XVI. Phẩm Hỷ Ái",
+      "from_verse": 209,
+      "to_verse": 220
+    },
+    "17": {
+      "title": "XVII. Phẩm Phẫn Nộ",
+      "from_verse": 221,
+      "to_verse": 234
+    },
+    "18": {
+      "title": "XVIII. Phẩm Cấu Uế",
+      "from_verse": 235,
+      "to_verse": 255
+    },
+    "19": {
+      "title": "XIX. Phẩm Pháp Trụ",
+      "from_verse": 256,
+      "to_verse": 272
+    },
+    "20": {
+      "title": "XX. Phẩm Đạo",
+      "from_verse": 273,
+      "to_verse": 289
+    },
+    "21": {
+      "title": "XXI. Phẩm Tạp Lục",
+      "from_verse": 290,
+      "to_verse": 305
+    },
+    "22": {
+      "title": "XXII. Phẩm Địa Ngục",
+      "from_verse": 306,
+      "to_verse": 319
+    },
+    "23": {
+      "title": "XXIII. Phẩm Voi",
+      "from_verse": 320,
+      "to_verse": 333
+    },
+    "24": {
+      "title": "XXIV. Phẩm Tham Ái",
+      "from_verse": 334,
+      "to_verse": 359
+    },
+    "25": {
+      "title": "XXV. Phẩm Tỷ-kheo",
+      "from_verse": 360,
+      "to_verse": 382
+    },
+    "26": {
+      "title": "XXVI. Phẩm Bà-la-môn",
+      "from_verse": 383,
+      "to_verse": 423
+    }
+  },
+  "verses": {
 "1": "Ý dẫn đầu các pháp,\nÝ làm chủ, ý tạo;\nNếu với ý ô nhiễm,\nNói lên hay hành động,\nKhổ não bước theo sau,\nNhư xe, chân vật kéo.",
 "2": "Ý dẫn đầu các pháp,\nÝ làm chủ, ý tạo,\nNếu với ý thanh tịnh,\nNói lên hay hành động,\nAn lạc bước theo sau,\nNhư bóng, không rời hình.",
 "3": "“Nó mắng tôi, đánh tôi,\nNó thắng tôi, cướp tôi”\nAi ôm hiềm hận ấy,\nHận thù không thể nguôi.",
@@ -561,5 +561,5 @@
 "421": "Ai quá, hiện, vị lai\nKhông một sở hữu gì,\nKhông sở hữu không nắm,\nTa gọi “Bà-la-môn”.",
 "422": "Bậc trâu chúa, thù thắng\nBậc anh hùng, đại sĩ,\nBậc chiến thắng, không nhiễm,\nBậc tẩy sạch, giác ngộ,\nTa gọi “Bà-la-môn”.",
 "423": "Ai biết được đời trước,\nThấy thiên giới, đọa xứ,\nĐạt được sanh diệt tận\nThắng trí, tự viên thành\nBậc mâu ni đạo sĩ.\nViên mãn mọi thành tựu\nTa gọi “Bà-la-môn”."
-	}
+  }
 }
