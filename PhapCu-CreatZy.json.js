@@ -97,7 +97,7 @@
 			"to_verse": 255
 		},
 		"19": {
-			"title": "19.  Trọng Pháp",
+			"title": "19.  Chánh Hạnh",
 			"from_verse": 256,
 			"to_verse": 272
 		},

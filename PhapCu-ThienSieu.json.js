@@ -1,144 +1,144 @@
 ﻿PhapCu_ThienSieu={
-	"title": "KINH PHÁP CÚ (DHAMMAPADA)",
-	"year": 1959,
-	"author": "Thích Thiện Siêu (Trí Đức)",
-	"source": "dịch từ chữ Hán",
-    "link": "https://thuvienhoasen.org/images/file/ZSqWfkb40QgQAJh6/kinh-phap-cu-19-10-2014-.pdf",
-	"link": "http://www.chualientri.com/index.php/thu-vien/sach-phat-giao/book/16-kinh-phap-cu-ht-thich-thien-sieu",
-	"preface": "PHÁP CÚ là quyển Kinh chọn lọc những lời dạy của đức Phật Thích-ca Mâu-ni khi còn tại thế. Suốt trong 45 năm thuyết pháp, đức Phật đã nói rất nhiều Pháp ngữ, bao gồm nghĩa lý thâm thiết để cởi mở nghiệp khổ cho chúng sanh mà đưa họ đến Niết-bàn an lạc. Những giáo pháp ấy, ngay ba tháng sau khi Phật diệt độ, được các vị cao đồ tập họp Ðại hội Kết tập Kinh điển lần đầu tiên, tập thành Tam tạng để truyền lại cho hậu thế noi theo. Đồng thời, những câu dạy ngắn gọn đầy ý nghĩa của Phật trong hơn ba trăm trường hợp giáo hóa khác nhau, cũng được kết tập thành kinh Pháp cú này và lưu truyền mãi cho đến ngày nay. \n\n Thường thường chúng ta thấy trong báo chí, sách vở của các nhà nghiên cứu Phật học hay trích dẫn những câu nói ngắn gọn nhưng rất có giá trị của đức Phật, là phần nhiều từ ở Kinh này mà ra. \n\n Kinh Pháp cú gồm 26 phẩm, 423 câu (bài kệ), là quyển thứ hai trong 15 quyển thuộc Kinh Tiểu Bộ (Khuddaka-Nikāya) trong Kinh tạng Pāli và được dịch ra rất nhiều thứ tiếng ở Á châu và Âu-Mỹ. Theo chỗ chúng tôi được biết, những người đầu tiên dịch kinh Pháp cú kể có học giả Đan-mạch Viggo Fausbøll (Fausböll) dịch sang tiếng La-tinh năm 1855; học giả Max F. Mueller sang Anh ngữ năm 1881; giáo sư E.W. Burlingame thì chuyển ngữ bản Sớ giải, sau này được giáo sư Charles Rockwell Lanman (1850-1941) giảo đính và đại học Havard tại Mỹ quốc xuất bản năm 1901; giáo sư Sanskrit Phước Đảo Trực tứ lang (Fukushima Naoshiro, 福島直四郎, 1899-1979), dịch sang Nhật ngữ; năm 1862, lần đầu tiên Dhammapada được dịch ra tiếng Đức, v.v. Ngoài ra, lại còn có các bản Hán dịch rất cổ với danh đề Pháp cú kinh, Pháp tập yếu tụng v.v. Cho đến nay riêng phần Anh ngữ đã có gần 80 bản dịch, ngoài các học giả kể trên còn có những cao tăng tôn túc như Nārada MahāThera, Acharya Buddharakkhita, v.v. \n\n Xưa nay các nước Phật giáo Nam truyền như Tích-lan, Miến-điện v.v., và Phật giáo Tây tạng, đều đặc biệt tôn vinh Pháp cú làm bộ kinh nhật tụng quý báu; hàng Tăng giới ít ai không biết, không thuộc, không hành trì, và hàng cư sĩ cũng lấy đó phụng hành để sống một đời sống an lành thanh khiết. \n\n Riêng tại Việt Nam, lâu nay thấy có trích dẫn, nhưng chưa ai dịch hết toàn bộ.  Nay nhân dịp may, tôi gặp được bản kinh Pháp cú do Pháp sư Liễu Tham vừa dịch từ nguyên bản Pāli ra Hán văn, với sự tham khảo chú thích rạch ròi, có thể giúp chúng ta đọc như đọc thẳng bản văn Pāli, nên tôi kính cẩn dịch ra để góp vào kho Phật kinh tiếng Việt. \n\n Gần đây Hoà thượng Thích Minh Châu cũng đã dịch toàn văn kinh Pháp cú từ bản Pāli và in song song cả hai thứ chữ Việt-Pāli, tạo thuận lợi rất nhiều cho việc học hỏi thêm chính xác và sâu sắc hơn đối với lời Phật dạy. Do vậy mà lần tái bản này, có thêm bản Anh ngữ của ngài Nārada MahāThera, được xem là chính xác nhất, trình bày cùng với bản văn vần thi kệ của Hoà thượng Thích Minh Châu, lập thành một quyển kinh Pháp cú tương đối hoàn chỉnh (Pāli-Việt-HánAnh), thực hiện đầy đủ hy vọng xưa nay của tôi, để làm thủ sách cho mọi giới. \n\n Đọc xong kinh Pháp cú, độc giả sẽ thấy trong đó gồm những lời dạy về triết lý cho cả hai giới xuất gia và tại gia. Những lời dạy cho hàng xuất gia tất nhiên không bao hàm tại gia, nhưng những lời dạy cho hàng tại gia đương nhiên trùm cả hàng xuất gia. Do đó dù ở hạng nào, đọc cuốn kinh này, cũng thu thập được nhiều ích lợi thanh cao. \n\n Tôi tin rằng những lời dạy giản dị mà thâm thúy trong kinh Pháp cú có thể làm cho chúng ta mỗi khi đọc đến thấy một niềm siêu thoát lâng lâng tràn ngập tâm hồn, và những đức tính từ bi hỉ xả, bình tĩnh, lạc quan vươn lên tỏa rộng giữa những ngang trái, hẹp hòi, khổ đau, điên đảo của cuộc thế vô thường. \n\n Bản dịch này tôi đã xuất bản lần đầu tiên năm 1959 (với pháp tự Trí Đức) và sau đó đã nhiều lần tái bản. Nay, lại có thiện duyên, bản dịch này được tái bản để pháp bảo lưu thông rộng rãi. \n\nPhật lịch 2542, ngày Phật Thành Đạo\n THÍCH THIỆN SIÊU",
-	"chapters": {
-		"1": {
-			"title": "I. Phẩm Song Yếu",
-			"from_verse": 1,
-			"to_verse": 20
-		},
-		"2": {
-			"title": "II. Phẩm Không Phóng Dật",
-			"from_verse": 21,
-			"to_verse": 32
-		},
-		"3": {
-			"title": "III. Phẩm Tâm",
-			"from_verse": 33,
-			"to_verse": 43
-		},
-		"4": {
-			"title": "IV. Phẩm Hoa",
-			"from_verse": 44,
-			"to_verse": 59
-		},
-		"5": {
-			"title": "V. Phẩm Ngu",
-			"from_verse": 60,
-			"to_verse": 75
-		},
-		"6": {
-			"title": "VI. Phẩm Hiền Trí",
-			"from_verse": 76,
-			"to_verse": 89
-		},
-		"7": {
-			"title": "VII. Phẩm A-la-hán",
-			"from_verse": 90,
-			"to_verse": 99
-		},
-		"8": {
-			"title": "VIII. Phẩm Ngàn",
-			"from_verse": 100,
-			"to_verse": 115
-		},
-		"9": {
-			"title": "IX. Phẩm Ác",
-			"from_verse": 116,
-			"to_verse": 128
-		},
-		"10": {
-			"title": "X. Phẩm Hình Phạt",
-			"from_verse": 129,
-			"to_verse": 145
-		},
-		"11": {
-			"title": "XI. Phẩm Già",
-			"from_verse": 146,
-			"to_verse": 156
-		},
-		"12": {
-			"title": "XII. Phẩm Tự Ngã",
-			"from_verse": 157,
-			"to_verse": 166
-		},
-		"13": {
-			"title": "XIII. Phẩm Thế Gian",
-			"from_verse": 167,
-			"to_verse": 178
-		},
-		"14": {
-			"title": "XIV. Phẩm Phật-đà",
-			"from_verse": 179,
-			"to_verse": 196
-		},
-		"15": {
-			"title": "XV. Phẩm An Lạc",
-			"from_verse": 197,
-			"to_verse": 208
-		},
-		"16": {
-			"title": "XVI. Phẩm Thân Ái",
-			"from_verse": 209,
-			"to_verse": 220
-		},
-		"17": {
-			"title": "XVII. Phẩm Sân Hận",
-			"from_verse": 221,
-			"to_verse": 234
-		},
-		"18": {
-			"title": "XVIII. Phẩm Ô Uế",
-			"from_verse": 235,
-			"to_verse": 255
-		},
-		"19": {
-			"title": "XIX. Phẩm Pháp Trụ",
-			"from_verse": 256,
-			"to_verse": 272
-		},
-		"20": {
-			"title": "XX. Phẩm Đạo",
-			"from_verse": 273,
-			"to_verse": 289
-		},
-		"21": {
-			"title": "XXI. Phẩm Tạp Lục",
-			"from_verse": 290,
-			"to_verse": 305
-		},
-		"22": {
-			"title": "XXII. Phẩm Địa Ngục",
-			"from_verse": 306,
-			"to_verse": 319
-		},
-		"23": {
-			"title": "XXIII. Phẩm Voi",
-			"from_verse": 320,
-			"to_verse": 333
-		},
-		"24": {
-			"title": "XXIV. Phẩm Tham Ái",
-			"from_verse": 334,
-			"to_verse": 359
-		},
-		"25": {
-			"title": "XXV. Phẩm Tỳ-kheo",
-			"from_verse": 360,
-			"to_verse": 382
-		},
-		"26": {
-			"title": "XXVI. Phẩm Bà-la-môn",
-			"from_verse": 383,
-			"to_verse": 423
-		}
-	},
-    "verses": {
+  "title": "KINH PHÁP CÚ (DHAMMAPADA)",
+  "year": 1959,
+  "author": "Thích Thiện Siêu (Trí Đức)",
+  "source": "dịch từ chữ Hán",
+  "link": "https://thuvienhoasen.org/images/file/ZSqWfkb40QgQAJh6/kinh-phap-cu-19-10-2014-.pdf",
+  "link": "http://www.chualientri.com/index.php/thu-vien/sach-phat-giao/book/16-kinh-phap-cu-ht-thich-thien-sieu",
+  "preface": "PHÁP CÚ là quyển Kinh chọn lọc những lời dạy của đức Phật Thích-ca Mâu-ni khi còn tại thế. Suốt trong 45 năm thuyết pháp, đức Phật đã nói rất nhiều Pháp ngữ, bao gồm nghĩa lý thâm thiết để cởi mở nghiệp khổ cho chúng sanh mà đưa họ đến Niết-bàn an lạc. Những giáo pháp ấy, ngay ba tháng sau khi Phật diệt độ, được các vị cao đồ tập họp Ðại hội Kết tập Kinh điển lần đầu tiên, tập thành Tam tạng để truyền lại cho hậu thế noi theo. Đồng thời, những câu dạy ngắn gọn đầy ý nghĩa của Phật trong hơn ba trăm trường hợp giáo hóa khác nhau, cũng được kết tập thành kinh Pháp cú này và lưu truyền mãi cho đến ngày nay. \n\n Thường thường chúng ta thấy trong báo chí, sách vở của các nhà nghiên cứu Phật học hay trích dẫn những câu nói ngắn gọn nhưng rất có giá trị của đức Phật, là phần nhiều từ ở Kinh này mà ra. \n\n Kinh Pháp cú gồm 26 phẩm, 423 câu (bài kệ), là quyển thứ hai trong 15 quyển thuộc Kinh Tiểu Bộ (Khuddaka-Nikāya) trong Kinh tạng Pāli và được dịch ra rất nhiều thứ tiếng ở Á châu và Âu-Mỹ. Theo chỗ chúng tôi được biết, những người đầu tiên dịch kinh Pháp cú kể có học giả Đan-mạch Viggo Fausbøll (Fausböll) dịch sang tiếng La-tinh năm 1855; học giả Max F. Mueller sang Anh ngữ năm 1881; giáo sư E.W. Burlingame thì chuyển ngữ bản Sớ giải, sau này được giáo sư Charles Rockwell Lanman (1850-1941) giảo đính và đại học Havard tại Mỹ quốc xuất bản năm 1901; giáo sư Sanskrit Phước Đảo Trực tứ lang (Fukushima Naoshiro, 福島直四郎, 1899-1979), dịch sang Nhật ngữ; năm 1862, lần đầu tiên Dhammapada được dịch ra tiếng Đức, v.v. Ngoài ra, lại còn có các bản Hán dịch rất cổ với danh đề Pháp cú kinh, Pháp tập yếu tụng v.v. Cho đến nay riêng phần Anh ngữ đã có gần 80 bản dịch, ngoài các học giả kể trên còn có những cao tăng tôn túc như Nārada MahāThera, Acharya Buddharakkhita, v.v. \n\n Xưa nay các nước Phật giáo Nam truyền như Tích-lan, Miến-điện v.v., và Phật giáo Tây tạng, đều đặc biệt tôn vinh Pháp cú làm bộ kinh nhật tụng quý báu; hàng Tăng giới ít ai không biết, không thuộc, không hành trì, và hàng cư sĩ cũng lấy đó phụng hành để sống một đời sống an lành thanh khiết. \n\n Riêng tại Việt Nam, lâu nay thấy có trích dẫn, nhưng chưa ai dịch hết toàn bộ.  Nay nhân dịp may, tôi gặp được bản kinh Pháp cú do Pháp sư Liễu Tham vừa dịch từ nguyên bản Pāli ra Hán văn, với sự tham khảo chú thích rạch ròi, có thể giúp chúng ta đọc như đọc thẳng bản văn Pāli, nên tôi kính cẩn dịch ra để góp vào kho Phật kinh tiếng Việt. \n\n Gần đây Hoà thượng Thích Minh Châu cũng đã dịch toàn văn kinh Pháp cú từ bản Pāli và in song song cả hai thứ chữ Việt-Pāli, tạo thuận lợi rất nhiều cho việc học hỏi thêm chính xác và sâu sắc hơn đối với lời Phật dạy. Do vậy mà lần tái bản này, có thêm bản Anh ngữ của ngài Nārada MahāThera, được xem là chính xác nhất, trình bày cùng với bản văn vần thi kệ của Hoà thượng Thích Minh Châu, lập thành một quyển kinh Pháp cú tương đối hoàn chỉnh (Pāli-Việt-HánAnh), thực hiện đầy đủ hy vọng xưa nay của tôi, để làm thủ sách cho mọi giới. \n\n Đọc xong kinh Pháp cú, độc giả sẽ thấy trong đó gồm những lời dạy về triết lý cho cả hai giới xuất gia và tại gia. Những lời dạy cho hàng xuất gia tất nhiên không bao hàm tại gia, nhưng những lời dạy cho hàng tại gia đương nhiên trùm cả hàng xuất gia. Do đó dù ở hạng nào, đọc cuốn kinh này, cũng thu thập được nhiều ích lợi thanh cao. \n\n Tôi tin rằng những lời dạy giản dị mà thâm thúy trong kinh Pháp cú có thể làm cho chúng ta mỗi khi đọc đến thấy một niềm siêu thoát lâng lâng tràn ngập tâm hồn, và những đức tính từ bi hỉ xả, bình tĩnh, lạc quan vươn lên tỏa rộng giữa những ngang trái, hẹp hòi, khổ đau, điên đảo của cuộc thế vô thường. \n\n Bản dịch này tôi đã xuất bản lần đầu tiên năm 1959 (với pháp tự Trí Đức) và sau đó đã nhiều lần tái bản. Nay, lại có thiện duyên, bản dịch này được tái bản để pháp bảo lưu thông rộng rãi. \n\nPhật lịch 2542, ngày Phật Thành Đạo\n THÍCH THIỆN SIÊU",
+  "chapters": {
+    "1": {
+      "title": "I. Phẩm Song Yếu",
+      "from_verse": 1,
+      "to_verse": 20
+    },
+    "2": {
+      "title": "II. Phẩm Không Phóng Dật",
+      "from_verse": 21,
+      "to_verse": 32
+    },
+    "3": {
+      "title": "III. Phẩm Tâm",
+      "from_verse": 33,
+      "to_verse": 43
+    },
+    "4": {
+      "title": "IV. Phẩm Hoa",
+      "from_verse": 44,
+      "to_verse": 59
+    },
+    "5": {
+      "title": "V. Phẩm Ngu",
+      "from_verse": 60,
+      "to_verse": 75
+    },
+    "6": {
+      "title": "VI. Phẩm Hiền Trí",
+      "from_verse": 76,
+      "to_verse": 89
+    },
+    "7": {
+      "title": "VII. Phẩm A-la-hán",
+      "from_verse": 90,
+      "to_verse": 99
+    },
+    "8": {
+      "title": "VIII. Phẩm Ngàn",
+      "from_verse": 100,
+      "to_verse": 115
+    },
+    "9": {
+      "title": "IX. Phẩm Ác",
+      "from_verse": 116,
+      "to_verse": 128
+    },
+    "10": {
+      "title": "X. Phẩm Hình Phạt",
+      "from_verse": 129,
+      "to_verse": 145
+    },
+    "11": {
+      "title": "XI. Phẩm Già",
+      "from_verse": 146,
+      "to_verse": 156
+    },
+    "12": {
+      "title": "XII. Phẩm Tự Ngã",
+      "from_verse": 157,
+      "to_verse": 166
+    },
+    "13": {
+      "title": "XIII. Phẩm Thế Gian",
+      "from_verse": 167,
+      "to_verse": 178
+    },
+    "14": {
+      "title": "XIV. Phẩm Phật-đà",
+      "from_verse": 179,
+      "to_verse": 196
+    },
+    "15": {
+      "title": "XV. Phẩm An Lạc",
+      "from_verse": 197,
+      "to_verse": 208
+    },
+    "16": {
+      "title": "XVI. Phẩm Thân Ái",
+      "from_verse": 209,
+      "to_verse": 220
+    },
+    "17": {
+      "title": "XVII. Phẩm Sân Hận",
+      "from_verse": 221,
+      "to_verse": 234
+    },
+    "18": {
+      "title": "XVIII. Phẩm Ô Uế",
+      "from_verse": 235,
+      "to_verse": 255
+    },
+    "19": {
+      "title": "XIX. Phẩm Pháp Trụ",
+      "from_verse": 256,
+      "to_verse": 272
+    },
+    "20": {
+      "title": "XX. Phẩm Đạo",
+      "from_verse": 273,
+      "to_verse": 289
+    },
+    "21": {
+      "title": "XXI. Phẩm Tạp Lục",
+      "from_verse": 290,
+      "to_verse": 305
+    },
+    "22": {
+      "title": "XXII. Phẩm Địa Ngục",
+      "from_verse": 306,
+      "to_verse": 319
+    },
+    "23": {
+      "title": "XXIII. Phẩm Voi",
+      "from_verse": 320,
+      "to_verse": 333
+    },
+    "24": {
+      "title": "XXIV. Phẩm Tham Ái",
+      "from_verse": 334,
+      "to_verse": 359
+    },
+    "25": {
+      "title": "XXV. Phẩm Tỳ-kheo",
+      "from_verse": 360,
+      "to_verse": 382
+    },
+    "26": {
+      "title": "XXVI. Phẩm Bà-la-môn",
+      "from_verse": 383,
+      "to_verse": 423
+    }
+  },
+  "verses": {
 "1": "Trong các pháp(2), tâm dẫn đầu, tâm làm chủ, tâm tạo tác. Nếu nói hoặc làm với tâm ô nhiễm, sự khổ sẽ theo nghiệp kéo đến như bánh xe lăn theo chân con vật kéo(3).",
 "2": "Trong các pháp, tâm dẫn đầu, tâm làm chủ, tâm tạo tác. Nếu nói hoặc làm với tâm thanh tịnh, sự vui sẽ theo nghiệp kéo đến như bóng theo hình.",
 "3": "“Nó lăng mạ tôi, đánh đập tôi, phá hoại tôi, cướp đoạt tôi”, ai còn ôm ấp tâm niệm ấy, thì sự oán hận không thể dứt.",
@@ -168,7 +168,7 @@
 "27": "Chớ đắm chìm theo buông lung, chớ mê say dục lạc; hãy tỉnh giác tu thiền, mới mong đặng đại an lạc.",
 "28": "Nhờ trừ hết buông lung, kẻ trí không còn lo sợ gì. Bậc thánh hiền bước lên lầu trí tuệ, nhìn thấy kẻ ngu si còn nhiều lo sợ, như được lên núi cao, cúi nhìn muôn vật trên mặt đất.",
 "29": "Tinh tấn giữa đám người buông lung, tỉnh táo giữa đám người mê ngủ, kẻ trí như con tuấn mã thẳng tiến, bỏ lại sau con ngựa gầy hèn.",
-"30": "Nhờ không buông lung, Ma già(22) được làm chủ chư thiên. Không buông lung được nguời khen ngợi, buông lung bị người khinh chê.",
+"30": "Nhờ không buông lung, Ma-già(22) được làm chủ chư thiên. Không buông lung được nguời khen ngợi, buông lung bị người khinh chê.",
 "31": "Tỷ-kheo thường ưa không buông lung, hoặc sợ thấy sự buông lung, ta ví họ như ngọn lửa hồng đốt thiêu tất cả kiết sử(23) lớn nhỏ.",
 "32": "Tỷ-kheo nào thường ưa không buông lung, hoặc sợ thấy sự buông lung, ta biết họ gần tới Niết-bàn, nhất định không bị đọa lạc dễ dàng như trước.",
 "33": "Tâm kẻ phàm phu thường dao động hốt hoảng khó chế phục, nhưng kẻ trí chế phục tâm làm cho chính trực dễ dàng, như thợ khéo uốn nắn mũi tên.",
@@ -187,13 +187,13 @@
 "46": "Nên biết thân này là pháp huyễn hóa như bọt nổi, để bẻ gãy mũi tên cám dỗ của ma quân(40) mà thoát ngoài vòng dòm ngó của tử thần.",
 "47": "Như nước lũ cuốn phăng những xóm làng say ngủ(41), tử thần sẽ lôi phăng đi những người sinh tâm ái trước những bông hoa dục lạc mình vừa góp nhặt được.",
 "48": "Cứ sinh tâm ái trước, tham luyến mãi những bông hoa(42) dục lạc mà mình vừa góp nhặt được, đó chính là cơ hội tốt cho tử thần lôi đi.",
-"49": "Hàng Sa-môn (Mâu ni)(43) đi vào xóm làng khất thực, ví như con ong đi kiếm hoa, chỉ lấy mật rồi đi chứ không làm tổn thương về hương sắc.",
+"49": "Hàng Sa-môn (Mâu-ni)(43) đi vào xóm làng khất thực, ví như con ong đi kiếm hoa, chỉ lấy mật rồi đi chứ không làm tổn thương về hương sắc.",
 "50": "Chớ nên dòm ngó lỗi người, chớ nên coi họ đã làm hay không làm(44); chỉ nên ngó lại hành động của mình, coi đã làm được gì hay chưa làm được gì.",
 "51": "Như thứ hoa đẹp chỉ phô trương màu sắc mà chẳng có hương thơm, những người chỉ biết nói điều lành mà không làm điều lành thì chẳng đem lại lợi ích.",
 "52": "Như thứ hoa tươi đẹp vừa có màu sắc lại có hương thơm, những người nói điều lành và làm điều lành sẽ đem lại kết quả tốt.",
 "53": "Như từ đống hoa có thể làm nên nhiều tràng hoa; như vậy, từ nơi thân người có thể tạo nên nhiều việc thiện.",
-"54": "Hương của các loài hoa chiên đàn, đa già la hay mạt lỵ(45) đều không thể bay ngược gió, chỉ có mùi hương đức hạnh của người chân chính, tuy ngược gió vẫn bay khắp muôn phương.",
-"55": "Hương chiên đàn, hương đa già la, hương bạt tất kỳ(46), hương sen xanh, trong tất cả thứ hương chỉ thứ hương đức hạnh hơn cả.",
+"54": "Hương của các loài hoa chiên-đàn, đa-già-la hay mạt-lỵ(45) đều không thể bay ngược gió, chỉ có mùi hương đức hạnh của người chân chính, tuy ngược gió vẫn bay khắp muôn phương.",
+"55": "Hương chiên đàn, hương đa già la, hương bạt-tất-kỳ(46), hương sen xanh, trong tất cả thứ hương chỉ thứ hương đức hạnh hơn cả.",
 "56": "Hương chiên đàn, hương đa già la đều là thứ hương vi diệu nhưng không bằng thứ hương đức hạnh xông ngát tận chư thiên.",
 "57": "Người nào thành tựu các giới hạnh, hằng ngày chẳng buông lung, an trụ trong chính trí và giải thoát, thì ác ma không thể dòm ngó được.",
 "58": "Như từ trong đống bùn nhơ vất bỏ trên đường lớn sinh ra hoa sen thanh khiết ngọt ngào, làm đẹp ý mọi người; cũng thế, chỉ từ nơi chốn phàm phu ngu muội mới sản sanh những vị đệ tử bậc Chánh giác, đem trí tuệ soi sáng thế gian.",
@@ -208,7 +208,7 @@
 "67": "Người gây điều bất thiện, làm xong ăn năn, khóc lóc nhỏ lệ dầm dề, vì biết mình sẽ thọ lấy quả báo tương lai(48).",
 "68": "Người tạo các nghiệp thiện, làm xong chẳng ăn năn, còn vui mừng hớn hở, vì biết mình sẽ thọ lấy quả báo tương lai.(49)",
 "69": "Khi ác nghiệp chưa thành thục, người ngu tưởng như đường mật; nhưng khi ác nghiệp đã thành thục, họ nhất định phải chịu khổ đắng cay.",
-"70": "Từ tháng này qua tháng khác, với món ăn bằng đầu ngọn cỏ cô sa (cỏ thơm) (50) người ngu có thể lấy ăn để sống, nhưng việc ấy không có giá trị bằng một phần mười sáu của người tư duy Chánh pháp(51).",
+"70": "Từ tháng này qua tháng khác, với món ăn bằng đầu ngọn cỏ cô-sa (cỏ thơm) (50) người ngu có thể lấy ăn để sống, nhưng việc ấy không có giá trị bằng một phần mười sáu của người tư duy Chánh pháp(51).",
 "71": "Người cất sữa bò không chỉ sáng chiều đã thành vị đề hồ(52) được. Cũng thế, kẻ phàm phu tạo nghiệp ác tuy chẳng cảm thụ ác quả liền, nhưng nghiệp lực vẫn âm thầm theo họ như lửa ngún giữa tro than.",
 "72": "Kẻ phàm phu lòng muốn được tri thức mà hành động lại dẫn tới diệt vong, nên hạnh phúc bị tổn hại mà trí tuệ(53) cũng tiêu tan.",
 "73": "Kẻ ngu thường muốn hư danh: chỗ ngồi cao trong Tăng chúng, viện chủ trong Tăng viện, mọi người xin đến cúng dường.",
@@ -233,7 +233,7 @@
 "92": "Những vị A-la-hán không chất chứa tài sản(68) biết rõ mục đích sự ăn uống(69), tự tại đi trong cảnh giới: “không, vô tướng, giải thoát”(70), như chim bay giữa hư không, khó tìm thấy dấu vết.",
 "93": "Những vị A-la-hán đã dứt sạch các lậu hoặc(71), không tham đắm uống ăn, tự tại đi trong cảnh giới “không, vô tướng, giải thoát” như chim bay giữa hư không, khó tìm thấy dấu vết.",
 "94": "Những vị A-la-hán đã tịch tịnh được các căn như tên kỵ mã đã điều luyện được ngựa lành, nên không còn phiền não ngã mạn, được hàng nhơn thiên kính mộ.",
-"95": "Những vị A-la-hán đã bỏ hết sân hận, tâm như cõi đất bằng, chí thành kiên cố như nhân đà yết la(72), như ao sâu không bùn, nên chẳng còn bị luân hồi xoay chuyển.",
+"95": "Những vị A-la-hán đã bỏ hết sân hận, tâm như cõi đất bằng, chí thành kiên cố như nhân-đà-yết-la(72), như ao sâu không bùn, nên chẳng còn bị luân hồi xoay chuyển.",
 "96": "Những vị A-la-hán ý nghiệp thường vắng lặng, ngữ nghiệp, hành nghiệp thường vắng lặng, lại có chánh trí giải thoát, nên được an ổn luôn.",
 "97": "Những vị A-la-hán chẳng còn phải tin ai(73), đã thấu hiểu đạo vô vi, dứt trừ vĩnh viễn nguyên nhân(74) cùng quả báo ràng buộc(75), lòng tham dục cũng xa lìa. Thật là bậc Vô thượng sĩ.",
 "98": "Dù ở xóm làng, dù ở núi rừng, dù ở đất bằng, dù ở ngõ trũng(76), bất cứ ở chốn nào mà có vị A-la-hán thì ở đấy đầy cảnh tượng yên vui.",
@@ -243,7 +243,7 @@
 "102": "Tụng đến trăm câu kệ vô nghĩa chẳng bằmg một Pháp cú (77), nghe xong tâm liền tịch tịnh.",
 "103": "Thắng ngàn quân giặc ở chiến trường chẳng bằng tự thắng. Người tự thắng là chiến sĩ oanh liệt nhất.",
 "104": "Tự thắng mình còn vẻ vang hơn thắng kẻ khác. Muốn thắng mình phải luôn luôn tiết chế lòng tham dục(78).",
-"105": "Dù là Thiên thần, Càn thát bà(79), Ma vương(80), hay Phạm thiên(81), không một ai chẳng thất bại trước người đã tự thắng(82).",
+"105": "Dù là Thiên thần, Càn-thát-bà(79), Ma vương(80), hay Phạm thiên(81), không một ai chẳng thất bại trước người đã tự thắng(82).",
 "106": "Mỗi tháng bỏ ra hàng ngàn vàng để sắm vật hy sinh tế tự cả đến trăm năm, chẳng bằng giây lát cúng dường bậc chân tu; cúng dường bậc chân tu trong giây lát thắng hơn tế tự quỉ thần cả trăm năm.",
 "107": "Cả trăm năm ở tại rừng sâu thờ lửa, chẳng bằng trong giây lát cúng dường bậc chân tu, cúng dường bậc chân tu trong giây lát thắng hơn thờ lửa cả trăm năm.",
 "108": "Suốt năm cúng dường để cầu phước, công đức chẳng bằng một phần tư sự kính lễ bậc chánh trực, chánh giác(83).",
@@ -300,9 +300,9 @@
 "159": "Nếu muốn khuyên người khác nên làm như mình, trước hãy sửa mình rồi sau sửa người. Tự sửa mình vốn là điều khó nhất.",
 "160": "Chính tự mình làm chổ nương cho mình (104) chứ người khác làm sao nương được? Tự mình khéo tu tập mới đạt đến chỗ nương dựa nhiệm mầu (105).",
 "161": "Ác nghiệp chính do mình tạo, từ mình sinh ra. Ác nghiệp làm hại kẻ ngu dễ dàng như kim cang phá hoại bảo thạch.",
-"162": "Sự phá giới làm hại mình như giây man la bao quanh cây Ta la làm cho nó khô héo(106). Người phá giới là làm điều mà kẻ thù muốn làm cho họ.",
+"162": "Sự phá giới làm hại mình như giây man-la bao quanh cây Ta-la làm cho nó khô héo(106). Người phá giới là làm điều mà kẻ thù muốn làm cho họ.",
 "163": "Việc ác dễ làm nhưng chẳng lợi gì cho ta, trái lại, việc lành có lợi cho ta thì lại rất khó làm.",
-"164": "Những người ác tuệ ngu si, vì tâm tà kiến mà vu miệt giáo pháp A-la-hán, vu miệt người hành chánh đạo và giáo pháp đức Như lai để tự mang lấy bại hoại, giống như cỏ Cách tha, hễ sinh quả xong liền tự diệt (107).",
+"164": "Những người ác tuệ ngu si, vì tâm tà kiến mà vu miệt giáo pháp A-la-hán, vu miệt người hành chánh đạo và giáo pháp đức Như lai để tự mang lấy bại hoại, giống như cỏ Cách-tha, hễ sinh quả xong liền tự diệt (107).",
 "165": "Làm dữ bởi ta, mà nhiễm ô cũng bởi ta; làm lành bởi ta, mà thanh tịnh cũng bởi ta. Tịnh hay không tịnh đều bởi ta, chứ không ai có thể làm cho ai thanh tịnh được.",
 "166": "Chớ vì lợi ích cho kẻ khác mà quên hẳn lợi ích cho chính mình(108). Người biết lo lợi ích mình mới thường chuyên tâm vào những điều ích lợi tất cả.",
 "167": "Chớ theo điều ty liệt, chớ đem thân buông lung. Chớ nên theo tà thuyết, chớ làm tăng trưởng tục trần(109).",
@@ -332,7 +332,7 @@
 "191": 188,
 "192": 188,
 "193": "Rất khó gặp được bậc Thánh nhơn, vì chẳng phải thường có. Phàm ở đâu có người trí ra đời thì ở đó gia tộc được an lành.",
-"194": "Hạnh phúc thay đức Phật ra đời, hạnh phúc thay diễn nói Chánh pháp; hạnh phúc thay Tăng già hòa hợp, hạnh phúc thay dõng tiến đồng tu.",
+"194": "Hạnh phúc thay đức Phật ra đời, hạnh phúc thay diễn nói Chánh pháp; hạnh phúc thay Tăng-già hòa hợp, hạnh phúc thay dõng tiến đồng tu.",
 "195": "Cúng dường những vị đáng cúng dường là Phật hay đệ tử của Ngài - những vị thoát ly hư vọng, vượt khỏi mọi lo âu. Công đức của người cúng dường bậc Tịch tịnh vô úy như vậy không thể kể lường.",
 "196": 195,
 "197": "Sung sướng thay chúng ta(123) sống không thù oán giữa những người thù oán. Giữa những người thù oán, ta sống không thù oán.",
@@ -365,10 +365,10 @@
 "224": "Nói chân thật, không giận hờn, san sẻ cho người xin(137); đó là ba việc lành đưa người đến cõi chư Thiên.",
 "225": "Không làm hại người thanh tịnh, thường chế phục thân tâm, thì đạt đến nơi bất tử chẳng còn ưu bi.",
 "226": "Những người thường giác tỉnh, ngày đêm chuyên tu học, chí hướng đến Niết-bàn, thì mọi phiền não dứt sạch.",
-"227": "A đa la(138) nên biết: Đây không phải chỉ là chuyện đời nay mà đời xưa đã từng nói: làm thinh bị người chê, nói nhiều bị người chê, ít nói cũng bị người chê; làm người không bị chê thực là chuyện khó có ở thế gian này.",
+"227": "A-đa-la(138) nên biết: Đây không phải chỉ là chuyện đời nay mà đời xưa đã từng nói: làm thinh bị người chê, nói nhiều bị người chê, ít nói cũng bị người chê; làm người không bị chê thực là chuyện khó có ở thế gian này.",
 "228": "Toàn bị người chê cả, hay toàn được người khen cả, là điều quá khứ chưa từng có, hiện tại tìm không ra, và vị lai cũng không dễ gì thấy được.",
 "229": "Cứ mỗi buổi mai thức dậy, tự biết phản tỉnh, hành động không tỳ vết, trí tuệ hiền minh, giới hạnh thanh tịnh, đó là người đáng được kẻ trí tán dương.",
-"230": "Phẩm chất đúng loại vàng Diêm phù (139); thì ai chê bai được? Đó là hạng Bà-la-môn được chư Thiên tán thưởng.",
+"230": "Phẩm chất đúng loại vàng Diêm-phù (139); thì ai chê bai được? Đó là hạng Bà-la-môn được chư Thiên tán thưởng.",
 "231": "Giữ thân đừng nóng giận, điều phục thân hành động, xa lìa thân làm ác, dùng thân tu hạnh lành.",
 "232": "Giữ lời đừng nóng giận, điều phục lời chánh chân, xa lìa lời thô ác, dùng lời tu hạnh lành.",
 "233": "Giữ ý đừng nóng giận, điều phục ý tinh thuần, xa lìa ý hung ác, dùng ý tu hạnh lành.",
@@ -420,7 +420,7 @@
 "279": "“Các pháp đều vô ngã”; khi đem trí tuệ soi xét được như thế, thì sẽ nhàm lìa thống khổ. Đó là đạo thanh tịnh.",
 "280": "Khi đáng nỗ lực không nỗ lực, thiếu niên cường tráng đã biếng lười, ý chí tiêu trầm và nhu nhược; kẻ biếng nhác ấy làm gì có trí để ngộ đạo!",
 "281": "Thận trọng lời nói, kềm chế ý nghĩ, thân không làm ác, ba nghiệp thanh tịnh, là được đạo Thánh nhơn.",
-"282": "Tu Du già(164) thì trí phát, bỏ Du già thì tuệ tiêu. Biết rõ hai lẽ này thế nào là đắc thất, rồi nỗ lực thực hành, sẽ tăng trưởng trí tuệ.",
+"282": "Tu Du-già(164) thì trí phát, bỏ Du-già thì tuệ tiêu. Biết rõ hai lẽ này thế nào là đắc thất, rồi nỗ lực thực hành, sẽ tăng trưởng trí tuệ.",
 "283": "Hãy đốn rừng dục vọng, chớ đốn cây thọ lâm; từ rừng dục vọng sinh sợ, hãy thoát ngoài rừng dục.",
 "284": "Sợi dây tình giữa trai gái chưa dứt, thì tâm còn bị buộc ràng như bò con chẳng rời vú mẹ.",
 "285": "Tự mình dứt hết ái dục như lấy tay bẻ cành sen thu, siêng tu đạo tịch tịnh. Đó là Niết-bàn mà đức Thiện thệ(165) đã truyền dạy.",
@@ -434,12 +434,12 @@
 "293": "Thường quan sát tự thân, không làm việc không đáng, việc đáng gắng chuyên làm, thì lậu tập dần tiêu tan.",
 "294": "(168)Hãy diệt mẹ (ái dục) và cha (kiêu căng), diệt hai vua dòng Sát đế lợi(169), diệt Vương quốc(170) luôn cả quần thần (171) mà hướng về Bà-la-môn vô ưu(172).",
 "295": "Hãy diệt mẹ (ái dục) và cha (kiêu căng), diệt hai vua dòng Bà-la-môn, diệt luôn hổ tướng “nghi” thứ năm (173), mà hướng về Bà-la-môn vô ưu.",
-"296": "Đệ tử Kiều đáp ma(174), phải luôn tự tỉnh giác, vô luận ngày hay đêm, thường niệm tưởng Phật đà.",
-"297": "Đệ tử Kiều đáp ma, phải luôn tự tỉnh giác, vô luận ngày hay đêm, thường niệm tưởng Đạt ma.",
-"298": "Đệ tử Kiều đáp ma, phải luôn tự tỉnh giác, vô luận ngày hay đêm, thường niệm tưởng Tăng già.",
-"299": "Đệ tử Kiều đáp ma, phải luôn tự tỉnh giác, vô luận ngày hay đêm, thường niệm tưởng sắc thân(175).",
-"300": "Đệ tử Kiều đáp ma, phải luôn tự tỉnh giác, vô luận ngày hay đêm, thường vui điều bất sát.",
-"301": "Đệ tử Kiều đáp ma, phải luôn tự tỉnh giác, vô luận ngày hay đêm, thường ưa tu Thiền quán.",
+"296": "Đệ tử Kiều-đáp-ma(174), phải luôn tự tỉnh giác, vô luận ngày hay đêm, thường niệm tưởng Phật-đà.",
+"297": "Đệ tử Kiều-đáp-ma, phải luôn tự tỉnh giác, vô luận ngày hay đêm, thường niệm tưởng Đạt ma.",
+"298": "Đệ tử Kiều-đáp-ma, phải luôn tự tỉnh giác, vô luận ngày hay đêm, thường niệm tưởng Tăng-già.",
+"299": "Đệ tử Kiều-đáp-ma, phải luôn tự tỉnh giác, vô luận ngày hay đêm, thường niệm tưởng sắc thân(175).",
+"300": "Đệ tử Kiều-đáp-ma, phải luôn tự tỉnh giác, vô luận ngày hay đêm, thường vui điều bất sát.",
+"301": "Đệ tử Kiều-đáp-ma, phải luôn tự tỉnh giác, vô luận ngày hay đêm, thường ưa tu Thiền quán.",
 "302": "Xuất gia dứt hết ái dục là khó, tại gia theo đường sinh hoạt là khó, không phải bạn mà chung ở là khổ, qua lại trong vòng luân hồi là khổ. Vậy các ngươi đừng qua lại trong vòng sanh tử luân hồi ấy.",
 "303": "Chánh tín mà giới hạnh, được danh dự và thánh tài(176); người nào được như thế, đến đâu cũng tôn vinh.",
 "304": "Làm lành thì danh được vang xa, tỏ rạng như Tuyết sơn(177); làm ác thì mù mịt như bắn cung ban đêm.",
@@ -449,7 +449,7 @@
 "308": "Phá giới chẳng tu hành, thà nuốt hòn sắt nóng, hừng hực lửa đốt thân, còn hơn thọ lãnh của tín chủ.",
 "309": "Buông lung theo vợ người, phải mắc vào bốn nạn: mắc tội, ngủ không yên, bị chê, đọa địa ngục.",
 "310": "Vô phước, đọa ác thú, thường sợ hãi, ít vui, quốc vương kết trọng tội: Vậy chớ theo vợ người.",
-"311": "Vụng nắm cỏ cô sa (kusa) tức bị họa đứt tay, Sa-môn theo tà hạnh, tức bị đọa địa ngục.",
+"311": "Vụng nắm cỏ cô-sa (kusa) tức bị họa đứt tay, Sa-môn theo tà hạnh, tức bị đọa địa ngục.",
 "312": "Những người giải đãi, giới hạnh nhiễm ô, hoài nghi việc tu Phạm hạnh, không thể chứng quả lớn.",
 "313": "Việc đáng làm nên làm, phải làm cho hết sức, xuất gia mà phóng túng rong chơi, chỉ tăng thêm dục trần.",
 "314": "Không làm nghiệp ác là hơn, làm ác nhất định thọ khổ, làm các nghiệp lành là hơn, làm lành nhất định thọ vui.",
@@ -460,7 +460,7 @@
 "319": "Có lỗi biết có lỗi, không lỗi biết không lỗi; giữ tâm chánh kiến ấy, đường lành thấy chẳng xa.",
 "320": "Như voi xuất trận hứng chịu cung tên, ta nhẫn chịu mọi điều phỉ báng, bởi đời lắm người phá giới (thường ghét kẻ tu hành ).",
 "321": "Luyện được voi để đem dự hội, luyện được voi để cho vua cỡi là giỏi, nhưng nếu luyện được lòng ẩn nhẫn trước sự chê bai, mới là người có tài điêu luyện hơn cả mọi người.",
-"322": "Con la(178) thuần tánh là con vật lành tốt, con tuấn mã Tín độ(179) là con vật lành, con voi lớn Kiều la(180) cũng là con vật lành, nhưng kẻ đã tự điều luyện được mình lại càng lành hơn (181).",
+"322": "Con la(178) thuần tánh là con vật lành tốt, con tuấn mã Tín độ(179) là con vật lành, con voi lớn Kiều-la(180) cũng là con vật lành, nhưng kẻ đã tự điều luyện được mình lại càng lành hơn (181).",
 "323": "Chẳng phải nhờ xe hay ngựa mà đến được cảnh giới Niết-bàn, chỉ có người khéo điều luyện mình mới đến được Niết-bàn.",
 "324": "Con voi Tài hộ Dhamapalako(182) (hộ vệ tài sản) đến kỳ phát dục thì lung lăng khó trị, buộc trói thì bỏ ăn mà chỉ nhớ nghĩ rừng voi (183) ).",
 "325": "Như heo kia ưa ngủ lại tham ăn, kẻ phàm ngu vì tham ăn ưa ngủ, nên phải bị tiếp tục vào bào thai.",
@@ -498,6 +498,29 @@
 "357": "Cỏ làm hại ruộng vườn, sân nhuế làm hại thế nhân.Vậy nên cúng dường cho người lìa sân, sẽ được quả báo lớn.",
 "358": "Cỏ làm hại ruộng vườn, ngu si sẽ làm hại thế nhân. Vậy nên cúng dường cho ngưới lìa si, sẽ được quả báo lớn.",
 "359": "Cỏ làm hại ruộng vườn, ái dục làm hại thế nhân. Vậy nên cúng dường cho người lìa dục, sẽ được quả báo lớn.",
+"360": "Chế phục được mắt, lành thay, chế phục được tai, lành thay, chế phục được mũi, lành thay, chế phục được lưỡi, lành thay, chế phục được thân, lành thay, chế phục được lời nói, lành thay, chế phục được tâm ý, lành thay, chế phục được hết thảy, lành thay ; Tỷ kheo nào chế phục được hết thảy thì giải thoát hết khổ.",
+"361": 360,
+"362": "Gìn giữ tay chân và ngôn ngữ, gìn giữ cái đầu cao(196), tâm ưa thích Thiền định, ở riêng một mình và tự biết đầy đủ ; ấy là bậc Tỷ kheo.",
+"363": "Tỷ kheo biết thuần hóa ngôn ngữ, khôn khéo mà tịch tịnh, thì khi diễn bày pháp nghĩa, lời lẽ rất hòa ái, rõ ràng.",
+"364": "Tỷ kheo nào an trú trong lạc viên Chánh pháp, mến pháp và tùy pháp, tư duy nhớ tưởng pháp, thì sẽ không bị thối chuyển.",
+"365": "Chớ nên khinh điều mình đã chứng, chớ hâm mộ điều người khác đã chứng. Tỷ kheo nào chỉ lo hâm mộ điều người khác tu chứng, cuối cùng mình không chứng được Tam ma địa (chánh định) (197).",
+"366": "Tỷ kheo nào dù tu chứng được chút ít mà không khinh ghét sự chút ít đã được ấy, cứ sinh hoạt thanh tịnh và siêng năng, mới thật đáng được chư Thiên khen ngợi.",
+"367": "Đối với danh và sắc không chấp “ta” “của ta”. Không ”ta” và ”của ta” nên không ưu não. Người như vậy mới đáng gọi là Tỷ kheo.",
+"368": "Tỷ kheo an trú trong tâm từ bi, vui thích giáo pháp Phật đà, sẽ đạt đến cảnh giới tịch tịnh an lạc, giải thoát các hành (vô thường).",
+"369": "Tỷ kheo tát nước thuyền này(198), hễ hết nước thì thuyền nhẹ và đi mau. Đoạn hết tham dục và sân nhuế trong thân này thì mau chứng Niết bàn.",
+"370": "Tỷ kheo nào đoạn năm điều(199), bỏ năm điều(200), siêng tu năm điều(201), vượt khỏi năm điều say đắm(202), Tỷ kheo ấy là người đã vượt qua dòng nước lũ(203).",
+"371": "Hãy tu định, chớ buông lung, tâm chớ mê hoặc theo dục. Đừng đợi đến khi nuốt hòn sắt nóng mới ăn năn than thở.",
+"372": "Không có Trí tuệ thì không có Thiền định, không có Thiền định thí không có Trí tuệ. Người nào gồm đủ Thiền định và Trí tuệ thì gần đến Niết bàn.",
+"373": "Tỷ kheo đi vào chổ yên tĩnh, thời tâm thường vắng lặng, quán xét theo Chánh pháp, được thọ hưởng cái vui của siêu nhân.",
+"374": "Người nào thường chánh niệm đến sự sanh diệt của các uẩn thì sẽ được vui mừng. Nên biết : Người đó không chết.",
+"375": "Nếu là Tỷ kheo sáng suốt, dù ở trong đời, trước tiên vẫn lo nhiếp hộ các căn và biết đủ, lo hộ trì giới luật.",
+"376": "Thái độ thì phải thành khẩn, hành vi thì phải đoan chánh. Được vậy, họ là người nhiều vui và sạch hết khổ não.",
+"377": "Cành hoa Bạt tất ca(204) bị úa tàn như thế nào, Tỷ kheo các ông cũng làm cho tham sân úa tàn như thế.",
+"378": "Tỷ kheo nào thân tịch tịnh, ngữ tịch tịnh, tâm an trú tam muội, xa lìa dục lạc, Tỷ kheo ấy là người tịch tịnh.",
+"379": "Các ngươi hãy tự cảnh sách, các ngươi hãy tự phản tỉnh ! Tự hộ vệ và chánh niệm, mới là Tỷ kheo an trụ trong an lạc.",
+"380": "Chính các ngươi là kẻ bảo hộ cho các ngươi, chính các ngươi là nơi nương náu cho các ngươi. Các ngươi hãy gắng điều phục lấy mình như thương khách lo điều phục con ngựa lành.",
+"381": "Tỷ kheo đầy đủ tâm hoan hỷ, thành tín theo giáo pháp Phật đà, sẽ đạt đến cảnh giới tịch tịnh an lạc, giải thoát hết các hành (vô thường).",
+"382": "Tỷ kheo tuy nhỏ tuổi mà siêng tu giáo pháp Phật đà, thì họ là ánh sáng chiếu soi thế gian như mặt trăng ra khỏi đám mây mù.",
 "383": "Dũng cảm đoạn trừ dòng ái dục, các ngươi bỏ dục mới là Bà-la-môn. Nếu thấy rõ các uẩn(206) diệt tận, các ngươi liền thấy được Vô tác (Niết-bàn).",
 "384": "Nếu thường trú trong hai pháp(207), hàng Bà-la-môn đạt đến bờ kia; dù có bao nhiêu ràng buộc cũng đều bị dứt sạch do trí tuệ của người kia.",
 "385": "Không bờ kia cũng không bờ này(208), cả hai bờ đều không, xa lìa khổ não (209), không bị trói buộc; đó gọi là Bà-la-môn.",
@@ -535,12 +558,12 @@
 "417": "Lìa khỏi trói buộc của nhân gian, vượt khỏi trói buộc ở thiên thượng, hết thảy trói buộc đều lìa sạch, đó gọi là Bà-la-môn.",
 "418": "Xả bỏ đều ưa ghét, thanh lương không phiền não, dũng mãnh hơn thế gian (218), đó gọi là Bà-la-môn.",
 "419": "Nếu biết tất cả loài hữu tình tử thế nào, sinh thế nào, không chấp trước, khéo vượt qua, đó gọi là Bà-la-môn.",
-"420": "Dù Chư thiên, Càn thát bà hay nhân loại, không ai biết được nơi chốn của vị A-la-hán đã dứt sạch phiền não; vị ấy Ta gọi là Bà-la-môn.",
+"420": "Dù Chư thiên, Càn-thát-bà hay nhân loại, không ai biết được nơi chốn của vị A-la-hán đã dứt sạch phiền não; vị ấy Ta gọi là Bà-la-môn.",
 "421": "Quá khứ vị lai hay hiện tại, người kia chẳng có một vật chi, người không chấp thủ một vật chi ấy gọi là Bà-la-môn.",
 "422": "Hạng người dũng mãnh, tôn quí như trâu chúa(219), hạng người thắng lợi(220), vô dục như đại tiên, hạng người tẩy sạch(221), không nhiễm và giác tỉnh, hạng người như thế Ta gọi là Bà-la-môn.",
-"423": "Vị Mâu ni (thanh tịnh) hay biết đời trước, thấy cả cõi Thiên và cõi khổ (ác thú), đã trừ diệt tái sinh, thiện nghiệp hoàn toàn, thành bậc Vô thượng trí; bậc viên mãn thành tựu mọi điều như thế Ta gọi là Bà-la-môn."
-    },
-    "notes": {
+"423": "Vị Mâu-ni (thanh tịnh) hay biết đời trước, thấy cả cõi Thiên và cõi khổ (ác thú), đã trừ diệt tái sinh, thiện nghiệp hoàn toàn, thành bậc Vô thượng trí; bậc viên mãn thành tựu mọi điều như thế Ta gọi là Bà-la-môn."
+  },
+  "notes": {
 "1": "Những pháp yếu được diễn nói theo cách song đối.",
 "2": "Pháp tức là Dhamma. Ở đây chỉ về pháp bất thiện, ở câu thứ hai chỉ về pháp thiện.",
 "3": "Nguyên văn: Cakkam va vahato padam, nên dịch là: “Như bánh xe lăn theo chân con thú kéo xe”.",
@@ -548,7 +571,7 @@
 "5": "Chỉ người tranh luận. Nhân khi Phật ở Kỳ đà lâm, đối với các vị Tỷ-kheo ưa tranh luận tại Câu sanh bì (Kosambi)ù mà nói kinh này, nên có sự xưng hô đó.",
 "6": "Nguyên văn: Mayametthayamamasa, ý nói thẳng thì “chúng ta sắp bị diệt vong vì luật vô thường”.",
 "7": "Tự cho thân mình trong sạch rồi đắm ưa hoài.",
-"8": "Ma vương (Ma ra) ở đây chỉ tình dục.",
+"8": "Ma vương (Mara) ở đây chỉ tình dục.",
 "9": "Chẳng khoái lạc (asubha) chỉ phép bất tịnh quán, như quán thân với 32 điều bất tịnh v.v...",
 "10": "Chỉ tham dục v.v...",
 "11": "Như bốn thứ tư cụ là áo, cơm, thuốc uống, nhà ở và mười thứ tà kiến v.v...",
@@ -562,7 +585,7 @@
 "19": "Muốn chứng đặng Niết-bàn thì phải trừ 4 ách: dục ách (Kamayogo sự tham dục), hữu ách (Bha-vayogo mê chấp ba cõi), kiến ách (Ditthiyogo điều tà kiến, ác kiến), vô minh ách (Avijjayogo sự mê mờ).",
 "20": "Như cõi đất cao có thể tránh khỏi thủy tai. Kẻ trí khi chứng được A-la-hán thì không còn bị phiền não quấy nhiễu, nhận chìm.",
 "21": "Các phiền não tham, sân, si buộc ràng và sai sử chúng sanh trong vòng ba cõi.",
-"22": "Ma già (Maghavà) tên khác của trời Đế Thích (Sarka) khi chưa đủ phúc báo để làm trời, Đế Thích ở nhân gian tên là Ma già, nhờ công đức siêng năng quét tước sạch sẽ mà được làm chủ cõi chư Thiên.",
+"22": "Ma-già (Maghavà) tên khác của trời Đế Thích (Sarka) khi chưa đủ phúc báo để làm trời, Đế Thích ở nhân gian tên là Ma-già, nhờ công đức siêng năng quét tước sạch sẽ mà được làm chủ cõi chư Thiên.",
 "23": "Kiết sử (Samyojana) tức là phiền não (Kilesa) danh từ chuyên môn nhà Phật.",
 "24": "Mấy câu này đều hình dung cái tâm.",
 "25": "Khi chứng được A-la-hán thì vô lậu thiện nghiệp viên mãn, hữu lậu ác nghiệp và hữu lậu thiện nghiệp đã hết rồi, không còn tạo nghiệp mới nữa, và tuy ở trong đạo quả viên mãn mà thường làm những việc lợi tha một cách tự nhiên.",
@@ -574,7 +597,7 @@
 "31": "Ngài Ngô Chi Khiêm dịch là Phẩm Vương Hoa.",
 "32": "Chinh phục (Vijessati), là theo Pali nguyên chú. Bản chú thích kinh Pháp cú rất xưa và đầy đủ chi tiết bằng văn bản Pali của Ngài Buddahaghosa, căn bản của các lời chú thích sau này. Bản do E.W.Burlinghame dịch ra Anh văn trong loại sách Harvard Oriental serie là hiểu xác thật. Bản ở Miến Điện chép là vicessati, thì nên dịch là “chọn tìm” hoặc “dò xét ”.",
 "33": "Địa giới (Pathavi) là chỉ tự kỷ hay tự thân (Atta-bhava). Bản Dhammapada Anh văn của Đại đức Narada dịch, trang 8, có chú thích rằng: “This is one who will understand this self as if really is”. câu này có nghĩa “như thật tự biết rõ mình”.",
-"34": "Diêm ma giới (Yamalokà), theo nguyên chú thì bao quát cả 4 giới (Catudbhidam apayalokan ca): địa ngục, ngạ quỉ, súc sanh và a tu la (Asura). Bản chú thích bằng Anh văn của Ngài Narada nói: “The fourwoeful states, viz: Hell (địa ngục), Animal kingdom (súc sanh), Peta realm (ngạ quỉ) and the Asura realm(A tu la)”.",
+"34": "Diêm ma giới (Yamalokà), theo nguyên chú thì bao quát cả 4 giới (Catudbhidam apayalokan ca): địa ngục, ngạ quỉ, súc sanh và a-tu-la (Asura). Bản chú thích bằng Anh văn của Ngài Narada nói: “The fourwoeful states, viz: Hell (địa ngục), Animal kingdom (súc sanh), Peta realm (ngạ quỉ) and the Asura realm(A-tu-la)”.",
 "35": "Thiên giới (Sadevakam), theo nguyên chú thì bao quát 6 cõi trời dục giới và nhân giới (Imamsade- Vakanit mannussalokanca). Ngài Narada chú: “ Namely the world of human beings and the six celestial realm’s”.",
 "36": "Pháp cú (Dhammapada tức là pháp tích, pháp, như ba mươi bảy đạo phẩm (Bodhipakkhikadham-ma) v.v...",
 "37": "Thợ khéo là thợ làm tràng hoa, để ví dụ cho người khéo giảng nói Pháp cú, có lớp lang, không lộn xộn, như thợ xâu hoa vậy.",
@@ -583,14 +606,14 @@
 "40": "Sự dụ hoặc của dục cảnh.",
 "41": "Những người đang say ngủ trong xóm làng giữa đêm khuya, bị nước lũ cuốn đi mà không hay biết gì. Người mê miết trong dục lạc cũng vậy.",
 "42": "Cảnh dục lạc.",
-"43": "Mâu ni (Muni) có nghĩa là người trầm lặng, nhân từ, trí tuệ, thánh giả, ở đây chỉ hàng Sa-môn khất thực.",
+"43": "Mâu-ni (Muni) có nghĩa là người trầm lặng, nhân từ, trí tuệ, thánh giả, ở đây chỉ hàng Sa-môn khất thực.",
 "44": "Nguyên văn của câu này là “Naparesam kataka-tam” dịch thẳng là “Chẳng nên dòm ngó người khác làm hay không làm”.",
-"45": "Chiên đàn na (Candana) Đa gia la (tagara), tên hai thứ cây thơm, Mạt lị ca (Malika) là một thứ hoa nhỏ thơm mọc tùm lum như giây bìm.",
-"46": "Bạt tất kỳ (Vassiky) là vũ quý hoa.",
+"45": "Chiên-đàn-na (Candana) Đa-gia-la (tagara), tên hai thứ cây thơm, Mạt-lị-ca (Malika) là một thứ hoa nhỏ thơm mọc tùm lum như giây bìm.",
+"46": "Bạt-tất-kỳ (Vassiky) là vũ quý hoa.",
 "47": "Luân hồi (samsara) chỉ sự sanh tử luân chuyển mãi không ngừng.",
 "48": "Thọ quả báo lành dữ trong tương lai tức là thân dị thục (vipaka) ở đây chỉ riêng ác quả.",
 "49": "Đây chỉ thiện quả.",
-"50": "Cô sa (kusa) tên cỏ thơm, nguyên văn là Kusag-gena, tức là dùng đầu ngọn cỏ cô sa.",
+"50": "Cô-sa (kusa) tên cỏ thơm, nguyên văn là Kusag-gena, tức là dùng đầu ngọn cỏ cô-sa.",
 "51": "Người tư duy Chánh pháp (Sankhata dhamman) là người thâm nhập Chánh pháp, đây là người giác ngộ Tứ đế.",
 "52": "Muốn sữa đông đặc thành đề hồ không phải một ngày một đêm mà đông được kịp.",
 "53": "Trong Hán văn chữ này cũng gọi là đầu thủ, đầu não.",
@@ -612,14 +635,14 @@
 "69": "Biết rõ sự ăn uống là cốt để duy trì tánh mạng mà tu hành.",
 "70": "Chứng được Niết-bàn gọi là giải thoát (Vimokha); lại gọi là không (Sinnàta), vì không còn tham, sân, si, phiền não; lại gọi là vô tướng (Animitta) vì từ nay đã được tự tại không còn đắm trước tưởng tham dục.",
 "71": "Lậu có bốn thứ: dục lậu (Kamasava), hữu lậu (Bhavasava), kiến lậu (Ditthasava), vô minh lậu (Avijjasava).",
-"72": "Nhân đà yết la (Indakhila), nhiều bản dịch là môn hạn (chấn cửa) tức là đặt một tảng đá giữa chổ cửa lớn, dùng chấn then cửa để đóng cho chắc. Có một chỗ nói indakhila theo Phạn tự là indra-khila tức là cái trụ của Nhân đà la (Đế thích). Ở tại chỗ tiến vào thành, dựng một cái trụ lớn để tượng trưng chỗ ở của Nhân đà la (thần bảo hộ của dân Ấn Độ). Chính ngày xưa đã dịch là cái tràng kiên cố, là bảy tràng Đế Thích, là đài tọa.",
+"72": "Nhân-đà-yết-la (Indakhila), nhiều bản dịch là môn hạn (chấn cửa) tức là đặt một tảng đá giữa chổ cửa lớn, dùng chấn then cửa để đóng cho chắc. Có một chỗ nói indakhila theo Phạn tự là indra-khila tức là cái trụ của Nhân đà la (Đế thích). Ở tại chỗ tiến vào thành, dựng một cái trụ lớn để tượng trưng chỗ ở của Nhân đà la (thần bảo hộ của dân Ấn Độ). Chính ngày xưa đã dịch là cái tràng kiên cố, là bảy tràng Đế Thích, là đài tọa.",
 "73": "Vô tín (Assaddha) hoặc dịch là bất tín, ý nói vị Thánh nhân tự mình chứng biết chứ không phải do ai làm cho giác ngộ.",
 "74": "Các nghiệp thiện, nghiệp ác trong vòng hữu lậu thế gian.",
 "75": "Sanh tử luân hồi.",
 "76": "Nguyên văn chép: Nina là chỗ thấp, Thala là chỗ cao.",
 "77": "Theo bản Tích Lan thì chữ này là Dhammapada nên dịch là “Pháp cú” nhưng theo bản của “Hiệp hội xuất bản Pali thánh điển” thì chép là Gathapada, chữ này nên dịch là “nhất cú kệ”.",
 "78": "Câu này liên quan với câu trên.",
-"79": "Càn thát bà (Gandhàbha) tên một vị thần ở Thiên giới.",
+"79": "Càn-thát-bà (Gandhàbha) tên một vị thần ở Thiên giới.",
 "80": "Tên một vị Thiên thần.",
 "81": "Phạm thiên tức là Bà-la-môn thiên (Brahma).",
 "82": "Nguyên văn: “Yitthamva hutamva”, nghĩa là cúng hy sinh, là tế tự, là cúng dường, v.v... Đồng nghĩa là cúng dường trong hội hè, lễ tiết; hutam thì có nghĩa là dự bị cung cấp khách qua đường, hoặc làm việc cúng dường dựa theo một tín ngưỡng về tác nghiệp và quả báo mà mình tin tưởng.",
@@ -646,11 +669,11 @@
 "103": "Thông thường nói ba thời là đầu đêm, giữa đêm, cuối đêm. Ở đây ba thời chỉ vào một đời người thanh niên, trung niên, lão niên. Người ta lúc thanh niên nên nỗ lực học tập, trung niên nên hoằng pháp, tu Thiền định v.v... Nhưng trong hai thời gian đó mà chưa kịp thích thời hành sự thì lúc lão niên phải tỉnh ngộ học tập gấp rút, nếu không thì luống uổng một đời, mang lấy thống khổ chẳng ích chi.",
 "104": "Phật giáo chủ trương mỗi cá nhân phải tự lực lo giải thoát cho mình. Phật giáo đồ phát nguyện quy y phật, Pháp, Tăng, Tam Bảo, không có nghĩa là phát 1 lời cầu đảo để Tam Bảo lo giải thoát cho. Song Tam Bảo là thầy chỉ đạo tu hành đúng đường để được giải thoát. Vậy nên, muốn đến cảnh giới giải thoát tự tại thì tự mỗi người phải gắng sức thực hành đúng lời Tam Bảo chỉ dạy.",
 "105": "Chỉ quả vị La hán.",
-"106": "Mạn la phạm (Maluva) một loại dây bìm. Cây ta la khi đã bị nó leo quấn vào thì khô chết ngay.",
-"107": "Cách tha cách (Kattha), loại cây lau. Có tên là Cách tha cách trúc (Velusankhatakattha), hễ ra hoa kết trái rồi thì chết liền.",
+"106": "Mạn-la-phạm (Maluva) một loại dây bìm. Cây ta-la khi đã bị nó leo quấn vào thì khô chết ngay.",
+"107": "Cách-tha-cách (Kattha), loại cây lau. Có tên là Cách-tha-cách trúc (Velusankhatakattha), hễ ra hoa kết trái rồi thì chết liền.",
 "108": "Chỉ việc giải thoát sanh từ.",
 "109": "Ở Tích Lan (Xri Lanca) giải thích là luân hồi.",
-"110": "Sau khi đức Phật thành đạo, lần đầu Ngài trở về hoàng cung tại thành Ca tỳ la (Kapila), sáng hôm sau Ngài vẫn chiếu lệ mang bát đi khất thực. Vua Tịnh Phạn (Suddhodana) thấy vậy vội bước đến trước Phật mà nói rằng: “Này con ơi! Sao con làm nhục nhà ta vậy? Con vốn là chủ thành này, từng ở trên châu báu, nay cứ cầm bát lần đi từng nhà, không hổ nhục cho ta lắm sao?”. Đức Phật liền nói cho vua nghe đó là phép tắc lâu đời của chư Phật, và nói hai bài này. Nên theo chỗ chú giải xưa này thì hai bài này có nghĩa như sau: bài 168: “Chớ nhác bỏ việc lần theo từng nhà khất thực. Cẩn thận giữ thật đúng hạnh trì bát này, ai làm theo hạnh này thì đời này, đời sau đều khoái lạc”; bài 169: “Cẩn thận làm đúng hạnh này, chớ làm theo sự buông thả. Ai làm theo đúng hạnh này thì đời này, đời sau đều được khoái lạc “.",
+"110": "Sau khi đức Phật thành đạo, lần đầu Ngài trở về hoàng cung tại thành Ca-tỳ-la (Kapila), sáng hôm sau Ngài vẫn chiếu lệ mang bát đi khất thực. Vua Tịnh Phạn (Suddhodana) thấy vậy vội bước đến trước Phật mà nói rằng: “Này con ơi! Sao con làm nhục nhà ta vậy? Con vốn là chủ thành này, từng ở trên châu báu, nay cứ cầm bát lần đi từng nhà, không hổ nhục cho ta lắm sao?”. Đức Phật liền nói cho vua nghe đó là phép tắc lâu đời của chư Phật, và nói hai bài này. Nên theo chỗ chú giải xưa này thì hai bài này có nghĩa như sau: bài 168: “Chớ nhác bỏ việc lần theo từng nhà khất thực. Cẩn thận giữ thật đúng hạnh trì bát này, ai làm theo hạnh này thì đời này, đời sau đều khoái lạc”; bài 169: “Cẩn thận làm đúng hạnh này, chớ làm theo sự buông thả. Ai làm theo đúng hạnh này thì đời này, đời sau đều được khoái lạc “.",
 "111": "Lầu sò chợ bể là dịch nghĩa từ chữ ”Thần lâu hải thị” để chỉ thị cảnh huyễn hóa không thật. Những làn khí bốc lên trên mặt biển, đụng phải ánh nắng, hoặc là không khí tương phản mà hiện ra những bóng hình nhìn xa như lâu đài chợ búa. Người xưa tin những làn khí ấy là hơi của giống sò thần tự dưới đáy bể phun lên.",
 "112": "Nhất pháp (Ekham Dhanman) tức la chân đế, chân lý (Saccam).",
 "113": "Dự lưu quả (Sotapattiphalam) là quả vị đầu trong bốn quả vị Niết-bàn Thanh văn.",
@@ -670,7 +693,7 @@
 "127": "Nguyên văn: Sankhara dịch là hành, tức là pháp hữu vi có sanh diệt, trong Pali chú thích uẩn (khandha).",
 "128": "Câu này là câu tiếp liền trên dưới.",
 "129": "Những Tỷ-kheo vì bị dục lạc mê hoặc, bỏ việc hành đạo để sinh hoạt theo thế tục, sau thấy kẻ khác tu hành có công quả, lại luống tỏ lòng hâm mộ, chứ tự mình không thành được chi.",
-"130": "Năm câu 212-216, theo bản dịch của Đại đức Na ra da là: ”From endearment spings gief, from endearment spings fear for him who is free from endearment there is no gief, much less fear. From affection… From delight … From lust…, From craving…“.",
+"130": "Năm câu 212-216, theo bản dịch của Đại đức Na-ra-da là: ”From endearment spings gief, from endearment spings fear for him who is free from endearment there is no gief, much less fear. From affection… From delight … From lust…, From craving…“.",
 "131": "Chỉ bốn hướng, bốn quả và Niết-bàn, cộng là chín pháp thù thắng.",
 "132": "Chỉ bốn Thánh đế.",
 "133": "Chỉ giới, định, tuệ.",
@@ -678,9 +701,9 @@
 "135": "Danh sắc (Namarapa) tức là tinh thần và vật chất, tâm và thân.",
 "136": "Nếu tự chủ, ngăn trừ nóng giận kịp thời, mới là người thiện ngự, ngoài ra toàn như kẻ cầm cương hờ, chứ không khống chế được con ngựa.",
 "137": "Nguyên văn còn có một chử “thiểu”, ít (Appam), tức là mình có vật gì dù ít, cũng có thể chia sớt cho người đến xin được.",
-"138": "A đa la (Atula) là tên một người Phật tử xưa.",
-"139": "Diêm phù kim (jambunaba) là tên đặc biệt để chỉ 1 thứ vàng phẩm chất rất quí. Ý nói vàng này từ sông Diêm phù (Jambu) mà có.",
-"140": "Thánh cảnh hàng chư Thiên đây là chỉ 5 cõi trời Tịch cư (Panca Anddhvasabhumi): Vô phiền (A-viha), Vô nhiệt (Atappa), Thiện hiện (Suddassa), Thiện kiến (Suddssi), Sắc cứu kính (Akanittha) là năm chỗ của hàng A na hàm ở.",
+"138": "A-đa-la (Atula) là tên một người Phật tử xưa.",
+"139": "Diêm-phù-kim (jambunaba) là tên đặc biệt để chỉ 1 thứ vàng phẩm chất rất quí. Ý nói vàng này từ sông Diêm-phù (Jambu) mà có.",
+"140": "Thánh cảnh hàng chư Thiên đây là chỉ 5 cõi trời Tịch cư (Panca Anddhvasabhumi): Vô phiền (A-viha), Vô nhiệt (Atappa), Thiện hiện (Suddassa), Thiện kiến (Suddssi), Sắc cứu kính (Akanittha) là năm chỗ của hàng A-na-hàm ở.",
 "141": "Sa-môn (samano) ở đây chỉ những vị chứng ngộ bốn thánh quả.",
 "142": "Nguyên văn: Papanca, gồm có nghĩa hư vọng và chướng ngại. Ở đây đặc biệt chỉ cho Aùi (Tan-ha), Kiến (Ditthi), Mạn (Mano).",
 "143": "Pháp trụ (Dhammattha), có nghĩa là thực hành đúng pháp, an trụ phụng thờ đúng pháp, nên cũng dịch là “Phụng pháp”.",
@@ -698,14 +721,14 @@
 "155": "Học ba tạng (Tripitaka).",
 "156": "Bốn đế (tứ cú): Khổ (dukkha), khổ tập (dukkha-ssamudaya), khổ diệt (dukkhanirodha) khổ diệt đạo (dukkhaniaodhagaminipatipada). Xưa dịch là: khổ, tập, diệt, đạo.",
 "157": "Chỉ Niết-bàn.",
-"158": "Chỉ Phật đà. Phật đủ năm mắt: nhục nhãn (namsa-cakkhu), thiên nhãn (dibhacakkhu), huệ nhãn (panna-cakkhu), Phật nhãn (Buddhacakkhu), nhất thế trí nhãn (Samantacakkhu).",
+"158": "Chỉ Phật-đà. Phật đủ năm mắt: nhục nhãn (namsa-cakkhu), thiên nhãn (dibhacakkhu), huệ nhãn (panna-cakkhu), Phật nhãn (Buddhacakkhu), nhất thế trí nhãn (Samantacakkhu).",
 "159": "Tứ đế, Bát chánh đạo, Niết-bàn",
 "160": "Chỉ cho tham, sân, si v.v…",
-"161": "Các Tăng già Tích Lan mỗi khi khai một hội nghị để luận bàn việc trọng đại, thường lấy bài này làm khẩu hiệu kêu gọi.",
+"161": "Các Tăng-già Tích Lan mỗi khi khai một hội nghị để luận bàn việc trọng đại, thường lấy bài này làm khẩu hiệu kêu gọi.",
 "162": "Như Lai chỉ bày chánh đạo, còn hành đạo là do người.",
 "163": "Tất cả hiện tượng.",
-"164": "Du già (Yoga) tức là định.",
-"165": "Thiện Thệ (Sugato) tức là Phật đà.",
+"164": "Du-già (Yoga) tức là định.",
+"165": "Thiện Thệ (Sugato) tức là Phật-đà.",
 "166": "Chẳng biết sự nguy hiểm về cái chết là cách nào, ở đâu, lúc nào.",
 "167": "Chỉ ý nghĩa của bài trên.",
 "168": "Hai bài này đều mượn ví dụ để cắt nghĩa.",
@@ -720,7 +743,7 @@
 "177": "Tuyết sơn (Himayanto) tức Hy mã lạp sơn.",
 "178": "Lừa và Ngựa giao hợp với nhau sinh ra con gọi là La.",
 "179": "Tín độ (Sidha) là con sông Aán Độ. Giống ngựa Tuấn sinh ở địa phương này.",
-"180": "Kiều la (Kunjara) tên voi.",
+"180": "Kiều-la (Kunjara) tên voi.",
 "181": "Ý nói người chưa điêu luyện thì tánh hung hăng hơn cả voi ngựa, nhưng khi tu luyện được rồi thì quí hơn nhiều.",
 "182": "Voi đến kỳ phát dục thường tiết ra một thứ nước thối tha và tính tình hung hăng khó trị.",
 "183": "Cổ tích kể voi có lòng nhớ mẹ nó là có ý để khuyên người ta hãy hiếu thuận cha mẹ.",
@@ -736,6 +759,15 @@
 "193": "Từ đây không còn luân hồi sanh tử nữa.",
 "194": "Câu này theo nguyên văn là: Niruttipada Kovido, dịch thẳng là thông đạt và tha cú; tức chỉ cho bốn thứ biện giải vô hại (Catupatisambbida): Nghĩa vô hại (Atha) là thông suốt lý nghĩa; Pháp vô ngại (Dhamma) là thông suốt giáo pháp như 3 tạng 12 bộ; Từ vô hại (Nirutti), là thông suốt lời lẽ văn cú; Biện thuyết vô ngại (Patibhana), là giảng nói (biết thứ lớp của tự, cú, là chỉ môn biện thuyết vô ngại).",
 "195": "Sau khi Phật thành đạo, từ Bồ đề tràng đi tới Lộc dã uyển, giữa đường gặp nhà tu của đạo khác, tên Ưu ba ca (Upaka), hỏi Phật rằng: ”Ôâng xuất gia theo ai?” “Thầy ông là ai”? “Ôâng tin tôn giáo nào?” Phật liền nói bài trên để trả lời.",
+"196": "Cái đầu nằm ở chổ cao nhất nơi thân ta.",
+"197": "Ý nói chỉ hâm mộ việc của người thì chẳng ích gì cho việc của mình.",
+"198": "Thuyền dụ thân thể, nước dụ ác tâm phiền nảo.",
+"199": "Bỏ năm điều là : Bỏ năm kết sử của hạ giới (ngũ hạ phần kết - Panca orambhagiyasamyaja-nani): Dục giới tham (Khamatogo) là sự tham lam ở tại dục giới ; sân (Vyapado) ; thân kiến (Satka-yaditthi) là chấp thân thật hữu ; giới cấm thủ (Si-labhataparamato) là cố chấp các giới cấm tà vạy ; nghi (Vicikischa).",
+"200": "Đoạn 5 điều là : Bỏ năm kiết sử của thượng giới (ngũ thượng phần kiết - panca uddhambha-giyasamiokanani) : Sắc giới tham (Ruparaga) là tham đắm ở tại Sắc giới ; Vô sắc giới tham là tham đắm thiền định ở Vô sắc giới ; Trạo cử (uddhacca) là loạn động ; Mạn (mana) là ngạo mạn ; Vô minh (Avijja).",
+"201": "Tu năm điều là tu năm căn lành : tín, tấn, niệm, định, huệ.",
+"202": "Ngũ trược, là năm điều say đắm : tham, sân, si, mạn, ác kiến.",
+"203": "Bộc lưu là dòng nước lũ (Ogho), chỉ cho 4 thứ : dục lưu, hữu lưu, kiến lưu, vô minh lưu.",
+"204": "Bạt tất ca (Vassika), tên một thứ hoa thơm hơn các hoa khác.",
 "205": "Bà-la-môn (Bhramana) ở đây là tiếng chỉ chung người hành đạo thanh tịnh, chớ không phải như nghĩa thông thường chỉ riêng về giai cấp đạo sĩ Bà-la-môn. Phẩm này Phật dạy, gọi là Bà-la-môn là cốt ở tư cách xứng đáng của họ, chứ không phải là tại dòng dõi, nơi sinh hay những gì hình thức bên ngoài.",
 "206": "Các yếu tố cấu thành sanh mạng.",
 "207": "Hai pháp là chỉ và quán.",
@@ -753,5 +785,5 @@
 "219": "Nguyên văn là Usabaha, dịch là trâu nái hay trâu chúa. Ở đây hàm chỉ sự thù thắng, là chỉ người hùng mạnh, vô úy, siêu quần.",
 "220": "Thắng phục phiền não ma, uẩn ma và tử ma, gọi là người thắng lợi.",
 "221": "Người Ấn Độ mê tín nước sông Hằng có thể rửa sạch tội lỗi, nhưng ở đây lại ý nói không còn các cấu nhiễm trong tâm người Bà-la-môn."
-    }
+  }
 }
