@@ -3,7 +3,6 @@
   "year": 1995,
   "author": "Minh Đức Triều Tâm Ảnh",
   "source": "dịch và thi hoá từ tiếng Pali",
-  "link": "https://www.budsas.org/uni/u-kinh-phapcu-ev/klv-00.htm/",
   "link": "https://thuvienhoasen.org/a19502/kinh-loi-vang",
   "preface": "Kinh Pháp Cú còn, Giáo Pháp còn\nGiáo Pháp còn, kinh Pháp Cú còn.",
   "chapters": {
