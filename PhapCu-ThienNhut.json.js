@@ -167,7 +167,7 @@
 "27": "Chớ sống đời phóng-dật,\nChớ say mê dục-lạc.\nHãy thiền-định, tỉnh-giác,\nNiềm vui lớn sẽ đạt.",
 "28": "Bực hiền-trí lên lầu cao trí-huệ,\nBằng giác-tâm, dẹp hết tệ buông-lung.\nCác ngài dứt khổ trong lòng,\nĐoái nhìn đến kẻ trong vòng khổ-đau,\nNhư bực Thánh trên cao đỉnh núi,\nCúi nhìn xem bên dưới đồng bằng\nCòn lắm phàm-phu nhọc-nhằn, dại-dột.",
 "29": "Tinh-cần sống giữa người còn phóng-dật,\nTỉnh-táo bên kẻ ngủ gật triền-miên,\nBỏ sau lưng đám ngựa hèn,\nNhư con tuấn-mã, bực hiền phi nhanh.",
-"30": "Tinh-cần hành thiện gắng tua,\nKhiến cho Đế-Thích làm vua cõi Trời.\nTình-giác thời được lời khen ngợi,\nCòn buông-lung thì mới bị chê.",
+"30": "Tinh-cần hành thiện gắng tua,\nKhiến cho Đế-Thích làm vua cõi Trời.\nTỉnh-giác thời được lời khen ngợi,\nCòn buông-lung thì mới bị chê.",
 "31": "Tỳ-kheo nào sợ nguy phóng-dật,\nLại an-vui, tỉnh-giác trong lòng,\nTiến nhanh như ngọn lửa hồng\nĐốt thiêu kết-sử, xích-xiềng nhỏ, to.",
 "32": "Tỳ-kheo nào sợ nguy phóng-dật,\nLại an-vui, tỉnh-giác trong lòng,\nChẳng hề thối-đoạ long-đong,\nNiết-bàn ngưỡng cửa đã trông gần kề.",
 "33": "Tâm dao-động, tâm hay cảm-nhiễm;\nKhó giữ tâm, khó kiểm-soát tâm.\nNhư thợ khéo vót tên thẳng-tắp,\nBực hiền-lương khéo tập trực-tâm.",
