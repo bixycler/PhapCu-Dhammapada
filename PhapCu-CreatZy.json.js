@@ -43,7 +43,7 @@
       "to_verse": 99
     },
     "8": {
-      "title": "8.  Hàng Ngàn",
+      "title": "8.  Trăm Ngàn",
       "from_verse": 100,
       "to_verse": 115
     },
@@ -58,7 +58,7 @@
       "to_verse": 145
     },
     "11": {
-      "title": "11.  Già",
+      "title": "11.  Tuổi Già",
       "from_verse": 146,
       "to_verse": 156
     },
@@ -118,7 +118,7 @@
       "to_verse": 319
     },
     "23": {
-      "title": "23.  Voi",
+      "title": "23.  Voi Ngựa",
       "from_verse": 320,
       "to_verse": 333
     },
