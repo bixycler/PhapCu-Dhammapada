@@ -498,8 +498,12 @@ async function setView(view){ MenuList.classList.add('hidden');
     while(ContentDiv.children.length > numStaticContents){ ContentDiv.children[numStaticContents].remove(); } 
     if(view == 'IntroView'){ $('<h3>Giới thiệu</h3>').appendTo(ContentDiv);
       updateURL();
-    }else if(view == 'HelpView'){ $('<h3>Hướng dẫn sử dụng</h3>').appendTo(ContentDiv);
+      AppendixDiv.innerHTML = '';
+      $('<p>'+toc.preface+'</p>').appendTo(AppendixDiv);
+      }else if(view == 'HelpView'){ $('<h3>Hướng dẫn sử dụng</h3>').appendTo(ContentDiv);
       updateURL();
+      AppendixDiv.innerHTML = '';
+      $('<p>'+toc.help+'</p>').appendTo(AppendixDiv);
     }
   }
 }
