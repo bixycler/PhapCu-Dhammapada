@@ -41,11 +41,11 @@ function getBook(bid){
 seeking = false; // ::= auto-scrolling
 
 // detect & handle mobile screen
-console.log('Screen size detected: '+screen.width+' x '+screen.height);
-console.log('Window size detected: '+window.innerWidth+' x '+window.innerHeight);
+console.debug('Screen size detected: '+screen.width+' x '+screen.height);
+console.debug('Window size detected: '+window.innerWidth+' x '+window.innerHeight);
 //alert('Screen size: '+screen.width+' x '+screen.height+'\nWindow size: '+window.innerWidth+' x '+window.innerHeight);
 onMobile = (screen.width < window.innerWidth || screen.height < window.innerHeight);
-console.log('Device type detected: '+(onMobile?'mobile':'desktop'));
+console.debug('Device type detected: '+(onMobile?'mobile':'desktop'));
 // then squeeze the viewport of mobile browser to the device' actual screen size
 viewport.content = 'width='+screen.width+', initial-scale=1';
 /* ^--- 1. we only care about width, not height
@@ -99,23 +99,23 @@ for(coll of collections){
 }
 onTipping = false;
 if(onMobile){  //keep both the Body and the content fit
-  console.log('* New window size: '+window.innerWidth+' x '+window.innerHeight);
+  console.debug('* New window size: '+window.innerWidth+' x '+window.innerHeight);
   window.onorientationchange = function(){
-    console.log('* Screen rotated: '+screen.width+' x '+screen.height);
+    console.debug('* Screen rotated: '+screen.width+' x '+screen.height);
     //alert('Screen rotated: '+screen.width+' x '+screen.height);
-    console.log('* New window size: '+window.innerWidth+' x '+window.innerHeight+' (wrong aspect ratio!)');
+    console.debug('* New window size: '+window.innerWidth+' x '+window.innerHeight+' (wrong aspect ratio!)');
     onTipping = true; //process this orientation tipping in the next window.onresize
   }
 }
 window.onresize = function(){
   let delta = window.innerWidth - windowWidth;
-  console.log('  Window resized ('+delta+'): '+window.innerWidth+' x '+window.innerHeight+
+  console.debug('  Window resized ('+delta+'): '+window.innerWidth+' x '+window.innerHeight+
     (onTipping?' (wrong width!)':''));
   if(Math.abs(delta) < 1 && !onTipping){ return;}else{ windowWidth = window.innerWidth; }
   if(onMobile){ 
     let scale = screen.width/window.innerWidth; 
-    console.log('  full-screen scale: '+(Math.round(scale*1000)/10)+'%');
-    console.log('  current viewport: '+(Math.round(visualViewport.scale*1000)/10)+
+    console.debug('  full-screen scale: '+(Math.round(scale*1000)/10)+'%');
+    console.debug('  current viewport: '+(Math.round(visualViewport.scale*1000)/10)+
       '% x ('+Math.round(visualViewport.width)+','+Math.round(visualViewport.height)+')');
     if(onTipping){
       $(Body).width(screen.width);
@@ -125,16 +125,16 @@ window.onresize = function(){
   scrollToVerse(true);
 }
 new ResizeObserver(function(entries){
-  //console.log('* ContentDiv resized: '+entries[0].devicePixelContentBoxSize[0].blockSize); //Chrome only!
+  //console.debug('* ContentDiv resized: '+entries[0].devicePixelContentBoxSize[0].blockSize); //Chrome only!
   let dx = entries[0].contentRect.width - contentWidth;
   let dy = entries[0].contentRect.height - contentHeight;
-  console.log('  ContentDiv resized ('+dx+'): '+entries[0].contentRect.width+' x '+entries[0].contentRect.height);
+  console.debug('  ContentDiv resized ('+dx+'): '+entries[0].contentRect.width+' x '+entries[0].contentRect.height);
   if(Math.abs(dx) > 1){ contentWidth += dx; 
     if(onMobile){ 
       $(Body).width(contentWidth); //make the Body following the content
       let scale = screen.width/contentWidth; //and so the viewport (scale reset to full-screen)
       viewport.content = 'width='+contentWidth+', initial-scale='+scale;
-      console.log('  set viewport: '+viewport.content);
+      console.debug('  set viewport: '+viewport.content);
     }
   } 
   if(Math.abs(dy) > 1){ contentHeight += dy; scrollToVerse();} //keep the current verse visisble
@@ -146,7 +146,7 @@ Menu.onmouseleave = function(){ MenuList.classList.add('hidden'); }
 $('select.book').change(function loadBook(){
   let bid = this.value; console.log('-> book '+bid);
   let book = getBook(bid);
-  if(!book){ console.log('! Error: book id "'+bid+'" not found.'); return;}
+  if(!book){ console.error('! Error: book id "'+bid+'" not found.'); return;}
   let dest = book.collection, src = null;
   book.collection.book = book;
   if(this != dest.select){
@@ -161,7 +161,7 @@ $('select.book').change(function loadBook(){
 $('select.book-dual').change(function loadBookDual(){
   let bid = this.value; console.log('-> book '+bid);
   let book = getBook(bid);
-  if(!book){ console.log('! Error: book id "'+bid+'" not found.'); return;}
+  if(!book){ console.error('! Error: book id "'+bid+'" not found.'); return;}
   if(inView(['DualView'])){
     dualBooks[Number(this.id[this.id.length - 1]) - 1] = book;
     loadChapter(ChapterSel.value);
@@ -337,14 +337,16 @@ function loadChapter(cid){ cid = Number(cid);
   }
 }
 
-currentVid = 0; currentVnum = 0;
+currentVid = 0; currentVnum = 0; currentElem = null;
 function contentHover(event){ 
+  if(this.className !== 'index'){ currentElem = this; }
+  //console.debug(this);
   currentVid = Number($(this).attr('vid')); 
   currentVnum = Number($(this).attr('vn'));
   // for multi-verse div, re-compute currentVid using relative mouse pos
   let p = (event.pageY-this.offsetTop) / this.scrollHeight * 0.98 + 0.01;
   let vn = currentVnum; if(!vn){ vn = 1;}
-  //console.log('DEBUG: vid='+currentVid+' vn='+vn+' p='+p+' (pageY='+event.pageY+', top='+this.offsetTop+', height='+this.scrollHeight+')');
+  //console.debug('DEBUG: vid='+currentVid+' vn='+vn+' p='+p+' (pageY='+event.pageY+', top='+this.offsetTop+', height='+this.scrollHeight+')');
   currentVid = Math.round(currentVid + vn*p - 0.5);
   let v = $('#v'+currentVid)[0];
   // then show the context menu right under currentVid index
@@ -355,7 +357,6 @@ function contentHover(event){
 }
 function contentContextMenu(){
   console.log(this);
-  return false;
 }
 ContentDiv.onmouseleave = function(){ ContextMenu.classList.add('hidden');}
 ContextMenuButton.onmouseover = function(){ 
@@ -372,6 +373,14 @@ CopyLinkVerse.onclick = function(){
     alert('Địa chỉ của trang "'+document.title+'"\n['+window.location.href
       +']\nđã được chép vào bộ nhớ tạm. Bạn có thể dán (Ctrl-V) nó vào nơi bạn muốn.');
   }, function(err){ alert('Lỗi không thể ghi vào bộ nhớ tạm:\n'+err+'\nĐịa chỉ của bài kệ '+curentVid+' là\n'+window.location.href);});
+};
+CopyVerseContent.onclick = function(){
+  let txt = currentElem ? currentElem.textContent.trim() : '(nội dung trống)';
+  navigator.clipboard.writeText(txt).then(function(){
+    alert('Nội dung bài kệ số '+currentVid+'\nđã được chép vào bộ nhớ tạm.\nBạn có thể dán (Ctrl-V) vào nơi bạn muốn.');
+  }, function(err){
+    alert('Lỗi không thể ghi vào bộ nhớ tạm:\n'+err);
+  });
 };
 ShareFB.onclick = function(){
   window.open("https://www.facebook.com/sharer/sharer.php?u=" 
