@@ -71,12 +71,15 @@ viewport.content = 'width='+screen.width+', initial-scale=1';
       "viewport scale"  = screen.width/window.innerWidth
 */
 windowWidth = window.innerWidth;
-contentWidth = $(ContentDiv).width();
-contentHeight = $(ContentDiv).height();
+contentWidth = ContentDiv.offsetWidth;
+contentHeight = ContentDiv.offsetHeight;
 
 // set up HeaderDiv
-$.each(toc.chapters, function(i, chapter) {
-  $('<option>').attr('value',i).text(chapter.title).appendTo(ChapterSel);
+Object.entries(toc.chapters).forEach(function([i, chapter]) {
+  let o = document.createElement('option');
+  o.setAttribute('value', i);
+  o.textContent = chapter.title;
+  ChapterSel.appendChild(o);
 });
 numchapters = Object.keys(toc.chapters).length;
 numverses = toc.chapters[numchapters].to_verse;
@@ -88,9 +91,11 @@ window.onscroll = function(event) {
 // set up ContentDiv
 numStaticContents = ContentDiv.children.length;
 for(coll of collections){ 
-  $.each(coll.books, function(i, book) { console.log(book);
-    $('<option>').attr('value',coll.id+i)
-    .text('© '+book.year+' '+book.author).appendTo(coll.group);
+  coll.books.forEach(function(book, i) { console.log(book);
+    let o = document.createElement('option');
+    o.setAttribute('value', coll.id+i);
+    o.textContent = '© '+book.year+' '+book.author;
+    coll.group.appendChild(o);
   });
   let gr = coll.group.cloneNode(true); gr.id += '1';
   DualBook1.append(gr);
@@ -118,7 +123,7 @@ window.onresize = function(){
     console.debug('  current viewport: '+(Math.round(visualViewport.scale*1000)/10)+
       '% x ('+Math.round(visualViewport.width)+','+Math.round(visualViewport.height)+')');
     if(onTipping){
-      $(Body).width(screen.width);
+      Body.style.width = screen.width + 'px';
     }
   } 
   updateColumns(onTipping? screen.width: window.innerWidth); onTipping = false;
@@ -131,7 +136,7 @@ new ResizeObserver(function(entries){
   console.debug('  ContentDiv resized ('+dx+'): '+entries[0].contentRect.width+' x '+entries[0].contentRect.height);
   if(Math.abs(dx) > 1){ contentWidth += dx; 
     if(onMobile){ 
-      $(Body).width(contentWidth); //make the Body following the content
+      Body.style.width = contentWidth + 'px'; //make the Body following the content
       let scale = screen.width/contentWidth; //and so the viewport (scale reset to full-screen)
       viewport.content = 'width='+contentWidth+', initial-scale='+scale;
       console.debug('  set viewport: '+viewport.content);
@@ -143,7 +148,7 @@ MenuButton.onmouseover = function(){ MenuList.classList.remove('hidden'); }
 Menu.onmouseleave = function(){ MenuList.classList.add('hidden'); }
 
 // handle book change events
-$('select.book').change(function loadBook(){
+document.querySelectorAll('select.book').forEach(function(el){ el.addEventListener('change', function loadBook(){
   let bid = this.value; console.log('-> book '+bid);
   let book = getBook(bid);
   if(!book){ console.error('! Error: book id "'+bid+'" not found.'); return;}
@@ -155,10 +160,11 @@ $('select.book').change(function loadBook(){
   }
   updateGridTemplate();  
   loadChapter(ChapterSel.value);
+  });
 });
 
 // handle dual book change events
-$('select.book-dual').change(function loadBookDual(){
+document.querySelectorAll('select.book-dual').forEach(function(el){ el.addEventListener('change', function loadBookDual(){
   let bid = this.value; console.log('-> book '+bid);
   let book = getBook(bid);
   if(!book){ console.error('! Error: book id "'+bid+'" not found.'); return;}
@@ -167,9 +173,12 @@ $('select.book-dual').change(function loadBookDual(){
     loadChapter(ChapterSel.value);
   }else if(inView(['PrefacesView'])){
     AppendixDiv.innerHTML = '';
-    $('<p>'+book.preface.replace(/\n/g,'<br/>\n')+'</p>').appendTo(AppendixDiv);
+    let p = document.createElement('p');
+    p.innerHTML = book.preface.replace(/\n/g,'<br/>\n');
+    AppendixDiv.appendChild(p);
     updateURL();
   }
+  });
 });
 
 // handle URL history
@@ -228,14 +237,14 @@ function updateColumns(width){
     DualView.disabled = true;
     DualView.title = 'Không đủ rộng để xem 2 cột';
     if(onMobile){ DualView.innerHTML = '';
-      $(DualView).append('So sánh 2 bản song song<br/>(Xoay ngang màn hình để xem)');
+      DualView.insertAdjacentHTML('beforeend', 'So sánh 2 bản song song<br/>(Xoay ngang màn hình để xem)');
     }
     if(inView(['DualView'])){ setView('ColumnsView');}
   }else{
     DualView.disabled = false;
     DualView.title = '';
     if(onMobile){
-      $(DualView).text('So sánh 2 bản song song');
+      DualView.textContent = 'So sánh 2 bản song song';
     }
   }
   if(!inView(['ColumnsView'])){ return false;}
@@ -271,10 +280,10 @@ function updateGridTemplate(view){
   let colw = '50px';
   if(!view || view == 'ColumnsView'){
     for(coll of [poetries,proses,illustrations]){ //in the order of display, not of priority 
-      if($(coll.select).css('display')=='block'){ colw += ' '+coll.colw; }}
+      if(getComputedStyle(coll.select).display=='block'){ colw += ' '+coll.colw; }}
   }else if(view == 'DualView'){ colw += ' minmax(320px, 500px) minmax(320px, 500px)'; 
   }else { colw += ' minmax(80%, 1000px)'; }
-  $(ContentDiv).css('grid-template-columns', colw);
+  ContentDiv.style.gridTemplateColumns = colw;
   console.log('* grid-template-columns = '+colw);
 }
 
@@ -294,23 +303,32 @@ function loadChapter(cid){ cid = Number(cid);
   //set new content
   while(ContentDiv.children.length > numStaticContents){ ContentDiv.children[numStaticContents].remove(); } 
   for(let vid=chap.from_verse; vid<=chap.to_verse; vid++){
-    $('<div class="index" id="v'+vid+'" vid="'+vid+'">').text(vid).appendTo(ContentDiv);
+    let idx = document.createElement('div');
+    idx.className = 'index'; idx.id = 'v'+vid;
+    idx.setAttribute('vid', vid); idx.textContent = vid;
+    ContentDiv.appendChild(idx);
     for(book of books){
       if(book.collection == illustrations){
-         $('<img class="'+illustrations.class+'">')
-          .attr('src', book.imgdir+'/iDhp'+('00'+vid).slice(-3)+'.jpg')
-          .attr('title','kệ số '+vid).attr('vid',vid)
-          .appendTo(ContentDiv);
+         let img = document.createElement('img');
+         img.className = illustrations.class;
+         img.src = book.imgdir+'/iDhp'+('00'+vid).slice(-3)+'.jpg';
+         img.title = 'kệ số '+vid; img.setAttribute('vid',vid);
+         ContentDiv.appendChild(img);
       }else{
         res = processVerse(book,vid);
         if(res.num){
-          let cell = $('<p class="'+book.collection.class+'">'+res.txt+'</p>')
+          let p = document.createElement('p');
+          p.className = book.collection.class; p.innerHTML = res.txt;
+          let cell = p;
           if(res.num > 1){
-            let p = cell; cell = $('<div class="'+book.collection.class+'">');
-            p.appendTo(cell); cell.attr('vn',res.num);
+            cell = document.createElement('div');
+            cell.className = book.collection.class;
+            cell.appendChild(p);
+            cell.setAttribute('vn', res.num);
           }
-          cell.css('grid-row-start','span '+res.num).attr('vid',vid)
-            .appendTo(ContentDiv);
+          cell.style.gridRowStart = 'span '+res.num;
+          cell.setAttribute('vid', vid);
+          ContentDiv.appendChild(cell);
         }
       }
     }
@@ -318,16 +336,26 @@ function loadChapter(cid){ cid = Number(cid);
 
   // set new footer
   FooterDiv.innerHTML = ''; 
-  if(cid > 1) { $('<input type="button" class="chapter">')
-    .attr('value',toc.chapters[cid-1].title+' ◁')
-    .attr('onclick','ChapterSel.value='+(cid-1)+'; $(ChapterSel).trigger("change");').appendTo(FooterDiv); }
-  $('<input type="button" class="chapter">').attr('value','△')
-    .attr('onclick','scrollToTop();').appendTo(FooterDiv);
-  if(cid < numchapters) { $('<input type="button" class="chapter">')
-    .attr('value','▷ '+toc.chapters[cid+1].title)
-    .attr('onclick','ChapterSel.value='+(cid+1)+'; $(ChapterSel).trigger("change");').appendTo(FooterDiv); }
+  if(cid > 1) {
+    let btn = document.createElement('input');
+    btn.type = 'button'; btn.className = 'chapter';
+    btn.value = toc.chapters[cid-1].title+' ◁';
+    btn.onclick = function(){ ChapterSel.value = cid-1; ChapterSel.dispatchEvent(new Event('change')); };
+    FooterDiv.appendChild(btn);
+  }
+  let btn = document.createElement('input');
+  btn.type = 'button'; btn.className = 'chapter';
+  btn.value = '△'; btn.onclick = scrollToTop;
+  FooterDiv.appendChild(btn);
+  if(cid < numchapters) {
+    let btn = document.createElement('input');
+    btn.type = 'button'; btn.className = 'chapter';
+    btn.value = '▷ '+toc.chapters[cid+1].title;
+    btn.onclick = function(){ ChapterSel.value = cid+1; ChapterSel.dispatchEvent(new Event('change')); };
+    FooterDiv.appendChild(btn);
+  }
   if(VerseId.value < chap.from_verse || VerseId.value > chap.to_verse){
-    VerseId.value = chap.from_verse; $(VerseId).trigger("change");
+    VerseId.value = chap.from_verse; VerseId.dispatchEvent(new Event('change'));
   }else{ updateURL();}
 
   // context menu for each content
@@ -341,18 +369,18 @@ currentVid = 0; currentVnum = 0; currentElem = null;
 function contentHover(event){ 
   if(this.className !== 'index'){ currentElem = this; }
   //console.debug(this);
-  currentVid = Number($(this).attr('vid')); 
-  currentVnum = Number($(this).attr('vn'));
+  currentVid = Number(this.getAttribute('vid')); 
+  currentVnum = Number(this.getAttribute('vn'));
   // for multi-verse div, re-compute currentVid using relative mouse pos
   let p = (event.pageY-this.offsetTop) / this.scrollHeight * 0.98 + 0.01;
   let vn = currentVnum; if(!vn){ vn = 1;}
   //console.debug('DEBUG: vid='+currentVid+' vn='+vn+' p='+p+' (pageY='+event.pageY+', top='+this.offsetTop+', height='+this.scrollHeight+')');
   currentVid = Math.round(currentVid + vn*p - 0.5);
-  let v = $('#v'+currentVid)[0];
+  let v = document.getElementById('v'+currentVid);
   // then show the context menu right under currentVid index
-  $(ContextMenu).css('top',v.offsetTop+v.clientHeight 
-    - parseFloat($(v).css('padding-bottom')));
-  $(ContextMenu).css('left',v.offsetLeft + $(v).width()/2);
+  ContextMenu.style.top = (v.offsetTop+v.clientHeight 
+    - parseFloat(getComputedStyle(v).paddingBottom))+'px';
+  ContextMenu.style.left = (v.offsetLeft + v.offsetWidth/2)+'px';
   ContextMenu.classList.remove('hidden'); 
 }
 function contentContextMenu(){
@@ -422,7 +450,7 @@ function loadVerse(vid){
       //console.log('  -> chap '+cid);
     }
     if(cid >= 1 && cid <= numchapters){
-      ChapterSel.value = cid; $(ChapterSel).trigger('change');
+      ChapterSel.value = cid; ChapterSel.dispatchEvent(new Event('change'));
     }
   }else{ updateURL();}
   scrollToVerse();
@@ -493,7 +521,7 @@ async function setView(view){ MenuList.classList.add('hidden');
   
   // the content
   if(view == 'PrefacesView'){ 
-    PrefaceHeader.classList.remove('hidden'); $(DualBook2).trigger('change');
+    PrefaceHeader.classList.remove('hidden'); DualBook2.dispatchEvent(new Event('change'));
   }else{ PrefaceHeader.classList.add('hidden');}
   updateGridTemplate(view);
   if(view == 'ColumnsView' || view == 'DualView'){
@@ -505,14 +533,20 @@ async function setView(view){ MenuList.classList.add('hidden');
     HeaderDiv.classList.add('hidden'); FooterDiv.classList.add('hidden');
     AppendixDiv.classList.remove('hidden');
     while(ContentDiv.children.length > numStaticContents){ ContentDiv.children[numStaticContents].remove(); } 
-    if(view == 'IntroView'){ $('<h3>Giới thiệu</h3>').appendTo(ContentDiv);
+    if(view == 'IntroView'){
+      let h3 = document.createElement('h3'); h3.textContent = 'Giới thiệu';
+      ContentDiv.appendChild(h3);
       updateURL();
       AppendixDiv.innerHTML = '';
-      $('<p>'+toc.preface+'</p>').appendTo(AppendixDiv);
-      }else if(view == 'HelpView'){ $('<h3>Hướng dẫn sử dụng</h3>').appendTo(ContentDiv);
+      let p = document.createElement('p'); p.innerHTML = toc.preface;
+      AppendixDiv.appendChild(p);
+      }else if(view == 'HelpView'){
+      let h3 = document.createElement('h3'); h3.textContent = 'Hướng dẫn sử dụng';
+      ContentDiv.appendChild(h3);
       updateURL();
       AppendixDiv.innerHTML = '';
-      $('<p>'+toc.help+'</p>').appendTo(AppendixDiv);
+      let p = document.createElement('p'); p.innerHTML = toc.help;
+      AppendixDiv.appendChild(p);
     }
   }
 }
@@ -536,7 +570,7 @@ function updateURL(){
       title += ' | '+toc.chapters[ChapterSel.value].title+' #'+VerseId.value;
     }
   }else{
-    title += ' | '+$('#'+view)[0].innerText;
+    title += ' | '+document.getElementById(view).innerText;
   }
 
   //update the history (URL & title)
