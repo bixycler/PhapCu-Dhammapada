@@ -7,8 +7,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Charm"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lemonada"/>
-    <meta name="viewport" id="viewport" content="width=1500, initial-scale=1"/> <!-- for mobile devices
-        set the viewport size way larger than any mobile screen for easy detection of "onMobile" -->
+    <meta name="viewport" id="viewport" content="width=device-width, initial-scale=1"/>
     <style title="PhapCuStyle" id="PhapCuStyle">
     body {
         margin: 0;
@@ -132,6 +131,11 @@
                             /* => (((index+poem)450 + image)800 + prose)1200 */
         margin: auto; width: fit-content; /* center this div */
         align-items: center;
+    }
+    @media (max-width: 600px) {
+        #ContentDiv {
+            grid-template-columns: 50px 1fr;
+        }
     }
     div.index {
         text-align: right;
